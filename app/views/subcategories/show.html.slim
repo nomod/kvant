@@ -1,0 +1,107 @@
+//////////////////////////////////  если вложенность категория - подкатегория  //////////////////////////////////
+
+- if !@subcategory.nil? && !@category.nil?
+
+  //админская часть
+  - if !current_user.nil?
+    - if admin?
+      h3 это субкатегория
+  //админская часть
+
+  - @title = @subcategory.category_name
+  h1 = @subcategory.category_name
+
+  ///////////////////////если есть подкатегории у текущей подкатегории, то выводим и
+
+  //если есть подкатегории для показа
+  - if !@mass_sub_subcategory.empty?
+
+    //админская часть
+    - if !current_user.nil?
+      - if admin?
+        h3 Подкатегории категории
+    //админская часть
+
+    .all_products
+      - @mass_sub_subcategory.each do |sub|
+        .img_category
+          a href="/#{sub.friendly_url}"
+            img alt="" src="#{sub.image.category}"
+            .img_background_name
+            .img_category_name
+              = sub.category_name
+
+
+  //если есть подкатегории(серии) для вывода выпадающего списка
+  - if !@mass_sub_subcategory_selected.empty?
+
+    h3 Выберите серию
+
+    #select-product
+      = select_tag :mass_sub_subcategory_selected, options_from_collection_for_select(@mass_sub_subcategory_selected, :id, :category_name)
+
+    h4 Продукция серии
+
+    //сюда выводим продукты из аякса
+    table.table.table-striped
+      tr
+        th Название
+        th Серия
+        th Цена
+      tbody.select-product
+
+
+  //если есть товары у подкатегории, то выводим их
+  - if !@products.empty?
+
+    h3 Товары категории
+
+    .all_products
+      - @products.each do |product|
+        .img_product
+          a href="/#{product.friendly_url}"
+            img alt="" src="#{product.image.product}"
+            .img_background_name
+            .img_product_name
+              = product.product_title
+
+
+  //если есть контент у подкатегории, то выводим его
+  - if @subcategory.category_content
+
+    //админская часть
+    - if !current_user.nil?
+      - if admin?
+        h3 Контент категории
+    //админская часть
+
+    = raw @subcategory.category_content
+
+//////////////////////////////////  если вложенность категория - пост  //////////////////////////////////
+- if !@category.nil? && !@post.nil?
+
+  //админская часть
+  - if !current_user.nil?
+    - if admin?
+      h3 это пост
+  //админская часть
+
+  - @title = @post.post_title
+  h1 = @post.post_title
+  = raw @post.post_content
+
+
+//////////////////////////////////  если вложенность категория - товар  //////////////////////////////////
+- if !@category.nil? && !@product.nil?
+
+  //админская часть
+  - if !current_user.nil?
+    - if admin?
+      h3 это товар
+  //админская часть
+
+  - @title = @product.product_title
+  h1 = @product.product_title
+
+
+= render 'shared/form'

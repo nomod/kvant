@@ -1,0 +1,14 @@
+ru:
+  activerecord:
+      attributes:
+          form:
+            image: 'Файл имеет'
+
+  will_paginate:
+    previous_label: '&#8592; Назад'
+    next_label: 'Далее &#8594;'
+    page_gap: '&hellip'
+
+  errors:
+    messages:
+       extension_whitelist_error: 'недопустимый формат: выберите документ Word, PDF или Excel'

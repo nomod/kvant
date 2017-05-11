@@ -1,0 +1,13 @@
+.swiper-container
+  .swiper-wrapper
+    - @images_slider.each do |image|
+      .swiper-slide
+        = image_tag "#{image.image}"
+        .back_img
+        span.text_img
+          .text
+            = simple_format(image.text_slider, {}, sanitize: false)
+          = link_to 'Подробнее', image.link_slider
+  .swiper-buttons
+    i.hi.hi-arrow-right
+    i.hi.hi-arrow-left

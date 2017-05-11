@@ -1,0 +1,50 @@
+html{
+  min-height: 100%;
+  position: relative;
+}
+body{
+  background: url('pictures/background.jpg') 100%;
+  background-position: top;
+  box-shadow: inset 0 0 0 10000px rgba(255, 255, 255, 0.8);
+  background-repeat: no-repeat;
+}
+.wrap{
+  max-width: 1182px;
+  margin: 0 auto;;
+}
+.clear{
+  clear: both;
+}
+.content{
+  padding-bottom: 380px;
+}
+.kvant{
+  color: #3497d9;
+  font-weight: bold;
+  margin-right: 4px;
+  font-size: 16px;
+}
+.energy{
+  color:#FF3939;
+  font-weight: bold;
+  margin-right: 4px;
+  font-size: 16px;
+}
+.big{
+  text-transform: uppercase;
+  margin-right: 4px;
+  font-weight: bold;
+  color: #3497d9;
+}
+h1 {
+  color: #2f4962;
+  margin-bottom: 40px;
+}
+h3{
+  color: #2f4962;
+}
+.breadcrums{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 12px;
+}

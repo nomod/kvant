@@ -1,0 +1,167 @@
+.header{
+  padding: 0 0 10px 0;
+  height: 160px;
+}
+.header_admin{
+  background: #3d6c8c;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+
+  & a{
+  color: white;
+}
+}
+.logo {
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 20px;
+  float: left;
+}
+.phone_block{
+  display: flex;
+  justify-content: space-between;
+}
+.phone{
+  margin-top: 28px;
+
+  &:first-child > .phone_tel a{
+    color: #ef3939;
+  }
+}
+.phone_tel{
+
+}
+.phone_city{
+  margin-left: 24px;
+}
+.hi-phone{
+  color: #999999;
+
+  & a{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+.menu {
+  float:left;
+  margin-top: 20px;
+  & ul{
+    padding-left: 0px;
+    & li{
+      list-style: none;
+      display: inline-block;
+      text-align: center;
+      padding-right: 22px;
+      padding-top: 25px;
+
+      &.single:after{
+        content: "";
+        margin: 0 auto;
+        display: block;
+        width: 0;
+        height: 3px;
+        background: #ef3939;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        margin-top: 5px;
+      }
+      &.single.highlighting:after{
+        width: 100%;
+      }
+
+      &:hover:after{
+        width: 100%;
+      }
+
+      & a{
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #3d6c8c;
+        font-size: 16px;
+
+        &:hover{
+          color: #ef3939;
+        }
+      }
+    }
+  }
+}
+.info_header{
+  text-align: end;
+}
+.mail{
+  margin-top: 33px;
+}
+.attention{
+  margin-top: 6px;
+  & a{
+    text-decoration: none;
+    padding: 6px;
+    background-color: #55b1ef;
+    color: white;
+    font-size: 11px;
+    &:hover{
+
+    }
+  }
+
+}
+.hi-envelope{
+  color: #999999;
+
+  & a{
+    font-size: 14px;
+    margin-left: 4px;
+    text-decoration: underline;
+    color: #ef3939;
+
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  background-color: #3d6c8c;
+
+  & li{
+    display: block;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &:hover{
+      background-color: white;
+
+      & a{
+        color: #3d6c8c;
+      }
+    }
+
+    & a{
+      color: white;
+      font-weight: normal;
+      font-size:11px;
+
+      &:hover{
+        background-color: white;
+        color: #3d6c8c;
+      }
+    }
+  }
+
+}
+a.menu:after, .dropdown-toggle:after {
+  content: none;
+}
+
+

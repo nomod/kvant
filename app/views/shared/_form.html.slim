@@ -1,0 +1,42 @@
+.flying_area
+  .btn-modal_fix Оставить заявку
+.btn-modal Оставить заявку
+
+
+/форма
+.dop-block
+  .modal_forma
+    i.fa.fa-window-close.fa-3x.close_forma aria-hidden="true"
+    = form_for @form, html: { multipart: true }, authenticity_token: true, data: { type: :json }, remote: true do |f|
+      - if @form.errors.any?
+        #error_explanation
+          h2 = "#{pluralize(@form.errors.count, 'error')} :прежде чем отправить заявку, заполните поля:"
+          ul
+            - @form.errors.full_messages.each do |message|
+              li = message
+      .form-block_left
+        .form
+          p
+            strong = 'Контактное лицо'
+          = f.text_field :contact_face, required: true, placeholder: 'Иван Иванов*', minlength: 3, value: "#{@contact_face}"
+        .form
+          p
+            strong = 'Телефон для связи'
+          = f.telephone_field :telephone, required: true, placeholder: '+7(900)111-11-11*', minlength: 5, value: "#{@telephone}"
+        .form
+          p
+            strong = 'Электронная почта'
+          = f.text_field :email, required: true, placeholder: 'test@test.ru*', value: "#{@email}"
+      .form-block_right
+        .form
+          p
+            strong = 'Содержание заказа'
+          = f.text_area :about_order, required: true, placeholder: 'Опишите вкратце о чем ваш заказ*', minlength: 3, value: "#{@about_order}"
+      .form-block_left
+        .form
+          .document_tech
+            p
+              strong = 'Тех.документация'
+            = f.file_field :image
+        .form
+          = f.submit('Отправить', class: 'btn-primary')

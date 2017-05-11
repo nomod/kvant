@@ -1,0 +1,6 @@
+.h5_content Нам доверяют
+.owl-carousel
+  - @images_confidence.each do |image|
+    /отсекаем по слешу последнюю часть - т.е. название самого файла
+    .confidence_img
+      = image_tag "pictures/confidence/#{image.split('/').last}"

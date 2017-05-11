@@ -1,0 +1,134 @@
+- if !current_user.nil?
+  - if admin?
+    .wrap
+      .header_admin
+        = link_to 'Выйти из админской части', signout_path, method: 'delete'
+
+.wrap
+  .header
+    .logo
+      = link_to root_path
+        img alt="" src="/assets/pictures/logo.png" /
+    .phone_block
+      .phone
+        .phone_tel
+          i.hi.hi-phone
+            = link_to '8 (800) 200-90-22', 'tel:8(800)200-90-22'
+        .phone_city Россия (бесплатно)
+      .phone
+        .phone_tel
+          i.hi.hi-phone
+            = link_to '8 (812) 40-99-888', 'tel:8(812)40-99-888'
+        .phone_city Санкт-Петербург
+      .phone
+        .phone_tel
+          i.hi.hi-phone
+            = link_to '8 (495) 204-15-52', 'tel:8(495)204-15-52'
+        .phone_city Москва
+      .phone
+        .phone_tel
+          i.hi.hi-phone
+            = link_to '8 (343) 339-43-49', 'tel:8(343)339-43-49'
+        .phone_city Екатеринбург
+    .clear
+    .menu
+      ul
+        li.dropdown.single
+          a data-toggle="dropdown" href="#"
+            | О компании
+            span.caret
+          ul.dropdown-menu
+            li
+              = link_to 'О нас', about_path, class: current_url(about_path)
+              // добавляем class для проверки текущего урл и его подсветки при совпадении
+            li
+              = link_to 'Наша миссия', our_mission_path, class: current_url(our_mission_path)
+              // добавляем class для проверки текущего урл и его подсветки при совпадении
+            li
+              = link_to 'Карьера', career_path, class: current_url(career_path)
+              // добавляем class для проверки текущего урл и его подсветки при совпадении
+
+        li.dropdown.single
+          a data-toggle="dropdown" href="#"
+            | Продукция
+            span.caret
+          ul.dropdown-menu
+            - menu.each do |menu|
+              li
+                - if !menu.parent.empty?
+                  = link_to menu.point_name, '/'+menu.parent+'/'+menu.friendly_url, class: current_url('/'+menu.parent+'/'+menu.friendly_url)
+                  // добавляем class для проверки текущего урл и его подсветки при совпадении
+                - else
+                  = link_to menu.point_name, '/'+menu.friendly_url, class: current_url('/'+menu.friendly_url)
+
+        li.single
+          = link_to 'Цены', price_path, class: current_url(price_path)
+
+        li.dropdown.single
+          a data-toggle="dropdown" href="#"
+            | Документация
+            span.caret
+          ul.dropdown-menu
+            li
+              = link_to 'ГОСТы и СНИПы', gosts_path, class: current_url(gosts_path)
+            // добавляем class для проверки текущего урл и его подсветки при совпадении
+            li
+              = link_to 'Сертификаты', certificates_path, class: current_url(certificates_path)
+            // добавляем class для проверки текущего урл и его подсветки при совпадении
+            li
+              = link_to 'Учебное видео', video_path, class: current_url(video_path)
+            // добавляем class для проверки текущего урл и его подсветки при совпадении
+
+        li.dropdown.single
+          a data-toggle="dropdown" href="#"
+            | Доставка и оплата
+            span.caret
+          ul.dropdown-menu
+            li
+              = link_to 'Доставка', delivery_path, class: current_url(delivery_path)
+            // добавляем class для проверки текущего урл и его подсветки при совпадении
+            li
+              = link_to 'Оплата', payment_path, class: current_url(payment_path)
+            // добавляем class для проверки текущего урл и его подсветки при совпадении
+
+        li.single
+          = link_to 'Пресс-центр', '/news', class: current_url('/news')
+          // добавляем class для проверки текущего урл и его подсветки при совпадении
+        li.single
+          = link_to 'Контакты', contacts_path, class: current_url(contacts_path)
+          // добавляем class для проверки текущего урл и его подсветки при совпадении
+
+    .info_header
+      .mail
+        i.hi.hi-envelope
+          = link_to 'info@kvant-energy.ru', 'mailto:info@kvant-energy.ru'
+      .attention
+        = link_to 'Остерегайтесь мошенников', root_path
+    .clear
+
+  //////////////////////  хлебные крошки  //////////////////////
+
+  //если хлебные крошки пришли(на главной они не придут)
+  - if breadcrums
+    .breadcrums
+      //если обрабатываем динамические страницы
+      - if breadcrums.length > 1
+        //перебираем хэш с индексом
+        - breadcrums.each_with_index do |bread, index|
+          //если хлебная крошка не последняя
+          - if index != breadcrums.length - 1
+            //показываем активную сслыку
+            = link_to bread[0].to_s+' | ', bread[1]
+          //если последняя, то просто название без ссылки
+          - else
+            strong = bread[0]
+
+      //если обрабатываем статические страницы, то выводим хлебные крошки вида "главная << title страницы"
+      - else breadcrums.length == 1
+        - breadcrums.each_with_index do |bread, index|
+          //показываем активную сслыку на главную
+          = link_to bread[0].to_s+' | ', bread[1]
+          //плюс тайтл текущей страницы
+          strong = @title
+
+  //////////////////////  хлебные крошки  //////////////////////

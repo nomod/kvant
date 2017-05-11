@@ -1,0 +1,26 @@
+- @title = 'Добавление нового поста'
+
+h1 Добавление нового поста
+p
+  = form_for @post do |f|
+    - if @post.errors.any?
+      #error_explanation
+        h2 = 'Обратите внимания на следующие поля:'
+        ul
+          - @post.errors.full_messages.each do |message|
+            li = message
+    .form-block
+      .form
+        = f.text_field :post_title, required: true, placeholder: 'Title поста*', value: "#{@title_post}"
+      .form
+        = f.text_area :post_preview, required: true, placeholder: 'Превью поста*', minlength: 3, value: "#{@preview}"
+      .form
+        = f.text_area :post_content, required: true, placeholder: 'Текст поста*', minlength: 3, value: "#{@content}"
+      .form
+        = f.select :category_id, options_from_collection_for_select(@categories, :id, :category_name)
+      .form
+        = f.file_field :image, required: true
+      .form
+        = f.hidden_field :friendly_url, value: ''
+      .form-btn
+        = f.submit('Создать пост', class: 'btn-primary')

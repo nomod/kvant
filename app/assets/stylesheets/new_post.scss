@@ -1,0 +1,65 @@
+.form-block{
+
+}
+.form{
+
+    & #post_post_title, #post_category_id, #category_parent_id, #product_category_id, #session_email, #session_password{
+      width: 800px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    & #post_post_preview, #post_post_content{
+      width: 800px;
+      height: 300px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    & #category_category_name, #product_product_title, #product_documentation, #product_product_type, #product_height, #product_height_max, #product_material, #product_weight, #product_coating, #product_price{
+      width: 800px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    & #category_category_content{
+      width: 800px;
+      height: 300px;
+    }
+
+    & #category_parent_id{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+}
+.form-btn{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.post_block{
+  border-top: 1px solid #dad9d9;
+  margin-top: 40px;
+}
+.post_header{
+  margin-top: 40px;
+  font-size: 13px;
+}
+.post_img{
+  float: left;
+  margin-right: 80px;
+  box-shadow: 3px 0px 4px 0px rgba(0,0,0,0.25);
+}
+.post_preview{
+
+}
+.create_item{
+  margin-bottom: 40px;
+
+  & a{
+    background: #337ab7;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+  }
+}

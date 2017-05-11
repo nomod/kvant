@@ -1,0 +1,102 @@
+//админская часть
+- if !current_user.nil?
+  - if admin?
+    h3 это категория
+//админская часть
+
+- @title = @category.category_name
+h1 = @category.category_name
+
+///////////////////////если есть подкатегории у категории, то выводим их
+
+//если есть подкатегории для показа
+- if !@mass_subcategory.empty?
+
+  //админская часть
+  - if !current_user.nil?
+    - if admin?
+      h3 Подкатегории категории
+  //админская часть
+
+.all_products
+  - @mass_subcategory.each do |sub|
+    .img_category
+      a href="/#{sub.friendly_url}"
+        img alt="" src="#{sub.image.category}"
+        .img_background_name
+        .img_category_name
+          = sub.category_name
+
+//если есть подкатегории(серии) для вывода выпадающего списка
+- if !@mass_subcategory_selected.empty?
+
+  h3 Выберите серию
+
+  #select-product
+    = select_tag :mass_subcategory_selected, options_from_collection_for_select(@mass_subcategory_selected, :id, :category_name)
+
+  h4 Продукция серии
+
+  //сюда выводим продукты из аякса
+  table.table.table-striped
+    thead
+      tr
+        th Название
+        th Серия
+        th Цена
+    tbody.select-product
+
+
+//////////////////////если есть посты у категории, то выводим их
+
+- if !@posts.empty?
+
+  h3 Посты категории
+
+  - @posts.each do |post|
+    .post_block
+      .post_header
+        = post.created_at.strftime('%d %B %Y')
+        p = link_to post.post_title, '/'+@category.friendly_url+'/'+post.friendly_url
+      .post_img
+        img alt="" src="#{post.image.post}"
+      .post_preview
+        p = raw post.post_preview
+    .clear
+
+  //пагинация постов
+  = will_paginate @posts
+
+
+//////////////////////если есть продукты у категории, то выводим их
+
+- if !@products.empty?
+
+  h3 Товары категории
+
+  .all_products
+    - @products.each do |product|
+      .img_product
+        a href="/#{product.friendly_url}"
+          img alt="" src="#{product.image.product}"
+          .img_background_name
+          .img_product_name
+            = product.product_title
+
+
+//////////////////////если есть контент у категории, то выводим его
+- if @category.category_content
+
+  //админская часть
+  - if !current_user.nil?
+    - if admin?
+      h3 Контент категории
+  //админская часть
+
+
+  = raw @category.category_content
+
+= render 'shared/form'
+
+
+

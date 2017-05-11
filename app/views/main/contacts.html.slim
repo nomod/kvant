@@ -1,0 +1,25 @@
+- @title = 'Контакты'
+h2 Контакты
+ul.nav.nav-tabs.nav-justified
+  - @filials.each_with_index do |filial, index|
+    li
+      a data-toggle="tab" href="#panel#{index+1}" = filial.city
+
+  .tab-content
+    - @filials.each_with_index do |filial, index|
+      .tab-pane.fade.in id="panel#{index+1}"
+        p
+          strong = filial.address
+        p
+          strong = filial.metro
+        - if filial.telephone_full != ''
+          p = link_to 'Тел.:' "#{filial.telephone_full}", 'tel:'"#{filial.telephone}"
+        - if filial.manager_telephone_full != ''
+          p
+            strong Телефон отдела продаж:
+          p = link_to "#{filial.manager_telephone_full}", 'tel:'"#{filial.manager_telephone}"
+        p
+          strong Бесплатный телефон по России:
+        p = link_to "#{filial.russian_telephone_full}", 'tel:'"#{filial.russian_telephone}"
+        p = link_to 'Email.:' "#{filial.filial_email}", 'mailto:'"#{filial.filial_email}"
+        script charset="utf-8" src="#{filial.map}" type="text/javascript"

@@ -1,0 +1,101 @@
+.footer{
+  background-color: #243845;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.block_flex{
+  display: flex;
+  justify-content: space-between;
+}
+.logo_footer {
+  display: inline-block;
+  margin-right: 66px;
+  margin-top: 20px;
+  width: 60%;
+
+  & .mail{
+    text-align: center;
+    & .hi-envelope{
+      color: white;
+      & a{
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+.phone_block_footer{
+  width: 40%;
+
+  & .phone{
+    margin-top: 28px;
+
+    &:first-child > .phone_tel a{
+      color: white;
+    }
+  }
+  & .phone_tel{
+
+  }
+  & .phone_city{
+    margin-left: 24px;
+    color: white;
+  }
+  & .hi-phone{
+    color: white;
+
+    & a{
+      font-size: 16px;
+      margin-left: 10px;
+      color: white;
+
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+}
+.slogan{
+  color: white;
+  text-align: justify;
+  margin-top: 25px;
+  border-top: 1px solid white;
+  padding-top: 10px;
+}
+.blocks{
+  border-top: 1px solid white;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.block_1{
+
+}
+.block_2{
+
+}
+.contacts_footer{
+  margin-top: 52px;
+  font-size: 20px;
+  color: #ef3939;
+  text-align: center;
+}
+.copyright{
+  color: #969696;
+  text-align: center;
+  margin-top: 28px;
+  font-size: 11px;
+  padding: 10px;
+}
+.social{
+  text-align: center;
+  margin-top: 33px;
+  & .fa{
+    color: #3d85b1;
+    cursor: pointer;
+    width: 100px;
+  }
+}
+

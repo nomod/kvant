@@ -1,0 +1,22 @@
+- @title = 'Посты'
+
+h1 Все посты
+
+.create_item
+  = link_to 'Добавить новый пост', new_post_path
+
+table.table.table-striped
+  thead
+    tr
+      th Название поста
+      th Родительская категория
+      th
+      th
+
+  tbody
+  - @posts.each_with_index do |post, index|
+    tr
+      td = post.post_title
+      td = @parent_category[index].category_name
+      td = link_to 'Просмотреть', '/'+@parent_category[index].friendly_url+'/'+post.friendly_url
+      td = link_to 'Редактировать', edit_post_path(post.friendly_url)

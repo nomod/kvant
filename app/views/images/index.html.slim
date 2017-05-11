@@ -1,0 +1,35 @@
+- @title = 'Изображения'
+
+h1 Изображения
+
+//иконка загрузки
+i.hi.hi-refresh.hi-spin.hi-5x.preload
+
+.success
+.error
+
+
+p
+= form_for @image, html: {:'data-type' => :json, multipart: true, class: 'image_form'}, authenticity_token: true, remote: true do |f|
+  - if @image.errors.any?
+    #error_explanation
+      h2 = 'Обратите внимания на следующие поля:'
+      ul
+        - @image.errors.full_messages.each do |message|
+          li = message
+  .form-block
+    .form
+      //для массовой загрузки необходимо закинуть все фото в массив и явно указать имя поля name: 'mass_images[]'
+      = f.file_field :image, multiple: true, name: 'mass_images[]'
+    .form-btn
+      = f.submit('Добавить фото', class: 'btn-primary')
+
+
+
+.all_upload_img
+  - @all_images.each do |image|
+    .upload_img
+      = image_tag image.image.mini
+      p
+        span = File.basename(image.image.path)
+

@@ -1,0 +1,26 @@
+- @title = 'Заявки'
+
+h1 Все заявки
+
+table.table.table-striped
+  thead
+    tr
+      th Контактной лицо
+      th Телефон
+      th Email
+      th Содержание заказа
+      th Прикрепленный файл
+      th Дата заказа
+
+  tbody
+  - @applications.each do |application|
+    tr
+      td = application.contact_face
+      td = application.telephone
+      td = application.email
+      td = application.about_order
+      - if !application.image.blank?
+        td = link_to 'Скачать файл', "#{application.image}"
+      - else
+        td Файл не был прикреплен
+      td = application.created_at.strftime('%d %B %Y %H:%M:%S')

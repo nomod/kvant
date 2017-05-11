@@ -1,0 +1,19 @@
+.all_upload_img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.upload_img{
+  margin-right: 80px;
+
+  & span{
+    font-size: 8px;
+  }
+}
+
+.preload{
+  display:none !important;
+}
+.preload_visible{
+  display:inline-block !important;
+}

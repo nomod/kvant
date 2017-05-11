@@ -1,0 +1,29 @@
+- @title = 'Обновление поста'
+
+h1 Обновление поста "#{@post.post_title}"
+p
+  = form_for @post do |f|
+    - if @post.errors.any?
+      #error_explanation
+        h2 = 'Обратите внимания на следующие поля:'
+        ul
+          - @post.errors.full_messages.each do |message|
+            li = message
+    .form-block
+      .form
+        = f.text_field :post_title, required: true, placeholder: 'Title поста*', value: "#{@post.post_title}"
+      .form
+        = f.text_area :post_preview, required: true, placeholder: 'Превью поста*', minlength: 3, value: "#{@post.post_preview}"
+      .form
+        = f.text_area :post_content, required: true, placeholder: 'Текст поста*', minlength: 3, value: "#{@post.post_content}"
+      .form
+        = f.select :category_id, options_from_collection_for_select(@categories, :id, :category_name)
+      .form
+      - if @post.image
+        img alt="" src="#{@post.image.post}"
+        = f.file_field :image
+        = f.hidden_field :image_cache
+      .form
+        = f.hidden_field :friendly_url, value: "#{@post.friendly_url}"
+      .form-btn
+        = f.submit('Обновить пост', class: 'btn-primary')

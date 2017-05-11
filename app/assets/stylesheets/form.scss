@@ -1,0 +1,97 @@
+#form_contact_face, #form_telephone, #form_email, #form_about_order{
+  width: 260px;
+  margin-bottom: 20px;
+  height: 50px;
+}
+#form_about_order{
+  height: 250px;
+  width: 400px;
+}
+.document_tech{
+  margin-bottom: 20px;
+}
+.error{
+  color: #ec2020;
+  margin-bottom: 10px;
+}
+.success{
+  color: #39805f;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+ }
+.flying_area{
+  width: 1182px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  background-image: linear-gradient(rgba(255,255,255,0) 0%, #fff 50%, #fff 100%);
+  padding: 70px 0 80px;
+  padding-bottom: 20px;
+}
+.btn-modal_fix{
+  background: red;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+}
+.btn-modal{
+  background: red;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+  display: none;
+}
+.pop_up {
+  position: fixed;
+  z-index: 11;
+  background-color: #272626;
+  display: none;
+  opacity: 0.6;
+  height: 100%;
+  width: 100%;
+}
+.modal_forma{
+  background-color: #b7e1f1;
+  opacity: 1;
+  z-index: 100;
+  display: none;
+  position: fixed;
+  float: left;
+  left: 35%;
+  top: 30%;
+  width: 760px;
+  min-height: 460px;
+  padding: 35px;
+}
+.dop-block {
+  position: relative;
+  float: right;
+  right: 48%;
+  margin-top: 3%;
+}
+.close_forma{
+  position: absolute;
+  left: 719px;
+  top: -4px;
+  cursor: pointer;
+  color: #d84d4d;
+}
+.form-block_left{
+  float: left;
+  margin-right: 30px;
+}

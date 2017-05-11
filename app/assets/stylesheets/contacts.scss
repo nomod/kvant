@@ -1,0 +1,36 @@
+.tab-content{
+
+  & .tab-pane{
+    margin-top: 33px;
+    font-size: 16px;
+  }
+
+}
+.nav-justified{
+
+  & li{
+    background-color: #3d85b1;
+
+    &.active{
+
+      & a{
+        border: 1px solid white;
+        &:hover{
+          background-color: white;
+        }
+      }
+
+    }
+
+    & a{
+      color:white;
+      border: 1px solid white;
+
+      &:hover{
+        background-color: #668ebd;
+      }
+    }
+  }
+
+
+}

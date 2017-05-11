@@ -1,0 +1,17 @@
+.pagination{
+  display: block;
+  text-align: center;
+  margin-top: 70px;
+
+  & .current{
+    padding: 10px;
+    background: #337ab7;
+    color: white;
+  }
+  & a, .next_page, .disabled, .previous_page{
+    padding: 10px;
+    background: white;
+    color: #337ab7;
+    border: 1px solid #e8e8e8;
+  }
+}
