@@ -25,6 +25,7 @@ Rails.application.routes.draw do
   resources :products
   resources :images
   resources :forms
+  resources :menus
   resources :sessions, only: [:new, :create, :destroy]
 
   #вход

@@ -22,7 +22,7 @@ $(document).ready(function() {
         $("input#category_friendly_url").val(category_name.toLowerCase());
     });
 
-
+/////////////////////// формируем выпадающий список продуктов в серии
 
     //текущий урл
     var url = window.location.href;
@@ -37,7 +37,7 @@ $(document).ready(function() {
                     var box = $('.select-product');
                     box.empty();
                     data.forEach (function(file){
-                        box.append("<tr><td><a href='/"+file.friendly_url+"'>"+file.product_title+"</a></td><td>"+file.category_id+"</td><td>"+file.price+"</td></tr>");
+                        box.append("<tr><td><a href='/"+file.friendly_url+"'>"+file.product_title+"</a></td><td>"+file.documentation+"</td><td>"+file.price+ " руб."+ "</td></tr>");
                     });
                 }
             )

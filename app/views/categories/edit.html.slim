@@ -19,9 +19,10 @@ p
           strong = 'Родительская категория'
           - if @category.parent
             p Сейчас родительская категория "#{@category.parent.category_name}"
+            = f.select :parent_id, options_from_collection_for_select(@categories, :id, :category_name, @category.parent.id)
           - else
             p Категория является родительской
-      = f.select :parent_id, options_from_collection_for_select(@categories, :id, :category_name)
+            = f.select :parent_id, options_from_collection_for_select(@categories, :id, :category_name, @category.id)
     .form
     = f.radio_button :parent_id, '0', checked: false
     = f.label :parent_id, 'Без категории'

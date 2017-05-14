@@ -1,0 +1,38 @@
+- @title = 'Меню'
+
+h1 Формирование меню
+
+.create_item
+  = link_to 'Добавить новый пункт меню', new_menu_path
+
+ul.menu_style
+  - @all_points.each do |point|
+
+    //если данный пункт меню родительский и у него нет вложенных пунктов
+    - if point.parent_id == 0 && point.children.length == 0
+      li = point.point_name
+
+    //если данный пункт меню не родительский
+    - else point.parent_id != 0
+      //то запускаем цикл и выводим родительские пункты пока не дойдем до самого верхнего
+      - @main_point = [point]
+      - i = 0
+      - while !@main_point[i].parent.nil?
+        - @main_point[@main_point.size] = @main_point[i].parent
+        //li = @main_point[i].parent.point_name
+        //li.inner = @main_point[i].point_name
+        - i+=1
+
+  //если есть пункты с вложенными подпунктами
+  - if @main_point
+    - @main_point.reverse_each do |main|
+      //если данный пункт меню родительский
+      - if main.parent_id == 0
+        li = main.point_name
+      //если данный пункт меню не родительский, но у него есть вложенные пункты
+      - elsif main.parent_id != 0 && main.children.length != 0
+        li.inner = main.point_name
+      //если пункт конечный во вложенности
+      - else
+        li.inner_max = main.point_name
+

@@ -21,11 +21,11 @@ p
       .form
         = f.number_field :height_max, required: true, placeholder: 'Общая высота, мм*', value: "#{@height_max}"
       .form
-        = f.text_field :material, required: true, placeholder: 'Материал*', value: "#{@material}"
+        = f.text_area :material, required: true, placeholder: 'Материал*', value: "#{@material}"
       .form
         = f.number_field :weight, required: true, placeholder: 'Вес*', value: "#{@weight}"
       .form
-        = f.text_field :coating, required: true, placeholder: 'Тип покрытия*', value: "#{@coating}"
+        = f.text_area :coating, required: true, placeholder: 'Тип покрытия*', value: "#{@coating}"
       .form
         = f.number_field :price, required: true, placeholder: 'Цена*', value: "#{@price}"
       .form

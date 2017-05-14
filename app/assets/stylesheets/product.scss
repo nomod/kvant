@@ -1,0 +1,26 @@
+.product_features{
+
+}
+.product_img{
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.product_description{
+
+  & table{
+    width: 60%;
+
+    & th{
+      text-align: center;
+    }
+    & td{
+
+    }
+  }
+
+}
+.description_name{
+  font-size: 20px;
+  font-weight: bold;
+}

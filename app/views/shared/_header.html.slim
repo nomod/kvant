@@ -2,6 +2,11 @@
   - if admin?
     .wrap
       .header_admin
+        = link_to 'Категории', categories_path
+        = link_to 'Продукты', products_path
+        = link_to 'Посты', posts_path
+        = link_to 'Медиа', images_path
+        = link_to 'Формирование меню', menus_path
         = link_to 'Выйти из админской части', signout_path, method: 'delete'
 
 .wrap
@@ -55,11 +60,8 @@
           ul.dropdown-menu
             - menu.each do |menu|
               li
-                - if !menu.parent.empty?
-                  = link_to menu.point_name, '/'+menu.parent+'/'+menu.friendly_url, class: current_url('/'+menu.parent+'/'+menu.friendly_url)
-                  // добавляем class для проверки текущего урл и его подсветки при совпадении
-                - else
-                  = link_to menu.point_name, '/'+menu.friendly_url, class: current_url('/'+menu.friendly_url)
+                = link_to menu.point_name, '/'+menu.friendly_url, class: current_url('/'+menu.friendly_url)
+                // добавляем class для проверки текущего урл и его подсветки при совпадении
 
         li.single
           = link_to 'Цены', price_path, class: current_url(price_path)

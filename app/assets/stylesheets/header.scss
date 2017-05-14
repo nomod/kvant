@@ -7,6 +7,8 @@
   height: 40px;
   line-height: 40px;
   padding-left: 20px;
+  display: flex;
+  justify-content: space-around;
 
   & a{
   color: white;
@@ -163,5 +165,28 @@
 a.menu:after, .dropdown-toggle:after {
   content: none;
 }
+ul.menu_style{
 
+
+
+  & li{
+    list-style: none;
+    padding: 5px;
+    font-weight: bold;
+  }
+
+  & li.inner{
+    list-style: none;
+    padding: 5px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+
+  & li.inner_max{
+    list-style: none;
+    padding: 5px;
+    margin-left: 40px;
+    font-weight: normal;
+  }
+}
 

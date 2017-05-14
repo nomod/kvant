@@ -1,0 +1,30 @@
+- @title = 'Добавление нового пункта меню'
+
+h1 Добавление нового пункта меню
+
+p
+  = form_for @menu do |f|
+    - if @menu.errors.any?
+      #error_explanation
+        h2 = 'Обратите внимания на следующие поля:'
+        ul
+          - @menu.errors.full_messages.each do |message|
+            li = message
+    .form-block
+      .form
+        p
+          strong = 'Пункт меню'
+        p = f.select :friendly_url, options_from_collection_for_select(@categories, :friendly_url, :category_name)
+      .form
+        p
+          strong = 'Родительский пункт меню'
+        p = f.select :parent_id, options_from_collection_for_select(@all_points, :id, :point_name)
+      .form
+        = f.radio_button :parent_id, '0', checked: false
+        = f.label :parent_id, 'Нет родительского пункта меню'
+      .form
+        = f.hidden_field :point_name, value: ''
+      .form
+        = f.hidden_field :turn, value: @last_turn+1
+      .form-btn
+        = f.submit('Создать пункт меню', class: 'btn-primary')

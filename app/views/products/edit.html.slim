@@ -1,6 +1,6 @@
 - @title = 'Редактирование товара'
 
-h1 Редактирование товара ""#{@product.product_title}
+h1 Редактирование товара "#{@product.product_title}"
 p
   = form_for @product do |f|
     - if @product.errors.any?
@@ -21,18 +21,18 @@ p
       .form
         = f.number_field :height_max, required: true, placeholder: 'Общая высота, мм*', value: "#{@product.height_max}"
       .form
-        = f.text_field :material, required: true, placeholder: 'Материал*', value: "#{@product.material}"
+        = f.text_area :material, required: true, placeholder: 'Материал*', value: "#{@product.material}"
       .form
         = f.number_field :weight, required: true, placeholder: 'Вес*', value: "#{@product.weight}"
       .form
-        = f.text_field :coating, required: true, placeholder: 'Тип покрытия*', value: "#{@product.coating}"
+        = f.text_area :coating, required: true, placeholder: 'Тип покрытия*', value: "#{@product.coating}"
       .form
         = f.number_field :price, required: true, placeholder: 'Цена*', value: "#{@product.price}"
       .form
         p
           strong = 'Родительская категория'
           p Сейчас родительская категория "#{@product_parent_category.category_name}"
-      = f.select :category_id, options_from_collection_for_select(@categories, :id, :category_name)
+      = f.select :category_id, options_from_collection_for_select(@categories, :id, :category_name, @product_parent_category.id)
     .form
     = f.radio_button :view_main, true, checked: false
     = f.label :view_main, 'Вывести на главную'

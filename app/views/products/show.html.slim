@@ -6,3 +6,43 @@
 
 - @title = @product.product_title
 h1 = @product.product_title
+
+.product_features
+  .product_img
+    = image_tag "#{@product.image.product}"
+
+  .product_description
+    table.table.table-striped
+      thead
+        tr
+          th Характеристика
+          th Значение
+      tbody
+        tr
+          td Рабочая документация
+          td = @product.documentation
+        tr
+          td Наименование
+          td = @product.product_type
+        tr
+          td Высота до площадки, мм:
+          td = @product.height
+        tr
+          td Общая высота, мм:
+          td = @product.height_max
+        tr
+          td Сталь
+          td = raw @product.material
+        tr
+          td Вес, кг:
+          td = @product.weight
+        tr
+          td Тип покрытия
+          td = raw @product.coating
+        tr
+          td.description_name Цена
+          td.description_name = "#{@product.price}" + ' руб.'
+
+  .clear
+
+= render 'shared/form'
