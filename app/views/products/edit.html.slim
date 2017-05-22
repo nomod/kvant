@@ -32,19 +32,24 @@ p
         p
           strong = 'Родительская категория'
           p Сейчас родительская категория "#{@product_parent_category.category_name}"
-      = f.select :category_id, options_from_collection_for_select(@categories, :id, :category_name, @product_parent_category.id)
-    .form
-    = f.radio_button :view_main, true, checked: false
-    = f.label :view_main, 'Вывести на главную'
-    .form
-    = f.radio_button :view_main, false, checked: true
-    = f.label :view_main, 'Не выводить на главную'
-    .form
-      - if @product.image
-        img alt="" src="#{@product.image.product}"
-        = f.file_field :image
-        = f.hidden_field :image_cache
-    .form
-    = f.hidden_field :friendly_url, value: "#{@product.friendly_url}"
-    .form-btn
-    = f.submit('Обновить товар', class: 'btn-primary')
+        = f.select :category_id, options_from_collection_for_select(@categories, :id, :category_name, @product_parent_category.id)
+      .form
+        - if @product.view_main
+          p Сейчас на главной выводится
+        - else
+          p Сейчас на главной не выводится
+      .form
+        = f.radio_button :view_main, true, checked: false
+        = f.label :view_main, 'Вывести на главную'
+      .form
+        = f.radio_button :view_main, false, checked: true
+        = f.label :view_main, 'Не выводить на главную'
+      .form
+        - if @product.image
+          img alt="" src="#{@product.image.product}"
+          = f.file_field :image
+          = f.hidden_field :image_cache
+      .form
+        = f.hidden_field :friendly_url, value: "#{@product.friendly_url}"
+      .form-btn
+        = f.submit('Обновить товар', class: 'btn-primary')
