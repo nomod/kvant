@@ -33,6 +33,31 @@ class ProductsController < ApplicationController
     #сам товар
     @product = Product.find_by_friendly_url(params[:id])
 
+    #значения доп.характеристик товара
+    @attr = Product_With_Attribute.where(product_id: @product.id)
+
+    #id доп характеристик товара
+    @attr_ids = []
+    @attr.each do |at|
+      @attr_ids.push(at.product_atrs_id)
+    end
+
+    #вынимаем сами доп.характеристики товара по их id
+    @attr_obj = []
+    @attr_ids.each do |id|
+      @atr = ProductAtr.where(id: id)
+      @attr_obj.push(@atr)
+    end
+
+    #вынимаем названия доп.характеристик товара
+    @attr_names = []
+    @attr_obj.each do |obj|
+      obj.each do |name|
+        @attr_names.push(name.attribute_rus_name)
+      end
+    end
+
+
     ####################################################################
 
     #если все данные получены
@@ -100,6 +125,17 @@ class ProductsController < ApplicationController
     @categories = Category.all.order(:id)
   end
 
+  def edit_products
+    #текущий продукт
+    @product = Product.find_by_friendly_url(params[:id])
+    #его родительская категория
+    @product_parent_category = Category.find_by_id(@product.category_id)
+    @categories = Category.all.order(:id)
+    respond_to do |format|
+      format.json { render json: {categories: @categories, product_parent_category: @product_parent_category, product: @product} }
+    end
+  end
+
   def update
     #текущий продукт
     @product = Product.find_by_id(params[:id])
@@ -113,58 +149,106 @@ class ProductsController < ApplicationController
   end
 
 
-  def new
-    @product = Product.new
+  # def new
+  #   @product = Product.new
+  #   @categories = Category.all.order(:id)
+  # end
+
+  def select_products
     @categories = Category.all.order(:id)
+    respond_to do |format|
+      format.json { render json: @categories }
+    end
   end
+
 
   def create
 
     #создаем товар
-    if params[:product]
+    #if params[:product]
 
       @post = Post.find_by_friendly_url(params[:product][:friendly_url])
       @category = Category.find_by_friendly_url(params[:product][:friendly_url])
       @product = Product.find_by_friendly_url(params[:product][:friendly_url])
 
       #если товар с таким названием есть
-      if @post || @category || @product
+      #if @post || @category || @product
         #сохраняем заполненные данные
-        @product_title = params[:product][:product_title]
-        @documentation = params[:product][:documentation]
-        @type = params[:product][:product_type]
-        @height = params[:product][:height]
-        @height_max = params[:product][:height_max]
-        @material = params[:product][:material]
-        @weight = params[:product][:weight]
-        @coating = params[:product][:coating]
-        @price = params[:product][:price]
+        # @product_title = params[:product][:product_title]
+        # @documentation = params[:product][:documentation]
+        # @type = params[:product][:product_type]
+        # @height = params[:product][:height]
+        # @height_max = params[:product][:height_max]
+        # @material = params[:product][:material]
+        # @weight = params[:product][:weight]
+        # @coating = params[:product][:coating]
+        # @price = params[:product][:price]
 
-        @product = Product.new
-        @categories = Category.all.order(:id)
-        flash[:error] = 'Такое название уже есть в базе!'
-        render 'products/new'
+        #@product = Product.new
+        #@categories = Category.all.order(:id)
+        #flash[:error] = 'Такое название уже есть в базе!'
+        #render 'products/new'
         #если нет, то добавляем товар
-      else
+      #else
         @product = Product.new(product_params)
-        if @product.save
-          flash[:success] = 'Товар добавлен!'
-          redirect_to products_path
-        else
-          @categories = Category.all.order(:id)
-          render 'products/new'
+        respond_to do |format|
+          if @product.save
+            format.json { render json: {text: 'Товар добавлен'}, status: 200 }
+            #flash[:success] = 'Товар добавлен!'
+            #redirect_to products_path
+          else
+            format.json { render json: {text: 'Ошибка'}, status: 423 }
+            #@categories = Category.all.order(:id)
+            #render 'products/new'
+          end
         end
-      end
 
-    end
+      #end
+
+    #end
 
   end
 
   private
 
   def product_params
-    params.require(:product).permit(:product_title, :category_id, :friendly_url, :view_main, :documentation, :product_type, :height, :height_max, :material, :weight, :coating, :price, :image)
+    params.require(:product).permit(:category_id, :product_title, :friendly_url, :view_main, :image)
   end
+
+  # def product_params
+  #   params.require(:product).permit(
+  #       :documentation,
+  #       :technological_purpose,
+  #       :denomination,
+  #       :length,
+  #       :beam_length,
+  #       :section_length,
+  #       :height,
+  #       :height_traverse,
+  #       :retention_capacity,
+  #       :cut,
+  #       :diameter,
+  #       :metal_thickness,
+  #       :corrugation_size,
+  #       :steel,
+  #       :weight,
+  #       :number_blocks,
+  #       :number_elements,
+  #       :number_counters,
+  #       :step_counters,
+  #       :type_coating,
+  #       :type_counters,
+  #       :type_bolts,
+  #       :channel_gauge,
+  #       :manufacturer,
+  #       :type_bearing,
+  #       :cradle,
+  #       :clinging,
+  #       :brand_wires,
+  #       :сable_brand,
+  #       :price
+  #   )
+  # end
 
   def signed_in_user
     #если текущий пользователь пустой

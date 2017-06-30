@@ -17,6 +17,16 @@ Rails.application.routes.draw do
   post '/categories',                       to: 'categories#create'
   get '/:category_id/edit',                 to: 'categories#edit'
 
+  get '/parser',                            to: 'parser#parser_site'
+
+  #добавление нового товара через ajax
+  post '/products/:id',                     to: 'products#select_products'
+  #редактирование товара через ajax
+  post '/products/:id/edit',                to: 'products#edit_products'
+
+  #добавляем новое поле в карточку товара / удаляем поле из карточки
+  post '/cards/:id',                        to: 'cards#create_input_card'
+
   #выводим категории с пометкой selected (т.е. серии)
   post '/:category_id/:subcategory_id/:id', to: 'subcategories#select_series'
   post '/:category_id/:id',                 to: 'categories#select_series'
@@ -26,6 +36,8 @@ Rails.application.routes.draw do
   resources :images
   resources :forms
   resources :menus
+  resources :cards
+  resources :parser, only: [:parser_site]
   resources :sessions, only: [:new, :create, :destroy]
 
   #вход

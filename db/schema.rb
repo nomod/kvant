@@ -10,10 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170509115445) do
+ActiveRecord::Schema.define(version: 20170630130046) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "card_with_attribute", force: :cascade do |t|
+    t.integer  "card_id"
+    t.integer  "product_atrs_id"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.index ["card_id", "product_atrs_id"], name: "index_card_with_attribute_on_card_id_and_product_atrs_id", unique: true, using: :btree
+  end
+
+  create_table "cards", force: :cascade do |t|
+    t.string   "card_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "categories", force: :cascade do |t|
     t.string   "category_name"
@@ -61,10 +75,11 @@ ActiveRecord::Schema.define(version: 20170509115445) do
 
   create_table "menus", id: :integer, default: -> { "nextval('menu_id_seq'::regclass)" }, force: :cascade do |t|
     t.string   "friendly_url"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
     t.string   "point_name"
-    t.string   "parent"
+    t.integer  "parent_id",    default: 0
+    t.integer  "turn",         default: 1
   end
 
   create_table "posts", force: :cascade do |t|
@@ -78,22 +93,30 @@ ActiveRecord::Schema.define(version: 20170509115445) do
     t.integer  "category_id",  default: 0
   end
 
+  create_table "product_atrs", force: :cascade do |t|
+    t.string   "attribute_name"
+    t.string   "attribute_rus_name"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+  end
+
+  create_table "product_with_attribute", force: :cascade do |t|
+    t.integer  "product_id"
+    t.integer  "product_atrs_id"
+    t.string   "value"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.index ["product_id", "product_atrs_id"], name: "index_product_with_attribute_on_product_id_and_product_atrs_id", unique: true, using: :btree
+  end
+
   create_table "products", force: :cascade do |t|
+    t.string   "friendly_url"
     t.integer  "category_id",   default: 0
     t.string   "product_title"
+    t.boolean  "view_main"
     t.string   "image"
-    t.string   "friendly_url"
-    t.datetime "created_at",                    null: false
-    t.datetime "updated_at",                    null: false
-    t.boolean  "view_main",     default: false
-    t.string   "documentation"
-    t.string   "product_type"
-    t.string   "height"
-    t.string   "height_max"
-    t.string   "material"
-    t.string   "weight"
-    t.string   "coating"
-    t.integer  "price"
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
   end
 
   create_table "sliders", id: :integer, default: -> { "nextval('mainslider_id_seq'::regclass)" }, force: :cascade do |t|

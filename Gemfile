@@ -47,3 +47,4 @@ gem 'will_paginate' #для пагинации
 gem 'activerecord-reset-pk-sequence' #для сброса базы в сидах
 gem 'figaro' #для шифрование паролей и логинов
 gem 'rack-rewrite' #для редиректов - убираем слеши в конце урла (настройки в application.rb)
+gem 'nokogiri' #для парсинга

@@ -504,3 +504,272 @@ User.create(
         },
     ]
 )
+
+Product.delete_all
+Product.reset_pk_sequence
+Product.create(
+    [
+        {
+            category_id: 12,
+            product_title: 'Опора ВЛ №1',
+            friendly_url: 'opora_vl_1',
+            view_main: false,
+            image: open('public/img/upload_product/product_no_img.jpg')
+        },
+        {
+            category_id: 22,
+            product_title: 'Прожекторная мачта №1',
+            friendly_url: 'projectornaya_machta_1',
+            view_main: false,
+            image: open('public/img/upload_product/product_no_img.jpg')
+        },
+        {
+            category_id: 33,
+            product_title: 'Опора трубопроводов №1',
+            friendly_url: 'opora_truboprovoda_1',
+            view_main: false,
+            image: open('public/img/upload_product/product_no_img.jpg')
+        },
+        {
+            category_id: 40,
+            product_title: 'Промежуточная опора №1',
+            friendly_url: 'promejutochnaya_opora_1',
+            view_main: false,
+            image: open('public/img/upload_product/product_no_img.jpg')
+        },
+    ]
+)
+
+ProductAtr.delete_all
+ProductAtr.reset_pk_sequence
+ProductAtr.create(
+    [
+        {
+            attribute_name: 'documentation',
+            attribute_rus_name: 'Рабочая документация'
+        },
+        {
+            attribute_name: 'technological_purpose',
+            attribute_rus_name: 'Технологическое назначение'
+        },
+        {
+            attribute_name: 'denomination',
+            attribute_rus_name: 'Наименование'
+        },
+        {
+            attribute_name: 'length',
+            attribute_rus_name: 'Длина'
+        },
+        {
+            attribute_name: 'beam_length',
+            attribute_rus_name: 'Длина балки'
+        },
+        {
+            attribute_name: 'section_length',
+            attribute_rus_name: 'Длина секции'
+        },
+        {
+            attribute_name: 'height',
+            attribute_rus_name: 'Высота'
+        },
+        {
+            attribute_name: 'height_traverse',
+            attribute_rus_name: 'Высота до траверсы'
+        },
+        {
+            attribute_name: 'retention_capacity',
+            attribute_rus_name: 'Удерживающая способность'
+        },
+        {
+            attribute_name: 'cut',
+            attribute_rus_name: 'Сечение'
+        },
+        {
+            attribute_name: 'diameter',
+            attribute_rus_name: 'Диаметр'
+        },
+        {
+            attribute_name: 'metal_thickness',
+            attribute_rus_name: 'Толщина металла'
+        },
+        {
+            attribute_name: 'corrugation_size',
+            attribute_rus_name: 'Размер гофра'
+        },
+        {
+            attribute_name: 'steel',
+            attribute_rus_name: 'Сталь'
+        },
+        {
+            attribute_name: 'weight',
+            attribute_rus_name: 'Вес'
+        },
+        {
+            attribute_name: 'number_blocks',
+            attribute_rus_name: 'Количество блоков'
+        },
+        {
+            attribute_name: 'number_elements',
+            attribute_rus_name: 'Количество элементов'
+        },
+        {
+            attribute_name: 'number_counters',
+            attribute_rus_name: 'Число стоек'
+        },
+        {
+            attribute_name: 'step_counters',
+            attribute_rus_name: 'Шаг стоек'
+        },
+        {
+            attribute_name: 'type_coating',
+            attribute_rus_name: 'Тип покрытия'
+        },
+        {
+            attribute_name: 'type_counters',
+            attribute_rus_name: 'Тип стойки'
+        },
+        {
+            attribute_name: 'type_bolts',
+            attribute_rus_name: 'Тип ригеля'
+        },
+        {
+            attribute_name: 'channel_gauge',
+            attribute_rus_name: 'Сортамент швеллера'
+        },
+        {
+            attribute_name: 'manufacturer',
+            attribute_rus_name: 'Производитель'
+        },
+        {
+            attribute_name: 'type_bearing',
+            attribute_rus_name: 'Тип опоры'
+        },
+        {
+            attribute_name: 'cradle',
+            attribute_rus_name: 'Шифр опоры'
+        },
+        {
+            attribute_name: 'clinging',
+            attribute_rus_name: 'Цепность'
+        },
+        {
+            attribute_name: 'brand_wires',
+            attribute_rus_name: 'Марка проводов'
+        },
+        {
+            attribute_name: 'сable_brand',
+            attribute_rus_name: 'Марка троса'
+        },
+        {
+            attribute_name: 'mass_with',
+            attribute_rus_name: 'Масса с покрытием'
+        },
+        {
+            attribute_name: 'mass_without',
+            attribute_rus_name: 'Масса без покрытия'
+        },
+        {
+            attribute_name: 'price',
+            attribute_rus_name: 'Цена'
+        }
+    ]
+)
+
+
+Product_With_Attribute.delete_all
+Product_With_Attribute.reset_pk_sequence
+Product_With_Attribute.create(
+    [
+        {
+            product_id: 1,
+            product_atrs_id: 1,
+            value: 'рабочая документация продукт 1'
+        },
+        {
+            product_id: 2,
+            product_atrs_id: 1,
+            value: 'рабочая документация продукт 2'
+        },
+        {
+            product_id: 3,
+            product_atrs_id: 1,
+            value: 'рабочая документация продукт 3'
+        },
+        {
+            product_id: 4,
+            product_atrs_id: 1,
+            value: 'рабочая документация продукт 4'
+        },
+        {
+            product_id: 1,
+            product_atrs_id: 2,
+            value: 'технологическое назначение продукт 1'
+        },
+        {
+            product_id: 1,
+            product_atrs_id: 32,
+            value: 123123
+        },
+    ]
+)
+
+
+
+Card.delete_all
+Card.reset_pk_sequence
+Card.create(
+    [
+        {
+            card_name: 'Опора контактной сети'
+        },
+        {
+            card_name: 'Ригели жестких поперечин'
+        },
+        {
+            card_name: 'Порталы ОРУ'
+        },
+        {
+            card_name: 'Дорожное ограждение'
+        },
+        {
+            card_name: 'Труба ЛМГ'
+        },
+        {
+            card_name: 'Стойки СКМ'
+        },
+        {
+            card_name: 'Рамная опора'
+        },
+        {
+            card_name: 'Металлические опоры ВЛ'
+        }
+
+    ]
+)
+
+Card_With_Attribute.delete_all
+Card_With_Attribute.reset_pk_sequence
+Card_With_Attribute.create(
+    [
+        {
+            card_id: 1,
+            product_atrs_id: 1
+        },
+        {
+            card_id: 2,
+            product_atrs_id: 1
+        },
+        {
+            card_id: 3,
+            product_atrs_id: 1
+        },
+        {
+            card_id: 4,
+            product_atrs_id: 1
+        },
+        {
+            card_id: 1,
+            product_atrs_id: 2
+        },
+    ]
+)

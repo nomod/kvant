@@ -1,3 +1,37 @@
+.new_product{
+
+  & input, textarea, select{
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  & .btn-primary{
+    width: 200px;
+  }
+  & #product_view_main_true, #product_view_main_false{
+    width: 20px;
+  }
+
+}
+
+.product_edit{
+
+  & input, textarea, select{
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  & .btn-primary{
+    width: 200px;
+  }
+  & #product_view_main_true, #product_view_main_false{
+    width: 20px;
+  }
+
+}
+
+
+
 .form-block{
 
 }
@@ -16,7 +50,7 @@
       margin-bottom: 10px;
     }
 
-    & #category_category_name, #product_product_title, #product_documentation, #product_product_type, #product_height, #product_height_max, #product_material, #product_weight, #product_coating, #product_price{
+    & #category_category_name{
       width: 800px;
       margin-top: 10px;
       margin-bottom: 10px;

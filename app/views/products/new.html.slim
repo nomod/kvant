@@ -1,46 +1,17 @@
 - @title = 'Добавление нового товара'
 
 h1 Добавление нового товара
-p
-  = form_for @product do |f|
-    - if @product.errors.any?
-      #error_explanation
-        h2 = 'Обратите внимания на следующие поля:'
-        ul
-          - @product.errors.full_messages.each do |message|
-            li = message
-    .form-block
-      .form
-        = f.text_field :product_title, required: true, placeholder: 'Название продукта*', value: "#{@product_title}"
-      .form
-        = f.text_field :documentation, required: true, placeholder: 'Рабочая документация*', value: "#{@documentation}"
-      .form
-        = f.text_field :product_type, required: true, placeholder: 'Тип*', value: "#{@product_type}"
-      .form
-        = f.number_field :height, required: true, placeholder: 'Высота до площадки, мм*', value: "#{@height}"
-      .form
-        = f.number_field :height_max, required: true, placeholder: 'Общая высота, мм*', value: "#{@height_max}"
-      .form
-        = f.text_area :material, required: true, placeholder: 'Материал*', value: "#{@material}"
-      .form
-        = f.number_field :weight, required: true, placeholder: 'Вес*', value: "#{@weight}"
-      .form
-        = f.text_area :coating, required: true, placeholder: 'Тип покрытия*', value: "#{@coating}"
-      .form
-        = f.number_field :price, required: true, placeholder: 'Цена*', value: "#{@price}"
-      .form
-        p
-          strong = 'Родительская категория'
-        = f.select :category_id, options_from_collection_for_select(@categories, :id, :category_name)
-      .form
-        = f.radio_button :view_main, true, checked: false
-        = f.label :view_main, 'Вывести на главную'
-      .form
-        = f.radio_button :view_main, false, checked: true
-        = f.label :view_main, 'Не выводить на главную'
-      .form
-        = f.file_field :image, required: true
-      .form
-        = f.hidden_field :friendly_url, value: ''
-      .form-btn
-        = f.submit('Добавить товар', class: 'btn-primary')
+
+#select-option-products
+  = select_tag(:option_products, options_for_select([['Опора контактной сети', 1],
+          ['Ригели жестких поперечин контактной сети', 2],
+          ['Порталы ПСЛ', 3],
+          ['Дорожное ограждение', 4],
+          ['Труба ЛМГ', 5],
+          ['Стойки для дорожных знаков и металлические рамные опоры', 6],
+          ['Рамная опора', 7],
+          ['Металлические опоры ВЛ', 8]],
+          selected: :option_products ))
+
+
+.select-option-products
