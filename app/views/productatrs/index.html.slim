@@ -1,0 +1,20 @@
+- @title = 'Аттрибуты товара'
+
+h1 Аттрибуты товара
+
+.create_item
+  = link_to 'Добавить новый аттрибут', new_productatr_path
+
+table.table.table-striped
+  thead
+    tr
+      th Название аттрибута
+      th Alias
+      th
+
+  tbody
+  - @all_attrs.each_with_index do |atr, index|
+    tr
+      td = atr.attribute_rus_name
+      td = atr.attribute_name
+      td = link_to 'Просмотреть', "productatrs/#{atr.id}"

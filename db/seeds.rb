@@ -540,9 +540,9 @@ Product.create(
     ]
 )
 
-ProductAtr.delete_all
-ProductAtr.reset_pk_sequence
-ProductAtr.create(
+Productatr.delete_all
+Productatr.reset_pk_sequence
+Productatr.create(
     [
         {
             attribute_name: 'documentation',

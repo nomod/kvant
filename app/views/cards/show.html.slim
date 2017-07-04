@@ -47,3 +47,8 @@ p
 
       .form-btn
         = f.submit('Добавить новое поле', class: 'btn-primary', name: 'create_input_card')
+
+/удаление
+.form-inline
+  .form
+    = link_to 'Удалить карточку', @card, data: { confirm: 'Уверен?' }, method: 'delete'

@@ -1,21 +1,48 @@
 class CardsController < ApplicationController
 
   #чтобы что то делать нужно войти
-  before_action :signed_in_user, only: [:index, :show, :edit, :update, :create, :delete]
+  before_action :signed_in_user, only: [:index, :new, :show, :edit, :update, :create, :destroy]
 
   #перед действиями узнаем все о текущей карточке
-  before_action :about_card, only: [:show, :edit, :create_input_card]
+  before_action :about_card, only: [:show, :edit, :destroy, :create_input_card]
 
 
   def index
     @cards = Card.all.order(:id)
   end
 
+  def new
+    @new_card = Card.new
+  end
+
+  def create
+
+    @new_card = Card.find_by_card_name(params[:card][:card_name])
+    #если в базе уже есть карточка с таким названием
+    if @new_card
+      @new_card = Card.new
+      flash[:error] = 'Такое название у карточки уже есть!'
+      render 'cards/new'
+      #если нет, то создаем
+    else
+      @new_card = Card.new(new_card_params)
+      if @new_card.save
+        flash[:success] = 'Новая карточка товара создана!'
+        redirect_to cards_path
+      else
+        @card_name = params[:card][:card_name]
+        render 'cards/new'
+      end
+    end
+
+
+  end
+
   def show
 
     @card_attrs = Card_With_Attribute.new
 
-    @attrs = ProductAtr.all.order(:id)
+    @attrs = Productatr.all.order(:id)
 
   end
 
@@ -27,25 +54,41 @@ class CardsController < ApplicationController
 
   end
 
-  def create
+  def destroy
+    #текущая карточка
+    @card = Card.find_by_id(params[:id])
 
-  end
-
-  def delete
-
+    if @card.delete
+      flash[:notice] = 'Карточка удалена!'
+      redirect_to cards_path
+    else
+      redirect_to @card
+    end
   end
 
   def create_input_card
+
     #если добавляем новое поле
     if params[:create_input_card]
-      @new_input_card = Card_With_Attribute.new(input_card_params)
-      if @new_input_card.save
-        flash[:success] = 'Добавлено новое поле в карточку!'
+      #ищем поле по двум параметрам
+      @new_input_card = Card_With_Attribute.find_by(card_id: params[:card_with_attribute][:card_id], product_atrs_id: params[:card_with_attribute][:product_atrs_id])
+
+      #если нашли
+      if @new_input_card
+        flash[:success] = 'Уже есть такое поле у карточки!'
         redirect_to @card
+      #если не нашли, то добавляем
       else
-        render 'show'
+        @new_input_card = Card_With_Attribute.new(input_card_params)
+        if @new_input_card.save
+          flash[:success] = 'Добавлено новое поле в карточку!'
+          redirect_to @card
+        else
+          render 'show'
+        end
       end
     end
+
     #если удаляем старое поле
     if params[:delete_input_card]
       #ищем поле по двум параметрам
@@ -80,7 +123,7 @@ class CardsController < ApplicationController
     #вынимаем сами доп.характеристики карточки по их id
     @attr_obj = []
     @attr_ids.each do |id|
-      @atr = ProductAtr.where(id: id)
+      @atr = Productatr.where(id: id)
       @attr_obj.push(@atr)
     end
 
@@ -110,6 +153,10 @@ class CardsController < ApplicationController
 
   def input_card_params
     params.require(:card_with_attribute).permit(:card_id, :product_atrs_id)
+  end
+
+  def new_card_params
+    params.require(:card).permit(:card_name)
   end
 
 end

@@ -3,15 +3,10 @@
 h1 Добавление нового товара
 
 #select-option-products
-  = select_tag(:option_products, options_for_select([['Опора контактной сети', 1],
-          ['Ригели жестких поперечин контактной сети', 2],
-          ['Порталы ПСЛ', 3],
-          ['Дорожное ограждение', 4],
-          ['Труба ЛМГ', 5],
-          ['Стойки для дорожных знаков и металлические рамные опоры', 6],
-          ['Рамная опора', 7],
-          ['Металлические опоры ВЛ', 8]],
-          selected: :option_products ))
+  = select_tag :cards, options_from_collection_for_select(@cards, :id, :card_name)
 
 
 .select-option-products
+
+.success style=('display: none;')  Товар добавлен
+.error style=('display: none;') Такое название уже есть в базе!

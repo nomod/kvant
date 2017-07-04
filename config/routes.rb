@@ -21,8 +21,6 @@ Rails.application.routes.draw do
 
   #добавление нового товара через ajax
   post '/products/:id',                     to: 'products#select_products'
-  #редактирование товара через ajax
-  post '/products/:id/edit',                to: 'products#edit_products'
 
   #добавляем новое поле в карточку товара / удаляем поле из карточки
   post '/cards/:id',                        to: 'cards#create_input_card'
@@ -37,6 +35,7 @@ Rails.application.routes.draw do
   resources :forms
   resources :menus
   resources :cards
+  resources :productatrs
   resources :parser, only: [:parser_site]
   resources :sessions, only: [:new, :create, :destroy]
 

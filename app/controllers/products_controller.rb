@@ -45,7 +45,7 @@ class ProductsController < ApplicationController
     #вынимаем сами доп.характеристики товара по их id
     @attr_obj = []
     @attr_ids.each do |id|
-      @atr = ProductAtr.where(id: id)
+      @atr = Productatr.where(id: id)
       @attr_obj.push(@atr)
     end
 
@@ -122,133 +122,178 @@ class ProductsController < ApplicationController
     #его родительская категория
     @product_parent_category = Category.find_by_id(@product.category_id)
 
-    @categories = Category.all.order(:id)
-  end
+    #значения доп.характеристик товара
+    @attr = Product_With_Attribute.where(product_id: @product.id)
 
-  def edit_products
-    #текущий продукт
-    @product = Product.find_by_friendly_url(params[:id])
-    #его родительская категория
-    @product_parent_category = Category.find_by_id(@product.category_id)
-    @categories = Category.all.order(:id)
-    respond_to do |format|
-      format.json { render json: {categories: @categories, product_parent_category: @product_parent_category, product: @product} }
+    #id доп характеристик товара
+    @attr_ids = []
+    @attr.each do |at|
+      @attr_ids.push(at.product_atrs_id)
     end
+
+    #вынимаем сами доп.характеристики товара по их id
+    @attr_obj = []
+    @attr_ids.each do |id|
+      @atr = Productatr.where(id: id)
+      @attr_obj.push(@atr)
+    end
+
+    #вынимаем названия доп.характеристик товара
+    @attr_names = []
+    @attr_obj.each do |obj|
+      obj.each do |name|
+        @attr_names.push(name)
+      end
+    end
+
+    @categories = Category.all.order(:id)
   end
 
   def update
+
     #текущий продукт
     @product = Product.find_by_id(params[:id])
 
-    if @product.update_attributes(product_params)
-      flash[:success] = 'Продукт обновлен!'
-      redirect_to products_path
-    else
-      render 'edit'
-    end
+      if @product.update_attributes(product_params)
+
+        #все поля, которые пришли в форме
+        @inputs = params[:product]
+        #перебираем поля
+        @inputs.each do |input|
+
+          #если это не общее поле продукта
+          if input != 'friendly_url' && input != 'category_id' && input != 'product_title' && input != 'view_main' && input != 'image'
+
+            #значение заполненных полей в форме
+            @value = params[:product][:"#{input}"]
+
+            #вынимаем характеристику целиком
+            @atr = Productatr.where(attribute_name: input)
+
+            #перебираем характеристику, чтобы вынуть её id
+            @atr.each do |at|
+
+              #ищем характеристику в таблице Product_With_Attribute по двум параметрам
+              @atr_value = Product_With_Attribute.find_by(product_id: @product.id, product_atrs_id: at.id)
+
+              #пишем новые значения характеристик в соединительную таблицу
+              @atr_value.update_attributes(value: @value)
+            end
+
+          end
+
+        end
+
+        flash[:success] = 'Продукт обновлен!'
+        redirect_to products_path
+
+      else
+        render 'edit'
+      end
+
   end
 
 
-  # def new
-  #   @product = Product.new
-  #   @categories = Category.all.order(:id)
-  # end
+  def new
+    @cards = Card.all.order(:id)
+  end
 
   def select_products
+
     @categories = Category.all.order(:id)
+
+    #текущая карточка товара по id из select
+    @card = Card.find_by_id(params[:id])
+    #значения доп.характеристик карточки
+    @attr = Card_With_Attribute.where(card_id: @card.id)
+
+    #id доп характеристик карточки
+    @attr_ids = []
+    @attr.each do |at|
+      @attr_ids.push(at.product_atrs_id)
+    end
+
+    #вынимаем сами доп.характеристики карточки по их id
+    @attr_obj = []
+    @attr_ids.each do |id|
+      @atr = Productatr.where(id: id)
+      @attr_obj.push(@atr)
+    end
+
+    #вынимаем названия доп.характеристик карточки
+    @attr_names = []
+    @attr_obj.each do |obj|
+      obj.each do |name|
+        @attr_names.push(name)
+      end
+    end
+
     respond_to do |format|
-      format.json { render json: @categories }
+      format.json { render json: {categories: @categories, card: @card, attr_names: @attr_names} }
     end
   end
 
 
   def create
 
-    #создаем товар
-    #if params[:product]
+    @post = Post.find_by_friendly_url(params[:product][:friendly_url])
+    @category = Category.find_by_friendly_url(params[:product][:friendly_url])
+    @product = Product.find_by_friendly_url(params[:product][:friendly_url])
 
-      @post = Post.find_by_friendly_url(params[:product][:friendly_url])
-      @category = Category.find_by_friendly_url(params[:product][:friendly_url])
-      @product = Product.find_by_friendly_url(params[:product][:friendly_url])
+    #если товар с таким названием есть
+    if @post || @category || @product
 
-      #если товар с таким названием есть
-      #if @post || @category || @product
-        #сохраняем заполненные данные
-        # @product_title = params[:product][:product_title]
-        # @documentation = params[:product][:documentation]
-        # @type = params[:product][:product_type]
-        # @height = params[:product][:height]
-        # @height_max = params[:product][:height_max]
-        # @material = params[:product][:material]
-        # @weight = params[:product][:weight]
-        # @coating = params[:product][:coating]
-        # @price = params[:product][:price]
+      respond_to do |format|
+        format.json { render json: {text: 'Ошибка'}, status: 423 }
+      end
 
-        #@product = Product.new
-        #@categories = Category.all.order(:id)
-        #flash[:error] = 'Такое название уже есть в базе!'
-        #render 'products/new'
-        #если нет, то добавляем товар
-      #else
-        @product = Product.new(product_params)
-        respond_to do |format|
-          if @product.save
-            format.json { render json: {text: 'Товар добавлен'}, status: 200 }
-            #flash[:success] = 'Товар добавлен!'
-            #redirect_to products_path
-          else
-            format.json { render json: {text: 'Ошибка'}, status: 423 }
-            #@categories = Category.all.order(:id)
-            #render 'products/new'
+    #если нет, то добавляем товар
+    else
+      @product = Product.new(product_params)
+      respond_to do |format|
+        if @product.save
+          format.json { render json: {text: 'Товар добавлен'}, status: 200 }
+
+          #все поля, которые пришли в форме
+          @inputs = params[:product]
+          #перебираем поля
+          @inputs.each do |input|
+
+            #если это не общее поле продукта
+            if input != 'friendly_url' && input != 'category_id' && input != 'product_title' && input != 'view_main' && input != 'image'
+
+              #значение заполненных полей в форме
+              @value = params[:product][:"#{input}"]
+
+              #вынимаем характеристику целиком
+              @atr = Productatr.where(attribute_name: input)
+
+              #перебираем характеристику, чтобы вынуть её id
+              @atr.each do |at|
+
+                #пишем все в соединительную таблицу
+                Product_With_Attribute.create(product_id: @product.id, product_atrs_id: at.id, value: @value)
+              end
+
+            end
+
           end
+
+        else
+          format.json { render json: {text: 'Ошибка'}, status: 423 }
         end
+      end
 
-      #end
-
-    #end
+    end
 
   end
+
 
   private
 
   def product_params
     params.require(:product).permit(:category_id, :product_title, :friendly_url, :view_main, :image)
   end
-
-  # def product_params
-  #   params.require(:product).permit(
-  #       :documentation,
-  #       :technological_purpose,
-  #       :denomination,
-  #       :length,
-  #       :beam_length,
-  #       :section_length,
-  #       :height,
-  #       :height_traverse,
-  #       :retention_capacity,
-  #       :cut,
-  #       :diameter,
-  #       :metal_thickness,
-  #       :corrugation_size,
-  #       :steel,
-  #       :weight,
-  #       :number_blocks,
-  #       :number_elements,
-  #       :number_counters,
-  #       :step_counters,
-  #       :type_coating,
-  #       :type_counters,
-  #       :type_bolts,
-  #       :channel_gauge,
-  #       :manufacturer,
-  #       :type_bearing,
-  #       :cradle,
-  #       :clinging,
-  #       :brand_wires,
-  #       :сable_brand,
-  #       :price
-  #   )
-  # end
 
   def signed_in_user
     #если текущий пользователь пустой

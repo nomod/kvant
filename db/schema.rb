@@ -93,7 +93,7 @@ ActiveRecord::Schema.define(version: 20170630130046) do
     t.integer  "category_id",  default: 0
   end
 
-  create_table "product_atrs", force: :cascade do |t|
+  create_table "productatrs", force: :cascade do |t|
     t.string   "attribute_name"
     t.string   "attribute_rus_name"
     t.datetime "created_at",         null: false

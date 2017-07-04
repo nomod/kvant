@@ -1,3 +1,99 @@
 - @title = 'Редактирование товара'
 
-.product_edit
+h1 Редактирование товара
+p
+  = form_for @product do |f|
+    - if @product.errors.any?
+      #error_explanation
+        h2 = 'Обратите внимания на следующие поля:'
+        ul
+          - @product.errors.full_messages.each do |message|
+            li = message
+    .form-block
+      .form
+        p
+          strong = 'Название продукта'
+        = f.text_field :product_title, required: true, value: "#{@product.product_title}"
+      .form
+        p
+          strong = 'Родительская категория'
+        = f.select :category_id, options_from_collection_for_select(@categories, :id, :category_name, @product_parent_category.id)
+
+      //если продукт выводится на главной страницу, то радиокнопку "Вывести на главную" ставим в положение true, а "Не выводить на главную" в положение false
+      - if @product.view_main
+        p Сейчас на главной выводится
+        .form
+          = f.radio_button :view_main, true, checked: true
+          = f.label :view_main, 'Вывести на главную'
+        .form
+          = f.radio_button :view_main, false, checked: false
+          = f.label :view_main, 'Не выводить на главную'
+      //если продукт не выводится на главной страницу, то радиокнопку "Вывести на главную" ставим в положение false, а "Не выводить на главную" в положение true
+      - else
+        p Сейчас на главной не выводится
+        .form
+          = f.radio_button :view_main, true, checked: false
+          = f.label :view_main, 'Вывести на главную'
+        .form
+          = f.radio_button :view_main, false, checked: true
+          = f.label :view_main, 'Не выводить на главную'
+
+      //перебираем поля, которые есть у данного товара и выводим их
+      - @attr_names.each_with_index do |attr, index|
+        p
+          strong = "#{attr.attribute_rus_name}"
+        .form
+          = f.text_field :"#{attr.attribute_name}", required: true, value: "#{@attr[index].value}"
+
+
+      .form
+        - if @product.image
+          img alt="" src="#{@product.image.product}"
+          = f.file_field :image
+          = f.hidden_field :image_cache
+      .form
+        = f.hidden_field :friendly_url, value: "#{@product.friendly_url}"
+      .form-btn
+        = f.submit('Обновить продукт', class: 'btn-primary')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/.product_edit
+/
+/.success style=('display: none;')  Товар обновлен
+/.error style=('display: none;') Ошибка!
