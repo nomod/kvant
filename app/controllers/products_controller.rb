@@ -162,7 +162,7 @@ class ProductsController < ApplicationController
         @inputs.each do |input|
 
           #если это не общее поле продукта
-          if input != 'friendly_url' && input != 'category_id' && input != 'product_title' && input != 'view_main' && input != 'image'
+          if input != 'friendly_url' && input != 'category_id' && input != 'product_title' && input != 'view_main' && input != 'image' && input != 'price'
 
             #значение заполненных полей в форме
             @value = params[:product][:"#{input}"]
@@ -260,7 +260,7 @@ class ProductsController < ApplicationController
           @inputs.each do |input|
 
             #если это не общее поле продукта
-            if input != 'friendly_url' && input != 'category_id' && input != 'product_title' && input != 'view_main' && input != 'image'
+            if input != 'friendly_url' && input != 'category_id' && input != 'product_title' && input != 'view_main' && input != 'image' && input != 'price'
 
               #значение заполненных полей в форме
               @value = params[:product][:"#{input}"]
@@ -292,7 +292,7 @@ class ProductsController < ApplicationController
   private
 
   def product_params
-    params.require(:product).permit(:category_id, :product_title, :friendly_url, :view_main, :image)
+    params.require(:product).permit(:category_id, :product_title, :friendly_url, :view_main, :image, :price)
   end
 
   def signed_in_user

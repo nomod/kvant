@@ -46,7 +46,6 @@
     table.table.table-striped
       tr
         th Название
-        th Серия
         th Цена
       tbody.select-product
 
@@ -56,14 +55,25 @@
 
     h3 Товары категории
 
-    .all_products
-      - @products.each do |product|
-        .img_product
-          a href="/#{product.friendly_url}"
-            img alt="" src="#{product.image.product}"
-            .img_background_name
-            .img_product_name
-              = product.product_title
+    /.all_products
+    /  - @products.each do |product|
+    /    .img_product
+    /      a href="/#{product.friendly_url}"
+    /        img alt="" src="#{product.image.product}"
+    /        .img_background_name
+    /        .img_product_name
+    /          = product.product_title
+
+    table.table.table-striped
+      tr
+        th Название
+        th Цена
+      tbody
+        - @products.each do |product|
+          tr
+            td = link_to "#{product.product_title}", "/#{product.friendly_url}"
+            td = "#{product.price}"
+
 
 
   //если есть контент у подкатегории, то выводим его

@@ -142,9 +142,21 @@ class SubcategoriesController < ApplicationController
 
   #выводим категории с пометкой selected (т.е. серии)
   def select_series
+    #продукты серии
     @products_series = Category.find(params[:id]).products
+
+    #их цены
+    @prices = []
+
+    @products_series.each do |product|
+      #ищем цену конкретного товара по id товара
+      @price = Product.find_by(id: product.id).price
+      #закидываем цену каждого товара в массив
+      @prices.push(@price)
+    end
+
     respond_to do |format|
-      format.json { render json: @products_series }
+      format.json { render json: {products_series: @products_series, prices: @prices} }
     end
   end
 

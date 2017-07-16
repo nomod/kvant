@@ -59,6 +59,14 @@ class CardsController < ApplicationController
     @card = Card.find_by_id(params[:id])
 
     if @card.delete
+
+      #находим все аттрибуты удаленной карточки
+      @card_attrs = Card_With_Attribute.where(card_id: @card.id)
+      #удаляем их
+      @card_attrs.each do |card|
+        card.delete
+      end
+
       flash[:notice] = 'Карточка удалена!'
       redirect_to cards_path
     else

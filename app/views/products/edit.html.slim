@@ -52,6 +52,10 @@ p
           = f.file_field :image
           = f.hidden_field :image_cache
       .form
+        p
+          strong = 'Цена'
+        = f.number_field :price, required: true, value: "#{@product.price}"
+      .form
         = f.hidden_field :friendly_url, value: "#{@product.friendly_url}"
       .form-btn
         = f.submit('Обновить продукт', class: 'btn-primary')

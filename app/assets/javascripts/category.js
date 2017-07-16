@@ -36,8 +36,13 @@ $(document).ready(function() {
                 function (data) {
                     var box = $('.select-product');
                     box.empty();
-                    data.forEach (function(file){
-                        box.append("<tr><td><a href='/"+file.friendly_url+"'>"+file.product_title+"</a></td><td>"+file.documentation+"</td><td>"+file.price+ " руб."+ "</td></tr>");
+
+                    $.each(data.products_series, function(key, value){
+                        box.append(
+                            "<tr><td><a href='/"+value.friendly_url+"'>"+value.product_title+"</a></td>" +
+                                "<td>"+data.prices[key]+ " руб."+ "</td>" +
+                            "</tr>"
+                        );
                     });
                 }
             )

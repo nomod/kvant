@@ -92,6 +92,7 @@ $(document).ready(function() {
                         '<div class="form"><input type="radio" value="true" name="product[view_main]" id="product_view_main_true"><label for="product_view_main">Вывести на главную</label></div>'+
                         '<div class="form"><input type="radio" value="false" checked="checked" name="product[view_main]" id="product_view_main_false"><label for="product_view_main">Не выводить на главную</label></div>'+
                         '<div class="form"><input required="required" type="file" name="product[image]" id="product_image"></div>'+
+                        '<div class="form"><input value="" placeholder="Цена*" type="number" name="product[price]" id="product_price"></div>'+
                         '<div class="form"><input value="" type="hidden" name="product[friendly_url]" id="product_friendly_url"></div>'+
                         '<div class="form-btn"><input type="submit" name="commit" value="Добавить товар" class="btn-primary" data-disable-with="Добавить товар"></div>'
                     );

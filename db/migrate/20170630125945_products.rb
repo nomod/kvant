@@ -6,6 +6,7 @@ class Products < ActiveRecord::Migration[5.0]
       t.string :product_title
       t.boolean :view_main, defaut: false # выводить на главную или нет / по умолчанию нет
       t.string :image
+      t.integer :price
 
       t.timestamps
     end
