@@ -1,7 +1,7 @@
 module HeaderHelper
 
   def menu
-    @menu = Menu.all
+    @menu = Menu.all.order('id')
   end
 
   #накидываем класс highlighting на ссылку на текущий урл

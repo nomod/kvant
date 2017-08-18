@@ -95,3 +95,47 @@
   float: left;
   margin-right: 30px;
 }
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+  .form-block_left {
+    float: none;
+  }
+  .close_forma {
+    left: 660px;
+    top: -8px;
+  }
+  .fa-3x {
+    font-size: 4em;
+  }
+  #form_contact_face, #form_telephone, #form_email{
+    width: 90%;
+    height: 90px;
+    font-size: 33px;
+  }
+  #form_about_order {
+    width: 86%;
+    height: 300px;
+    font-size: 33px;
+  }
+  .new_form .form{
+    font-size: 40px;
+  }
+  .success {
+    font-size: 35px;
+  }
+  .error {
+    font-size: 30px;
+  }
+
+
+
+
+
+
+
+
+}

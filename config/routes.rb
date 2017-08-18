@@ -36,6 +36,11 @@ Rails.application.routes.draw do
   resources :menus
   resources :cards
   resources :productatrs
+
+  resources :search, only: [:index]
+  #переделываем запрос get на post для index страницы - гавёно, но при get запросе при поиске в строке передается параметр "utf8=✓" - хз как от него избавиться
+  post '/search',                           to: 'search#index'
+
   resources :parser, only: [:parser_site]
   resources :sessions, only: [:new, :create, :destroy]
 

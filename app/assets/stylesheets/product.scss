@@ -44,3 +44,41 @@
   margin-top: 40px;
   color: #3d6c8c;
 }
+
+
+
+@media only screen and (max-width: 1000px) {
+
+  .product_img {
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+    & img{
+      width: 100%;
+    }
+  }
+  .product_price {
+    font-size: 66px;
+  }
+  .product_description .product_description_title {
+    font-size: 55px;
+    margin-top: 66px;
+  }
+  .product_description table {
+    width: 100%;
+  }
+  .product_description .table-striped tr td{
+    font-size: 30px;
+    padding: 66px;
+  }
+
+
+
+
+
+
+
+
+
+}

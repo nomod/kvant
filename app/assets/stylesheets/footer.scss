@@ -98,4 +98,49 @@
     width: 100px;
   }
 }
+.mail_footer{
+  margin-top: 33px;
+  text-align: center;
 
+  & .hi-envelope a{
+    color:white;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+  .phone_block_footer{
+    display: none;
+  }
+  .footer .slogan{
+    display: none;
+  }
+  .logo_footer {
+    width: 100%;
+  }
+  .fa-2x {
+    font-size: 5em;
+  }
+  .social .fa {
+    width: 220px;
+  }
+  .mail_footer .hi-envelope a {
+    font-size: 33px;
+    text-decoration: none;
+  }
+  .hi-envelope:before {
+    font-size: 30px;
+  }
+  .logo_footer {
+    margin-right: 0px;
+    text-align: center;
+
+    & img{
+      width: 55%;
+    }
+  }
+
+}

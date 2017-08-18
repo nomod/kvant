@@ -11,34 +11,47 @@
         = link_to 'Медиа', images_path
         = link_to 'Формирование меню', menus_path
         = link_to 'Выйти из админской части', signout_path, method: 'delete'
-
 .wrap
   .header
+    // кнопка мобильного меню
+    .menu-button
+      i.fa.fa-bars
+
     .logo
       = link_to root_path
         img alt="" src="/assets/pictures/logo.png" /
     .phone_block
-      .phone
-        .phone_tel
-          i.hi.hi-phone
-            = link_to '8 (800) 200-90-22', 'tel:8(800)200-90-22'
-        .phone_city Россия (бесплатно)
-      .phone
-        .phone_tel
-          i.hi.hi-phone
-            = link_to '8 (812) 40-99-888', 'tel:8(812)40-99-888'
-        .phone_city Санкт-Петербург
-      .phone
-        .phone_tel
-          i.hi.hi-phone
-            = link_to '8 (495) 204-15-52', 'tel:8(495)204-15-52'
-        .phone_city Москва
-      .phone
-        .phone_tel
-          i.hi.hi-phone
-            = link_to '8 (343) 339-43-49', 'tel:8(343)339-43-49'
-        .phone_city Екатеринбург
+      .phone_block-1
+        .phone
+          .phone_tel
+            i.hi.hi-phone
+              = link_to '8 (800) 200-90-22', 'tel:8(800)200-90-22'
+          .phone_city Россия (бесплатно)
+        .phone
+          .phone_tel
+            i.hi.hi-phone
+              = link_to '8 (812) 40-99-888', 'tel:8(812)40-99-888'
+          .phone_city Санкт-Петербург
+      .phone_block-2
+        .phone
+          .phone_tel
+            i.hi.hi-phone
+              = link_to '8 (495) 204-15-52', 'tel:8(495)204-15-52'
+          .phone_city Москва
+        .phone
+          .phone_tel
+            i.hi.hi-phone
+              = link_to '8 (343) 339-43-49', 'tel:8(343)339-43-49'
+          .phone_city Екатеринбург
+      .info_header
+        .mail
+          i.hi.hi-envelope
+            = link_to 'info@kvant-energy.ru', 'mailto:info@kvant-energy.ru'
+        .attention
+          img alt='Опора России' src='/assets/pictures/opora.png' style=('margin-left: -132px;') width='300'/
     .clear
+
+    //десктопное меню
     .menu
       ul
         li.dropdown.single
@@ -65,7 +78,6 @@
               li
                 = link_to menu.point_name, '/'+menu.friendly_url, class: current_url('/'+menu.friendly_url)
                 // добавляем class для проверки текущего урл и его подсветки при совпадении
-
         li.single
           = link_to 'Цены', price_path, class: current_url(price_path)
 
@@ -103,12 +115,23 @@
           = link_to 'Контакты', contacts_path, class: current_url(contacts_path)
           // добавляем class для проверки текущего урл и его подсветки при совпадении
 
-    .info_header
-      .mail
-        i.hi.hi-envelope
-          = link_to 'info@kvant-energy.ru', 'mailto:info@kvant-energy.ru'
-      .attention
-        img alt='Опора России' src='/assets/pictures/opora.png' style=('margin-left: -132px;') width='300'/
+      //форма поиска по сайту
+      = form_tag search_index_path, class: 'search', method: 'post' do
+        = text_field_tag :search, params[:search], required: true, placeholder: 'Что ищем?*'
+        = submit_tag "Найти", class: 'btn-primary', name: nil
+
+
+    // мобильное меню
+    .menu_mobile
+      ul
+        - menu.each do |menu|
+          li.single
+            = link_to menu.point_name, '/'+menu.friendly_url, class: current_url('/'+menu.friendly_url)
+              // добавляем class для проверки текущего урл и его подсветки при совпадении
+
+    // затемняющая задний фон подложка при выдвижении мобильного меню
+    .menu_mobile_bg
+
     .clear
 
   //////////////////////  хлебные крошки  //////////////////////
