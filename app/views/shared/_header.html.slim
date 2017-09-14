@@ -6,7 +6,7 @@
         = link_to 'Продукты', products_path
         = link_to 'Посты', posts_path
         = link_to 'Карточки товара', cards_path
-        = link_to 'Аттрибуты для карточки', productatrs_path
+        = link_to 'Атрибуты для карточки', productatrs_path
         = link_to 'Заявки', forms_path
         = link_to 'Медиа', images_path
         = link_to 'Формирование меню', menus_path
@@ -128,6 +128,9 @@
           li.single
             = link_to menu.point_name, '/'+menu.friendly_url, class: current_url('/'+menu.friendly_url)
               // добавляем class для проверки текущего урл и его подсветки при совпадении
+        li.single
+          = link_to 'Контакты', contacts_path, class: current_url(contacts_path)
+          // добавляем class для проверки текущего урл и его подсветки при совпадении
 
     // затемняющая задний фон подложка при выдвижении мобильного меню
     .menu_mobile_bg

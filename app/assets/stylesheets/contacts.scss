@@ -1,8 +1,10 @@
 .tab-content{
 
   & .tab-pane{
-    margin-top: 33px;
+    //margin-top: 33px;
     font-size: 16px;
+    box-shadow: 2px 2px 4px 3px rgba(0,0,0,0.25);
+    padding: 28px;
   }
 
 }
@@ -31,6 +33,50 @@
       }
     }
   }
+
+
+}
+
+.nav-stacked li{
+ // width: 100%;
+}
+.contact_content ul{
+  width: 15%;
+  margin-right: 5%;
+}
+.tab-content{
+  width: 80%;
+}
+.contact_content{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .nav-stacked li {
+    //width: 100%;
+  }
+  .tab-content {
+    width: 65%;
+  }
+  .contact_content ul {
+    width: 30%;
+    margin-right: 5%;
+  }
+  .tab-content .tab-pane {
+    font-size: 32px;
+  }
+  .nav-stacked > li {
+    font-size: 30px;
+  }
+
+
+
+
+
+
 
 
 }

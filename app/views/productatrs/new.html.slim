@@ -1,6 +1,6 @@
-- @title = 'Добавление нового аттрибута'
+- @title = 'Добавление нового атрибута'
 
-h1 Добавление нового аттрибута
+h1 Добавление нового атрибута
 
 p
   = form_for @new_attr do |f|
@@ -12,8 +12,8 @@ p
             li = message
     .form-block
       .form
-        = f.text_field :attribute_rus_name, required: true, placeholder: 'Название аттрибута*', value: "#{@attribute_rus_name}"
+        = f.text_field :attribute_rus_name, required: true, placeholder: 'Название атрибута*', value: "#{@attribute_rus_name}"
       .form
         = f.hidden_field :attribute_name, value: ''
       .form-btn
-        = f.submit('Добавить новый аттрибут', class: 'btn-primary')
+        = f.submit('Добавить новый атрибут', class: 'btn-primary')

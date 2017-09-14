@@ -1,9 +1,12 @@
 - @title = 'Контакты'
 h2 Контакты
-ul.nav.nav-tabs.nav-justified
-  - @filials.each_with_index do |filial, index|
-    li
-      a data-toggle="tab" href="#panel#{index+1}" = filial.city
+
+.contact_content
+
+  ul.nav.nav-pills.nav-stacked
+    - @filials.each_with_index do |filial, index|
+      li
+        a data-toggle="tab" href="#panel#{index+1}" = filial.city
 
   .tab-content
     - @filials.each_with_index do |filial, index|

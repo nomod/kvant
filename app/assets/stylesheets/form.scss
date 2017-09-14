@@ -20,20 +20,19 @@
   margin-top: 20px;
   font-weight: bold;
  }
-.flying_area{
+.flying_area {
   width: 1182px;
-  text-align: center;
-  color: white;
-  font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
   position: fixed;
   bottom: 0;
-  background-image: linear-gradient(rgba(255,255,255,0) 0%, #fff 50%, #fff 100%);
+  background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, #fff 50%, #fff 100%);
   padding: 70px 0 80px;
   padding-bottom: 20px;
+  left: 14%;
 }
-.btn-modal_fix{
+.btn-modal_fix {
+  background-image: linear-gradient(rgba(255,255,255,0) 0%, #fff 50%, #fff 100%);
   background: red;
   width: 150px;
   text-align: center;
@@ -42,7 +41,13 @@
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
-  margin: auto;
+  opacity: 1;
+  z-index: 100;
+  display: none;
+  position: fixed;
+  float: left;
+  left: 46%;
+  top: 90%;
 }
 .btn-modal{
   background: red;
@@ -130,8 +135,12 @@
   .error {
     font-size: 30px;
   }
-
-
+  .btn-modal_fix {
+    left: 30%;
+  }
+  .flying_area {
+    left: 0%;
+  }
 
 
 
