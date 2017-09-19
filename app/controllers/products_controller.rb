@@ -116,6 +116,12 @@ class ProductsController < ApplicationController
 
 
   def edit
+
+    @product_attrs = Product_With_Attribute.new
+
+    #все возможные поля для карточки
+    @attrs = Productatr.all.order(:id)
+
     #текущий продукт
     @product = Product.find_by_friendly_url(params[:id])
 
@@ -154,42 +160,42 @@ class ProductsController < ApplicationController
     #текущий продукт
     @product = Product.find_by_id(params[:id])
 
-      if @product.update_attributes(product_params)
+    if @product.update_attributes(product_params)
 
-        #все поля, которые пришли в форме
-        @inputs = params[:product]
-        #перебираем поля
-        @inputs.each do |input|
+      #все поля, которые пришли в форме
+      @inputs = params[:product]
+      #перебираем поля
+      @inputs.each do |input|
 
-          #если это не общее поле продукта
-          if input != 'friendly_url' && input != 'category_id' && input != 'product_title' && input != 'view_main' && input != 'image' && input != 'price'
+        #если это не общее поле продукта
+        if input != 'friendly_url' && input != 'category_id' && input != 'product_title' && input != 'view_main' && input != 'image' && input != 'price'
 
-            #значение заполненных полей в форме
-            @value = params[:product][:"#{input}"]
+          #значение заполненных полей в форме
+          @value = params[:product][:"#{input}"]
 
-            #вынимаем характеристику целиком
-            @atr = Productatr.where(attribute_name: input)
+          #вынимаем характеристику целиком
+          @atr = Productatr.where(attribute_name: input)
 
-            #перебираем характеристику, чтобы вынуть её id
-            @atr.each do |at|
+          #перебираем характеристику, чтобы вынуть её id
+          @atr.each do |at|
 
-              #ищем характеристику в таблице Product_With_Attribute по двум параметрам
-              @atr_value = Product_With_Attribute.find_by(product_id: @product.id, product_atrs_id: at.id)
+            #ищем характеристику в таблице Product_With_Attribute по двум параметрам
+            @atr_value = Product_With_Attribute.find_by(product_id: @product.id, product_atrs_id: at.id)
 
-              #пишем новые значения характеристик в соединительную таблицу
-              @atr_value.update_attributes(value: @value)
-            end
-
+            #пишем новые значения характеристик в соединительную таблицу
+            @atr_value.update_attributes(value: @value)
           end
 
         end
 
-        flash[:success] = 'Продукт обновлен!'
-        redirect_to products_path
-
-      else
-        render 'edit'
       end
+
+      flash[:success] = 'Продукт обновлен!'
+      redirect_to products_path
+
+    else
+      render 'edit'
+    end
 
   end
 
@@ -236,55 +242,101 @@ class ProductsController < ApplicationController
 
   def create
 
-    @post = Post.find_by_friendly_url(params[:product][:friendly_url])
-    @category = Category.find_by_friendly_url(params[:product][:friendly_url])
-    @product = Product.find_by_friendly_url(params[:product][:friendly_url])
+    #если добавляем новое поле в товар
+    if params[:create_input_product]
+      #ищем поле по двум параметрам
+      @new_input_product = Product_With_Attribute.find_by(product_id: params[:product_with_attribute][:product_id], product_atrs_id: params[:product_with_attribute][:product_atrs_id])
 
-    #если товар с таким названием есть
-    if @post || @category || @product
+      @product = Product.find_by_id(params[:product_with_attribute][:product_id])
 
-      respond_to do |format|
-        format.json { render json: {text: 'Ошибка'}, status: 423 }
+      #если нашли
+      if @new_input_product
+        flash[:success] = 'Уже есть такое поле у карточки!'
+        redirect_to edit_product_path(@product.friendly_url)
+
+      #если не нашли, то добавляем
+      else
+        #пишем все в соединительную таблицу
+        Product_With_Attribute.create(product_id: params[:product_with_attribute][:product_id], product_atrs_id: params[:product_with_attribute][:product_atrs_id], value: nil)
+        flash[:success] = 'Добавлено новое поле в карточку!'
+        redirect_to edit_product_path(@product.friendly_url)
       end
 
-    #если нет, то добавляем товар
+    #если удаляем поле из карточки
+    elsif params[:delete_input_product]
+      #ищем поле по двум параметрам
+      @delete_input_product = Product_With_Attribute.find_by(product_id: params[:product_with_attribute][:product_id], product_atrs_id: params[:product_with_attribute][:product_atrs_id])
+
+      @product = Product.find_by_id(params[:product_with_attribute][:product_id])
+
+      #если нашли, то удаляем
+      if @delete_input_product
+        @delete_input_product.destroy
+        flash[:success] = 'Поле удалено из карточки!'
+        redirect_to edit_product_path(@product.friendly_url)
+
+      #если не нашли, то ошибка
+      else
+        flash[:success] = 'Что то пошло не так!'
+        redirect_to edit_product_path(@product.friendly_url)
+      end
+
+    #иначе просто добавляем новый товар
     else
-      @product = Product.new(product_params)
-      respond_to do |format|
-        if @product.save
-          format.json { render json: {text: 'Товар добавлен'}, status: 200 }
 
-          #все поля, которые пришли в форме
-          @inputs = params[:product]
-          #перебираем поля
-          @inputs.each do |input|
+      @post = Post.find_by_friendly_url(params[:product][:friendly_url])
+      @category = Category.find_by_friendly_url(params[:product][:friendly_url])
+      @product = Product.find_by_friendly_url(params[:product][:friendly_url])
 
-            #если это не общее поле продукта
-            if input != 'friendly_url' && input != 'category_id' && input != 'product_title' && input != 'view_main' && input != 'image' && input != 'price'
+      #если товар с таким названием есть
+      if @post || @category || @product
 
-              #значение заполненных полей в форме
-              @value = params[:product][:"#{input}"]
+        respond_to do |format|
+          format.json { render json: {text: 'Ошибка'}, status: 423 }
+        end
 
-              #вынимаем характеристику целиком
-              @atr = Productatr.where(attribute_name: input)
+        #если нет, то добавляем товар
+      else
+        @product = Product.new(product_params)
+        respond_to do |format|
+          if @product.save
+            format.json { render json: {text: 'Товар добавлен'}, status: 200 }
 
-              #перебираем характеристику, чтобы вынуть её id
-              @atr.each do |at|
+            #все поля, которые пришли в форме
+            @inputs = params[:product]
+            #перебираем поля
+            @inputs.each do |input|
 
-                #пишем все в соединительную таблицу
-                Product_With_Attribute.create(product_id: @product.id, product_atrs_id: at.id, value: @value)
+              #если это не общее поле продукта
+              if input != 'friendly_url' && input != 'category_id' && input != 'product_title' && input != 'view_main' && input != 'image' && input != 'price'
+
+                #значение заполненных полей в форме
+                @value = params[:product][:"#{input}"]
+
+                #вынимаем характеристику целиком
+                @atr = Productatr.where(attribute_name: input)
+
+                #перебираем характеристику, чтобы вынуть её id
+                @atr.each do |at|
+
+                  #пишем все в соединительную таблицу
+                  Product_With_Attribute.create(product_id: @product.id, product_atrs_id: at.id, value: @value)
+                end
+
               end
 
             end
 
+          else
+            format.json { render json: {text: 'Ошибка'}, status: 423 }
           end
-
-        else
-          format.json { render json: {text: 'Ошибка'}, status: 423 }
         end
+
       end
 
     end
+
+
 
   end
 
@@ -293,6 +345,10 @@ class ProductsController < ApplicationController
 
   def product_params
     params.require(:product).permit(:category_id, :product_title, :friendly_url, :view_main, :image, :price)
+  end
+
+  def input_product_params
+    params.require(:product_with_attribute).permit(:product_id, :product_atrs_id)
   end
 
   def signed_in_user
