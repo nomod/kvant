@@ -10,7 +10,11 @@ h1 = @product.product_title
 .product_features
   .product_img
     = image_tag "#{@product.image.product}"
-    .product_price = "Цена: #{@product.price}"
+
+    - if @product.price == 0
+      .product_price = 'Цена по запросу'
+    - else
+      .product_price = "Цена: #{@product.price}"
 
   .product_description
     .product_description_title Параметры

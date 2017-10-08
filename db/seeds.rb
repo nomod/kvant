@@ -8524,6 +8524,1595 @@ Product.create(
         #     view_main: false,
         #     image: open('public/img/upload_product/product_no_img.jpg')
         # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-1-250 кДж У3',
+        #     friendly_url: '11-do-1-250-kdj-u3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-1-300 кДж У4',
+        #     friendly_url: '11-do-1-300-kdj-u4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-1-450 кДж У7',
+        #     friendly_url: '11-do-1-450-kdj-u7',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-1,5-250 кДж У3',
+        #     friendly_url: '11-do-1-5-250-kdj-u3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-1,5-300 кДж У4',
+        #     friendly_url: '11-do-1-5-300-kdj-u4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-1,5-350 кДж У5',
+        #     friendly_url: '11-do-1-5-350-kdj-u5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-1,5-400 кДж У6',
+        #     friendly_url: '11-do-1-5-400-kdj-u6',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-2-190 кДж У2',
+        #     friendly_url: '11-do-2-190-kdj-u2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-2-250 кДж У3',
+        #     friendly_url: '11-do-2-250-kdj-u3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-2-300 кДж У4',
+        #     friendly_url: '11-do-2-300-kdj-u4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-2-350 кДж У5',
+        #     friendly_url: '11-do-2-350-kdj-u5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-2-400 кДж У6',
+        #     friendly_url: '11-do-2-400-kdj-u6',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-2-450 кДж У7',
+        #     friendly_url: '11-do-2-450-kdj-u7',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-2-500 кДж У8',
+        #     friendly_url: '11-do-2-500-kdj-u8',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-2-560 кДж У9',
+        #     friendly_url: '11-do-2-560-kdj-u9',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-2,5-190 кДж У2',
+        #     friendly_url: '11-do-2-5-190-kdj-u2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-2,5-250 кДж У3',
+        #     friendly_url: '11-do-2-5-250-kdj-u3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-3-130 кДж У1',
+        #     friendly_url: '11-do-3-130-kdj-u1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-3-190 кДж У2',
+        #     friendly_url: '11-do-3-190-kdj-u2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-3-250 кДж У3',
+        #     friendly_url: '11-do-3-250-kdj-u3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-3-300 кДж У4',
+        #     friendly_url: '11-do-3-300-kdj-u4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-3-350 кДж У5',
+        #     friendly_url: '11-do-3-350-kdj-u5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-4-130 кДж У1',
+        #     friendly_url: '11-do-4-130-kdj-u1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 165,
+        #     product_title: '11 ДО-4-190 кДж У2',
+        #     friendly_url: '11-do-4-190-kdj-u2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 166,
+        #     product_title: '11 ДД-2-300 кДж У4',
+        #     friendly_url: '11-dd-2-300-kdj-u4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 166,
+        #     product_title: '11 ДД-2-450 кДж У7',
+        #     friendly_url: '11-dd-2-450-kdj-u7',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 166,
+        #     product_title: '11 ДД-2-560 кДж У9',
+        #     friendly_url: '11-dd-2-560-kdj-u9',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 166,
+        #     product_title: '11 ДД-3-300 кДж У4',
+        #     friendly_url: '11-dd-3-300-kdj-u4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 166,
+        #     product_title: '11 ДД-3-350 кДж У5',
+        #     friendly_url: '11-dd-3-350-kdj-u5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 166,
+        #     product_title: '11 ДД-3-400 кДж У6',
+        #     friendly_url: '11-dd-3-400-kdj-u6',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 166,
+        #     product_title: '11 ДД-3-450 кДж У7',
+        #     friendly_url: '11-dd-3-450-kdj-u7',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 166,
+        #     product_title: '11 ДД-3-500 кДж У8',
+        #     friendly_url: '11-dd-3-500-kdj-u8',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я1',
+        #     friendly_url: 'psl-110ya1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я2',
+        #     friendly_url: 'psl-110ya2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я3',
+        #     friendly_url: 'psl-110ya3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я4',
+        #     friendly_url: 'psl-110ya4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я5',
+        #     friendly_url: 'psl-110ya5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я6',
+        #     friendly_url: 'psl-110ya6',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я7',
+        #     friendly_url: 'psl-110ya7',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я8',
+        #     friendly_url: 'psl-110ya8',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я9',
+        #     friendly_url: 'psl-110ya9',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я10',
+        #     friendly_url: 'psl-110ya10',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я11',
+        #     friendly_url: 'psl-110ya11',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я12',
+        #     friendly_url: 'psl-110ya12',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я1C',
+        #     friendly_url: 'psl-110ya1c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я2C',
+        #     friendly_url: 'psl-110ya2c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я3C',
+        #     friendly_url: 'psl-110ya3c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я4C',
+        #     friendly_url: 'psl-110ya4c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я5C',
+        #     friendly_url: 'psl-110ya5c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я6C',
+        #     friendly_url: 'psl-110ya6c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я7C',
+        #     friendly_url: 'psl-110ya7c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я8C',
+        #     friendly_url: 'psl-110ya8c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я9C',
+        #     friendly_url: 'psl-110ya9c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я10C',
+        #     friendly_url: 'psl-110ya10c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я11C',
+        #     friendly_url: 'psl-110ya11c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 172,
+        #     product_title: 'ПСЛ-110Я12C',
+        #     friendly_url: 'psl-110ya12c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я1',
+        #     friendly_url: 'pst-110ya1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я2',
+        #     friendly_url: 'pst-110ya2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я3',
+        #     friendly_url: 'pst-110ya3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я4',
+        #     friendly_url: 'pst-110ya4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я5',
+        #     friendly_url: 'pst-110ya5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я6',
+        #     friendly_url: 'pst-110ya6',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я7',
+        #     friendly_url: 'pst-110ya7',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я8',
+        #     friendly_url: 'pst-110ya8',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я9',
+        #     friendly_url: 'pst-110ya9',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я10',
+        #     friendly_url: 'pst-110ya10',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я11',
+        #     friendly_url: 'pst-110ya11',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я12',
+        #     friendly_url: 'pst-110ya12',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я1C',
+        #     friendly_url: 'pst-110ya1c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я2C',
+        #     friendly_url: 'pst-110ya2c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я3C',
+        #     friendly_url: 'pst-110ya3c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я4C',
+        #     friendly_url: 'pst-110ya4c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я5C',
+        #     friendly_url: 'pst-110ya5c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я6C',
+        #     friendly_url: 'pst-110ya6c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я7C',
+        #     friendly_url: 'pst-110ya7c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я8C',
+        #     friendly_url: 'pst-110ya8c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я9C',
+        #     friendly_url: 'pst-110ya9c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я10C',
+        #     friendly_url: 'pst-110ya10c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я11C',
+        #     friendly_url: 'pst-110ya11c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 168,
+        #     product_title: 'ПСТ-110Я12C',
+        #     friendly_url: 'pst-110ya12c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-35Ш',
+        #     friendly_url: 'ps-35sh',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-35Я1',
+        #     friendly_url: 'ps-35ya1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-35Я2',
+        #     friendly_url: 'ps-35ya2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-35Я3',
+        #     friendly_url: 'ps-35ya3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-35Я4',
+        #     friendly_url: 'ps-35ya4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-35Я5',
+        #     friendly_url: 'ps-35ya5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-35ШС',
+        #     friendly_url: 'ps-35shs',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-35Я1С',
+        #     friendly_url: 'ps-35ya1c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-35Я2С',
+        #     friendly_url: 'ps-35ya2c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-35Я3С',
+        #     friendly_url: 'ps-35ya3c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-35Я4С',
+        #     friendly_url: 'ps-35ya4c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-35Я5С',
+        #     friendly_url: 'ps-35ya5c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-110Ш',
+        #     friendly_url: 'ps-110sh',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-110ШС',
+        #     friendly_url: 'ps-110shs',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Ш',
+        #     friendly_url: 'ps-150sh',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я1',
+        #     friendly_url: 'ps-150ya1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я2',
+        #     friendly_url: 'ps-150ya2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я3',
+        #     friendly_url: 'ps-150ya3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я4',
+        #     friendly_url: 'ps-150ya4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я5',
+        #     friendly_url: 'ps-150ya5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я6',
+        #     friendly_url: 'ps-150ya6',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я7',
+        #     friendly_url: 'ps-150ya7',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150ШС',
+        #     friendly_url: 'ps-150shs',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я1C',
+        #     friendly_url: 'ps-150ya1c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я2C',
+        #     friendly_url: 'ps-150ya2c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я3C',
+        #     friendly_url: 'ps-150ya3c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я4C',
+        #     friendly_url: 'ps-150ya4c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я5C',
+        #     friendly_url: 'ps-150ya5c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я6C',
+        #     friendly_url: 'ps-150ya6c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-150Я7C',
+        #     friendly_url: 'ps-150ya7c',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-220Ш1',
+        #     friendly_url: 'ps-220sh1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-220Ш2',
+        #     friendly_url: 'ps-220sh2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-220Я1',
+        #     friendly_url: 'ps-220ya1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-220Я2',
+        #     friendly_url: 'ps-220ya2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-220Я3',
+        #     friendly_url: 'ps-220ya3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-220Я4',
+        #     friendly_url: 'ps-220ya4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-330Ш1',
+        #     friendly_url: 'ps-330sh1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-330П1',
+        #     friendly_url: 'ps-330p1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-330П2',
+        #     friendly_url: 'ps-330p2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-330П3',
+        #     friendly_url: 'ps-330p3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-330П4',
+        #     friendly_url: 'ps-330p4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-330Т1',
+        #     friendly_url: 'ps-330t1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-330Т2',
+        #     friendly_url: 'ps-330t2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-330Я1',
+        #     friendly_url: 'ps-330ya1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-330Я2',
+        #     friendly_url: 'ps-330ya2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-330Я3',
+        #     friendly_url: 'ps-330ya3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-330Я4',
+        #     friendly_url: 'ps-330ya4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Ш1',
+        #     friendly_url: 'ps-500-sh1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Ш2',
+        #     friendly_url: 'ps-500-sh2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-П1',
+        #     friendly_url: 'ps-500-p1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-П2',
+        #     friendly_url: 'ps-500-p2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Л1',
+        #     friendly_url: 'ps-500-l1',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Л2',
+        #     friendly_url: 'ps-500-l2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Л3',
+        #     friendly_url: 'ps-500-l3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Л4',
+        #     friendly_url: 'ps-500-l4',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Л5',
+        #     friendly_url: 'ps-500-l5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Л6',
+        #     friendly_url: 'ps-500-l6',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Л7',
+        #     friendly_url: 'ps-500-l7',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Л8',
+        #     friendly_url: 'ps-500-l8',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Л9',
+        #     friendly_url: 'ps-500-l9',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Л10',
+        #     friendly_url: 'ps-500-l10',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Л11',
+        #     friendly_url: 'ps-500-l11',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 171,
+        #     product_title: 'ПС-500-Л12',
+        #     friendly_url: 'ps-500-l12',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 08.25',
+        #     friendly_url: 'truba-lmg-mgk-08-25',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 08.30',
+        #     friendly_url: 'truba-lmg-mgk-08-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 10.25',
+        #     friendly_url: 'truba-lmg-mgk-10-25',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 10.30',
+        #     friendly_url: 'truba-lmg-mgk-10-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 15.25',
+        #     friendly_url: 'truba-lmg-mgk-15-25',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 15.30',
+        #     friendly_url: 'truba-lmg-mgk-15-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 20.25',
+        #     friendly_url: 'truba-lmg-mgk-20-25',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 20.30',
+        #     friendly_url: 'truba-lmg-mgk-20-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 25.25',
+        #     friendly_url: 'truba-lmg-mgk-25-25',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 25.30',
+        #     friendly_url: 'truba-lmg-mgk-25-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 30.25',
+        #     friendly_url: 'truba-lmg-mgk-30-25',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 30.30',
+        #     friendly_url: 'truba-lmg-mgk-30-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 10.30',
+        #     friendly_url: 'truba-lmg-mgk-10-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 10.40',
+        #     friendly_url: 'truba-lmg-mgk-10-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 10.50',
+        #     friendly_url: 'truba-lmg-mgk-10-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 15.30',
+        #     friendly_url: 'truba-lmg-mgk-15-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 15.40',
+        #     friendly_url: 'truba-lmg-mgk-15-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 15.50',
+        #     friendly_url: 'truba-lmg-mgk-15-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 15.60',
+        #     friendly_url: 'truba-lmg-mgk-15-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 15.70',
+        #     friendly_url: 'truba-lmg-mgk-15-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 20.30',
+        #     friendly_url: 'truba-lmg-mgk-20-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 20.40',
+        #     friendly_url: 'truba-lmg-mgk-20-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 20.50',
+        #     friendly_url: 'truba-lmg-mgk-20-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 20.60',
+        #     friendly_url: 'truba-lmg-mgk-20-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 20.70',
+        #     friendly_url: 'truba-lmg-mgk-20-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 25.30',
+        #     friendly_url: 'truba-lmg-mgk-25-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 25.40',
+        #     friendly_url: 'truba-lmg-mgk-25-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 25.50',
+        #     friendly_url: 'truba-lmg-mgk-25-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 25.60',
+        #     friendly_url: 'truba-lmg-mgk-25-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 25.70',
+        #     friendly_url: 'truba-lmg-mgk-25-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 30.30',
+        #     friendly_url: 'truba-lmg-mgk-30-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 30.40',
+        #     friendly_url: 'truba-lmg-mgk-30-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 30.50',
+        #     friendly_url: 'truba-lmg-mgk-30-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 30.60',
+        #     friendly_url: 'truba-lmg-mgk-30-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 30.70',
+        #     friendly_url: 'truba-lmg-mgk-30-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 35.30',
+        #     friendly_url: 'truba-lmg-mgk-35-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 35.40',
+        #     friendly_url: 'truba-lmg-mgk-35-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 35.50',
+        #     friendly_url: 'truba-lmg-mgk-35-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 35.60',
+        #     friendly_url: 'truba-lmg-mgk-35-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 35.70',
+        #     friendly_url: 'truba-lmg-mgk-35-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 40.30',
+        #     friendly_url: 'truba-lmg-mgk-40-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 40.40',
+        #     friendly_url: 'truba-lmg-mgk-40-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 40.50',
+        #     friendly_url: 'truba-lmg-mgk-40-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 40.60',
+        #     friendly_url: 'truba-lmg-mgk-40-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 40.70',
+        #     friendly_url: 'truba-lmg-mgk-40-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 45.30',
+        #     friendly_url: 'truba-lmg-mgk-45-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 45.40',
+        #     friendly_url: 'truba-lmg-mgk-45-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 45.50',
+        #     friendly_url: 'truba-lmg-mgk-45-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 45.60',
+        #     friendly_url: 'truba-lmg-mgk-45-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 45.70',
+        #     friendly_url: 'truba-lmg-mgk-45-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 50.30',
+        #     friendly_url: 'truba-lmg-mgk-50-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 50.40',
+        #     friendly_url: 'truba-lmg-mgk-50-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 50.50',
+        #     friendly_url: 'truba-lmg-mgk-50-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 50.60',
+        #     friendly_url: 'truba-lmg-mgk-50-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 50.70',
+        #     friendly_url: 'truba-lmg-mgk-50-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 55.30',
+        #     friendly_url: 'truba-lmg-mgk-55-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 55.40',
+        #     friendly_url: 'truba-lmg-mgk-55-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 55.50',
+        #     friendly_url: 'truba-lmg-mgk-55-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 55.60',
+        #     friendly_url: 'truba-lmg-mgk-55-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 55.70',
+        #     friendly_url: 'truba-lmg-mgk-55-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 60.30',
+        #     friendly_url: 'truba-lmg-mgk-60-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 60.40',
+        #     friendly_url: 'truba-lmg-mgk-60-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 60.50',
+        #     friendly_url: 'truba-lmg-mgk-60-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 60.60',
+        #     friendly_url: 'truba-lmg-mgk-60-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 60.70',
+        #     friendly_url: 'truba-lmg-mgk-60-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 65.30',
+        #     friendly_url: 'truba-lmg-mgk-65-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 65.40',
+        #     friendly_url: 'truba-lmg-mgk-65-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 65.50',
+        #     friendly_url: 'truba-lmg-mgk-65-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 65.60',
+        #     friendly_url: 'truba-lmg-mgk-65-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 65.70',
+        #     friendly_url: 'truba-lmg-mgk-65-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 70.30',
+        #     friendly_url: 'truba-lmg-mgk-70-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 70.40',
+        #     friendly_url: 'truba-lmg-mgk-70-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 70.50',
+        #     friendly_url: 'truba-lmg-mgk-70-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 70.60',
+        #     friendly_url: 'truba-lmg-mgk-70-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 75.30',
+        #     friendly_url: 'truba-lmg-mgk-75-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 75.40',
+        #     friendly_url: 'truba-lmg-mgk-75-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 75.50',
+        #     friendly_url: 'truba-lmg-mgk-75-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 75.60',
+        #     friendly_url: 'truba-lmg-mgk-75-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 75.70',
+        #     friendly_url: 'truba-lmg-mgk-75-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 80.30',
+        #     friendly_url: 'truba-lmg-mgk-80-30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 80.40',
+        #     friendly_url: 'truba-lmg-mgk-80-40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 80.50',
+        #     friendly_url: 'truba-lmg-mgk-80-50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 80.60',
+        #     friendly_url: 'truba-lmg-mgk-80-60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 32,
+        #     product_title: 'Труба ЛМГ (МГК) 80.70',
+        #     friendly_url: 'truba-lmg-mgk-80-70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
     ]
 )
 
@@ -47209,7 +48798,5841 @@ Product_With_Attribute.create(
         #     product_atrs_id: '93',
         #     value: 'горячий цинк',
         # },
-
+        # {
+        #     product_id:'1161',
+        #     product_atrs_id: '19',
+        #     value: '1',
+        # },
+        # {
+        #     product_id:'1161',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1161',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1161',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1161',
+        #     product_atrs_id: '9',
+        #     value: '250',
+        # },
+        # {
+        #     product_id:'1161',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1162',
+        #     product_atrs_id: '19',
+        #     value: '1',
+        # },
+        # {
+        #     product_id:'1162',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1162',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1162',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1162',
+        #     product_atrs_id: '9',
+        #     value: '300',
+        # },
+        # {
+        #     product_id:'1162',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1163',
+        #     product_atrs_id: '19',
+        #     value: '1',
+        # },
+        # {
+        #     product_id:'1163',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1163',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1163',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1163',
+        #     product_atrs_id: '9',
+        #     value: '450',
+        # },
+        # {
+        #     product_id:'1163',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1164',
+        #     product_atrs_id: '19',
+        #     value: '1,5',
+        # },
+        # {
+        #     product_id:'1164',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1164',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1164',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1164',
+        #     product_atrs_id: '9',
+        #     value: '300',
+        # },
+        # {
+        #     product_id:'1164',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1165',
+        #     product_atrs_id: '19',
+        #     value: '1,5',
+        # },
+        # {
+        #     product_id:'1165',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1165',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1165',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1165',
+        #     product_atrs_id: '9',
+        #     value: '300',
+        # },
+        # {
+        #     product_id:'1165',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1166',
+        #     product_atrs_id: '19',
+        #     value: '1,5',
+        # },
+        # {
+        #     product_id:'1166',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1166',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1166',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1166',
+        #     product_atrs_id: '9',
+        #     value: '350',
+        # },
+        # {
+        #     product_id:'1166',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1167',
+        #     product_atrs_id: '19',
+        #     value: '1,5',
+        # },
+        # {
+        #     product_id:'1167',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1167',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1167',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1167',
+        #     product_atrs_id: '9',
+        #     value: '400',
+        # },
+        # {
+        #     product_id:'1167',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1168',
+        #     product_atrs_id: '19',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1168',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1168',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1168',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1168',
+        #     product_atrs_id: '9',
+        #     value: '190',
+        # },
+        # {
+        #     product_id:'1168',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1169',
+        #     product_atrs_id: '19',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1169',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1169',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1169',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1169',
+        #     product_atrs_id: '9',
+        #     value: '250',
+        # },
+        # {
+        #     product_id:'1169',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1170',
+        #     product_atrs_id: '19',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1170',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1170',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1170',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1170',
+        #     product_atrs_id: '9',
+        #     value: '300',
+        # },
+        # {
+        #     product_id:'1170',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1171',
+        #     product_atrs_id: '19',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1171',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1171',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1171',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1171',
+        #     product_atrs_id: '9',
+        #     value: '350',
+        # },
+        # {
+        #     product_id:'1171',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1172',
+        #     product_atrs_id: '19',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1172',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1172',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1172',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1172',
+        #     product_atrs_id: '9',
+        #     value: '400',
+        # },
+        # {
+        #     product_id:'1172',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1173',
+        #     product_atrs_id: '19',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1173',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1173',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1173',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1173',
+        #     product_atrs_id: '9',
+        #     value: '450',
+        # },
+        # {
+        #     product_id:'1173',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1174',
+        #     product_atrs_id: '19',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1174',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1174',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1174',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1174',
+        #     product_atrs_id: '9',
+        #     value: '500',
+        # },
+        # {
+        #     product_id:'1174',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1175',
+        #     product_atrs_id: '19',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1175',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1175',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1175',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1175',
+        #     product_atrs_id: '9',
+        #     value: '560',
+        # },
+        # {
+        #     product_id:'1175',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1176',
+        #     product_atrs_id: '19',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1176',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1176',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1176',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1176',
+        #     product_atrs_id: '9',
+        #     value: '190',
+        # },
+        # {
+        #     product_id:'1176',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1177',
+        #     product_atrs_id: '19',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1177',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1177',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1177',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1177',
+        #     product_atrs_id: '9',
+        #     value: '190',
+        # },
+        # {
+        #     product_id:'1177',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1178',
+        #     product_atrs_id: '19',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1178',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1178',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1178',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1178',
+        #     product_atrs_id: '9',
+        #     value: '130',
+        # },
+        # {
+        #     product_id:'1178',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1179',
+        #     product_atrs_id: '19',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1179',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1179',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1179',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1179',
+        #     product_atrs_id: '9',
+        #     value: '190',
+        # },
+        # {
+        #     product_id:'1179',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1180',
+        #     product_atrs_id: '19',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1180',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1180',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1180',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1180',
+        #     product_atrs_id: '9',
+        #     value: '250',
+        # },
+        # {
+        #     product_id:'1180',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1181',
+        #     product_atrs_id: '19',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1181',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1181',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1181',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1181',
+        #     product_atrs_id: '9',
+        #     value: '250',
+        # },
+        # {
+        #     product_id:'1181',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1182',
+        #     product_atrs_id: '19',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1182',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1182',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1182',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1182',
+        #     product_atrs_id: '9',
+        #     value: '350',
+        # },
+        # {
+        #     product_id:'1182',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1183',
+        #     product_atrs_id: '19',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1183',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1183',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1183',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1183',
+        #     product_atrs_id: '9',
+        #     value: '130',
+        # },
+        # {
+        #     product_id:'1183',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1184',
+        #     product_atrs_id: '19',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1184',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1184',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1184',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1184',
+        #     product_atrs_id: '9',
+        #     value: '190',
+        # },
+        # {
+        #     product_id:'1184',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1185',
+        #     product_atrs_id: '19',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1185',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1185',
+        #     product_atrs_id: '5',
+        #     value: '2320',
+        # },
+        # {
+        #     product_id:'1185',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1185',
+        #     product_atrs_id: '9',
+        #     value: '300',
+        # },
+        # {
+        #     product_id:'1185',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1186',
+        #     product_atrs_id: '19',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1186',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1186',
+        #     product_atrs_id: '5',
+        #     value: '2320',
+        # },
+        # {
+        #     product_id:'1186',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1186',
+        #     product_atrs_id: '9',
+        #     value: '450',
+        # },
+        # {
+        #     product_id:'1186',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1187',
+        #     product_atrs_id: '19',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1187',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1187',
+        #     product_atrs_id: '5',
+        #     value: '2320',
+        # },
+        # {
+        #     product_id:'1187',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1187',
+        #     product_atrs_id: '9',
+        #     value: '560',
+        # },
+        # {
+        #     product_id:'1187',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1188',
+        #     product_atrs_id: '19',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1188',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1188',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1188',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1188',
+        #     product_atrs_id: '9',
+        #     value: '300',
+        # },
+        # {
+        #     product_id:'1188',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1189',
+        #     product_atrs_id: '19',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1189',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1189',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1189',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1189',
+        #     product_atrs_id: '9',
+        #     value: '350',
+        # },
+        # {
+        #     product_id:'1189',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1190',
+        #     product_atrs_id: '19',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1190',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1190',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1190',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1190',
+        #     product_atrs_id: '9',
+        #     value: '400',
+        # },
+        # {
+        #     product_id:'1190',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1191',
+        #     product_atrs_id: '19',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1191',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1191',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1191',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1191',
+        #     product_atrs_id: '9',
+        #     value: '450',
+        # },
+        # {
+        #     product_id:'1191',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1192',
+        #     product_atrs_id: '19',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1192',
+        #     product_atrs_id: '1',
+        #     value: 'ГОСТ Р 52607-2006, ГОСТ 26804-12, ГОСТ 26804-86',
+        # },
+        # {
+        #     product_id:'1192',
+        #     product_atrs_id: '5',
+        #     value: '4320',
+        # },
+        # {
+        #     product_id:'1192',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1192',
+        #     product_atrs_id: '9',
+        #     value: '450',
+        # },
+        # {
+        #     product_id:'1192',
+        #     product_atrs_id: '20',
+        #     value: 'горячий цинк',
+        # },
+        # {
+        #     product_id:'1193',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1193',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1193',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1193',
+        #     product_atrs_id: '86',
+        #     value: '1781',
+        # },
+        # {
+        #     product_id:'1193',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1194',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1194',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1194',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1194',
+        #     product_atrs_id: '86',
+        #     value: '1926',
+        # },
+        # {
+        #     product_id:'1194',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1195',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1195',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1195',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1195',
+        #     product_atrs_id: '86',
+        #     value: '2036',
+        # },
+        # {
+        #     product_id:'1195',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1196',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1196',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1196',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1196',
+        #     product_atrs_id: '86',
+        #     value: '3236',
+        # },
+        # {
+        #     product_id:'1196',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1197',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1197',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1197',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1197',
+        #     product_atrs_id: '86',
+        #     value: '4225',
+        # },
+        # {
+        #     product_id:'1197',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1198',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1198',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1198',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1198',
+        #     product_atrs_id: '86',
+        #     value: '3935',
+        # },
+        # {
+        #     product_id:'1198',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1199',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1199',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1199',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1199',
+        #     product_atrs_id: '86',
+        #     value: '4401',
+        # },
+        # {
+        #     product_id:'1199',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1200',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1200',
+        #     product_atrs_id: '18',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1200',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1200',
+        #     product_atrs_id: '86',
+        #     value: '5566',
+        # },
+        # {
+        #     product_id:'1200',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1201',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1201',
+        #     product_atrs_id: '18',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1201',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1201',
+        #     product_atrs_id: '86',
+        #     value: '6766',
+        # },
+        # {
+        #     product_id:'1201',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1202',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1202',
+        #     product_atrs_id: '18',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1202',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1202',
+        #     product_atrs_id: '86',
+        #     value: '6502',
+        # },
+        # {
+        #     product_id:'1202',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1203',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1203',
+        #     product_atrs_id: '18',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1203',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1203',
+        #     product_atrs_id: '86',
+        #     value: '6533',
+        # },
+        # {
+        #     product_id:'1203',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1204',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1204',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1204',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1204',
+        #     product_atrs_id: '86',
+        #     value: '4080',
+        # },
+        # {
+        #     product_id:'1204',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1205',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1205',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1205',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1205',
+        #     product_atrs_id: '86',
+        #     value: '1691',
+        # },
+        # {
+        #     product_id:'1205',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1206',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1206',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1206',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1206',
+        #     product_atrs_id: '86',
+        #     value: '1833',
+        # },
+        # {
+        #     product_id:'1206',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1207',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1207',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1207',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1207',
+        #     product_atrs_id: '86',
+        #     value: '1941',
+        # },
+        # {
+        #     product_id:'1207',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1208',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1208',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1208',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1208',
+        #     product_atrs_id: '86',
+        #     value: '3080',
+        # },
+        # {
+        #     product_id:'1208',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1209',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1209',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1209',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1209',
+        #     product_atrs_id: '86',
+        #     value: '4013',
+        # },
+        # {
+        #     product_id:'1209',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1210',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1210',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1210',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1210',
+        #     product_atrs_id: '86',
+        #     value: '3729',
+        # },
+        # {
+        #     product_id:'1210',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1211',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1211',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1211',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1211',
+        #     product_atrs_id: '86',
+        #     value: '4185',
+        # },
+        # {
+        #     product_id:'1211',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1212',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1212',
+        #     product_atrs_id: '18',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1212',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1212',
+        #     product_atrs_id: '86',
+        #     value: '5290',
+        # },
+        # {
+        #     product_id:'1212',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1213',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1213',
+        #     product_atrs_id: '18',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1213',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1213',
+        #     product_atrs_id: '86',
+        #     value: '6429',
+        # },
+        # {
+        #     product_id:'1213',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1214',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1214',
+        #     product_atrs_id: '18',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1214',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1214',
+        #     product_atrs_id: '86',
+        #     value: '6171',
+        # },
+        # {
+        #     product_id:'1214',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1215',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1215',
+        #     product_atrs_id: '18',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1215',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1215',
+        #     product_atrs_id: '86',
+        #     value: '6201',
+        # },
+        # {
+        #     product_id:'1215',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1216',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1216',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1216',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1216',
+        #     product_atrs_id: '86',
+        #     value: '3871',
+        # },
+        # {
+        #     product_id:'1216',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1217',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1217',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1217',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1217',
+        #     product_atrs_id: '86',
+        #     value: '2263',
+        # },
+        # {
+        #     product_id:'1217',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1218',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1218',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1218',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1218',
+        #     product_atrs_id: '86',
+        #     value: '2408',
+        # },
+        # {
+        #     product_id:'1218',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1219',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1219',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1219',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1219',
+        #     product_atrs_id: '86',
+        #     value: '2518',
+        # },
+        # {
+        #     product_id:'1219',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1220',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1220',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1220',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1220',
+        #     product_atrs_id: '86',
+        #     value: '3959',
+        # },
+        # {
+        #     product_id:'1220',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1221',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1221',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1221',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1221',
+        #     product_atrs_id: '86',
+        #     value: '5189',
+        # },
+        # {
+        #     product_id:'1221',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1222',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1222',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1222',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1222',
+        #     product_atrs_id: '86',
+        #     value: '4899',
+        # },
+        # {
+        #     product_id:'1222',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1223',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1223',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1223',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1223',
+        #     product_atrs_id: '86',
+        #     value: '5365',
+        # },
+        # {
+        #     product_id:'1223',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1224',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1224',
+        #     product_atrs_id: '18',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1224',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1224',
+        #     product_atrs_id: '86',
+        #     value: '6771',
+        # },
+        # {
+        #     product_id:'1224',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1225',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1225',
+        #     product_atrs_id: '18',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1225',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1225',
+        #     product_atrs_id: '86',
+        #     value: '8212',
+        # },
+        # {
+        #     product_id:'1225',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1226',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1226',
+        #     product_atrs_id: '18',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1226',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1226',
+        #     product_atrs_id: '86',
+        #     value: '7948',
+        # },
+        # {
+        #     product_id:'1226',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1227',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1227',
+        #     product_atrs_id: '18',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1227',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1227',
+        #     product_atrs_id: '86',
+        #     value: '7979',
+        # },
+        # {
+        #     product_id:'1227',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1228',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1228',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1228',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1228',
+        #     product_atrs_id: '86',
+        #     value: '5044',
+        # },
+        # {
+        #     product_id:'1228',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1229',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1229',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1229',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1229',
+        #     product_atrs_id: '86',
+        #     value: '2033',
+        # },
+        # {
+        #     product_id:'1229',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1230',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1230',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1230',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1230',
+        #     product_atrs_id: '86',
+        #     value: '2175',
+        # },
+        # {
+        #     product_id:'1230',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1231',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1231',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1231',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1231',
+        #     product_atrs_id: '86',
+        #     value: '2283',
+        # },
+        # {
+        #     product_id:'1231',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1232',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1232',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1232',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1232',
+        #     product_atrs_id: '86',
+        #     value: '3593',
+        # },
+        # {
+        #     product_id:'1232',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1233',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1233',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1233',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1233',
+        #     product_atrs_id: '86',
+        #     value: '4697',
+        # },
+        # {
+        #     product_id:'1233',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1234',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1234',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1234',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1234',
+        #     product_atrs_id: '86',
+        #     value: '4413',
+        # },
+        # {
+        #     product_id:'1234',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1235',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1235',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1235',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1235',
+        #     product_atrs_id: '86',
+        #     value: '4869',
+        # },
+        # {
+        #     product_id:'1235',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1236',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1236',
+        #     product_atrs_id: '18',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1236',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1236',
+        #     product_atrs_id: '86',
+        #     value: '6145',
+        # },
+        # {
+        #     product_id:'1236',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1237',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1237',
+        #     product_atrs_id: '18',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1237',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1237',
+        #     product_atrs_id: '86',
+        #     value: '7455',
+        # },
+        # {
+        #     product_id:'1237',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1238',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1238',
+        #     product_atrs_id: '18',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1238',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1238',
+        #     product_atrs_id: '86',
+        #     value: '7197',
+        # },
+        # {
+        #     product_id:'1238',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1239',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1239',
+        #     product_atrs_id: '18',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1239',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1239',
+        #     product_atrs_id: '86',
+        #     value: '7227',
+        # },
+        # {
+        #     product_id:'1239',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1240',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1240',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1240',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1240',
+        #     product_atrs_id: '86',
+        #     value: '4555',
+        # },
+        # {
+        #     product_id:'1240',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1241',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1241',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1241',
+        #     product_atrs_id: '8',
+        #     value: '6,1',
+        # },
+        # {
+        #     product_id:'1241',
+        #     product_atrs_id: '86',
+        #     value: '768',
+        # },
+        # {
+        #     product_id:'1241',
+        #     product_atrs_id: '2',
+        #     value: 'шинный',
+        # },
+        # {
+        #     product_id:'1242',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1242',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1242',
+        #     product_atrs_id: '8',
+        #     value: '7,85',
+        # },
+        # {
+        #     product_id:'1242',
+        #     product_atrs_id: '86',
+        #     value: '1076',
+        # },
+        # {
+        #     product_id:'1242',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1243',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1243',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1243',
+        #     product_atrs_id: '8',
+        #     value: '7,85',
+        # },
+        # {
+        #     product_id:'1243',
+        #     product_atrs_id: '86',
+        #     value: '1221',
+        # },
+        # {
+        #     product_id:'1243',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1244',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1244',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1244',
+        #     product_atrs_id: '8',
+        #     value: '7,85',
+        # },
+        # {
+        #     product_id:'1244',
+        #     product_atrs_id: '86',
+        #     value: '1331',
+        # },
+        # {
+        #     product_id:'1244',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1245',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1245',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1245',
+        #     product_atrs_id: '8',
+        #     value: '7,85',
+        # },
+        # {
+        #     product_id:'1245',
+        #     product_atrs_id: '86',
+        #     value: '2092',
+        # },
+        # {
+        #     product_id:'1245',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1246',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1246',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1246',
+        #     product_atrs_id: '8',
+        #     value: '7,85',
+        # },
+        # {
+        #     product_id:'1246',
+        #     product_atrs_id: '86',
+        #     value: '2092',
+        # },
+        # {
+        #     product_id:'1246',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1247',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1247',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1247',
+        #     product_atrs_id: '8',
+        #     value: '6,1',
+        # },
+        # {
+        #     product_id:'1247',
+        #     product_atrs_id: '86',
+        #     value: '647',
+        # },
+        # {
+        #     product_id:'1247',
+        #     product_atrs_id: '2',
+        #     value: 'шинный',
+        # },
+        # {
+        #     product_id:'1248',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1248',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1248',
+        #     product_atrs_id: '8',
+        #     value: '7,85',
+        # },
+        # {
+        #     product_id:'1248',
+        #     product_atrs_id: '86',
+        #     value: '1076',
+        # },
+        # {
+        #     product_id:'1248',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1249',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1249',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1249',
+        #     product_atrs_id: '8',
+        #     value: '7,85',
+        # },
+        # {
+        #     product_id:'1249',
+        #     product_atrs_id: '86',
+        #     value: '1218',
+        # },
+        # {
+        #     product_id:'1249',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1250',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1250',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1250',
+        #     product_atrs_id: '8',
+        #     value: '7,85',
+        # },
+        # {
+        #     product_id:'1250',
+        #     product_atrs_id: '86',
+        #     value: '1326',
+        # },
+        # {
+        #     product_id:'1250',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1251',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1251',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1251',
+        #     product_atrs_id: '8',
+        #     value: '7,85',
+        # },
+        # {
+        #     product_id:'1251',
+        #     product_atrs_id: '86',
+        #     value: '2085',
+        # },
+        # {
+        #     product_id:'1251',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1252',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1252',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1252',
+        #     product_atrs_id: '8',
+        #     value: '7,85',
+        # },
+        # {
+        #     product_id:'1252',
+        #     product_atrs_id: '86',
+        #     value: '2085',
+        # },
+        # {
+        #     product_id:'1252',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1253',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1253',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1253',
+        #     product_atrs_id: '8',
+        #     value: '7,85',
+        # },
+        # {
+        #     product_id:'1253',
+        #     product_atrs_id: '86',
+        #     value: '1076',
+        # },
+        # {
+        #     product_id:'1253',
+        #     product_atrs_id: '2',
+        #     value: 'шинный',
+        # },
+        # {
+        #     product_id:'1254',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1254',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1254',
+        #     product_atrs_id: '8',
+        #     value: '7,85',
+        # },
+        # {
+        #     product_id:'1254',
+        #     product_atrs_id: '86',
+        #     value: '1076',
+        # },
+        # {
+        #     product_id:'1254',
+        #     product_atrs_id: '2',
+        #     value: 'шинный',
+        # },
+        # {
+        #     product_id:'1255',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1255',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1255',
+        #     product_atrs_id: '8',
+        #     value: '8,2',
+        # },
+        # {
+        #     product_id:'1255',
+        #     product_atrs_id: '86',
+        #     value: '1121',
+        # },
+        # {
+        #     product_id:'1255',
+        #     product_atrs_id: '2',
+        #     value: 'шинный',
+        # },
+        # {
+        #     product_id:'1256',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1256',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1256',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1256',
+        #     product_atrs_id: '86',
+        #     value: '2589',
+        # },
+        # {
+        #     product_id:'1256',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1257',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1257',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1257',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1257',
+        #     product_atrs_id: '86',
+        #     value: '2840',
+        # },
+        # {
+        #     product_id:'1257',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1258',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1258',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1258',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1258',
+        #     product_atrs_id: '86',
+        #     value: '2985',
+        # },
+        # {
+        #     product_id:'1258',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1259',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1259',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1259',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1259',
+        #     product_atrs_id: '86',
+        #     value: '4773',
+        # },
+        # {
+        #     product_id:'1259',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1260',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1260',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1260',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1260',
+        #     product_atrs_id: '86',
+        #     value: '6209',
+        # },
+        # {
+        #     product_id:'1260',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1261',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1261',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1261',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1261',
+        #     product_atrs_id: '86',
+        #     value: '5707',
+        # },
+        # {
+        #     product_id:'1261',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1262',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1262',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1262',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1262',
+        #     product_atrs_id: '86',
+        #     value: '6455',
+        # },
+        # {
+        #     product_id:'1262',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1263',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1263',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1263',
+        #     product_atrs_id: '8',
+        #     value: '8,8',
+        # },
+        # {
+        #     product_id:'1263',
+        #     product_atrs_id: '86',
+        #     value: '1121',
+        # },
+        # {
+        #     product_id:'1263',
+        #     product_atrs_id: '2',
+        #     value: 'шинный',
+        # },
+        # {
+        #     product_id:'1264',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1264',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1264',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1264',
+        #     product_atrs_id: '86',
+        #     value: '2488',
+        # },
+        # {
+        #     product_id:'1264',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1265',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1265',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1265',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1265',
+        #     product_atrs_id: '86',
+        #     value: '2739',
+        # },
+        # {
+        #     product_id:'1265',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1266',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1266',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1266',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1266',
+        #     product_atrs_id: '86',
+        #     value: '2884',
+        # },
+        # {
+        #     product_id:'1266',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1267',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1267',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1267',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1267',
+        #     product_atrs_id: '86',
+        #     value: '4621',
+        # },
+        # {
+        #     product_id:'1267',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1268',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1268',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1268',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1268',
+        #     product_atrs_id: '86',
+        #     value: '6006',
+        # },
+        # {
+        #     product_id:'1268',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1269',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1269',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1269',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1269',
+        #     product_atrs_id: '86',
+        #     value: '5504',
+        # },
+        # {
+        #     product_id:'1269',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1270',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1270',
+        #     product_atrs_id: '18',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1270',
+        #     product_atrs_id: '8',
+        #     value: '12,92 (13,12)',
+        # },
+        # {
+        #     product_id:'1270',
+        #     product_atrs_id: '86',
+        #     value: '6252',
+        # },
+        # {
+        #     product_id:'1270',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1271',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1271',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1271',
+        #     product_atrs_id: '8',
+        #     value: '11,35',
+        # },
+        # {
+        #     product_id:'1271',
+        #     product_atrs_id: '86',
+        #     value: '2193',
+        # },
+        # {
+        #     product_id:'1271',
+        #     product_atrs_id: '2',
+        #     value: 'шинный',
+        # },
+        # {
+        #     product_id:'1272',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1272',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1272',
+        #     product_atrs_id: '8',
+        #     value: '11,35 (11,55)',
+        # },
+        # {
+        #     product_id:'1272',
+        #     product_atrs_id: '86',
+        #     value: '2683',
+        # },
+        # {
+        #     product_id:'1272',
+        #     product_atrs_id: '2',
+        #     value: 'шинный',
+        # },
+        # {
+        #     product_id:'1273',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1273',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1273',
+        #     product_atrs_id: '8',
+        #     value: '17 (17,2)',
+        # },
+        # {
+        #     product_id:'1273',
+        #     product_atrs_id: '86',
+        #     value: '4807',
+        # },
+        # {
+        #     product_id:'1273',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1274',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1274',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1274',
+        #     product_atrs_id: '8',
+        #     value: '17 (17,2)',
+        # },
+        # {
+        #     product_id:'1274',
+        #     product_atrs_id: '86',
+        #     value: '5126',
+        # },
+        # {
+        #     product_id:'1274',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1275',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1275',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1275',
+        #     product_atrs_id: '8',
+        #     value: '17 (17,2)',
+        # },
+        # {
+        #     product_id:'1275',
+        #     product_atrs_id: '86',
+        #     value: '5343',
+        # },
+        # {
+        #     product_id:'1275',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1276',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1276',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1276',
+        #     product_atrs_id: '8',
+        #     value: '17 (17,2)',
+        # },
+        # {
+        #     product_id:'1276',
+        #     product_atrs_id: '86',
+        #     value: '8514',
+        # },
+        # {
+        #     product_id:'1276',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1277',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1277',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1277',
+        #     product_atrs_id: '8',
+        #     value: '10 (10,2)',
+        # },
+        # {
+        #     product_id:'1277',
+        #     product_atrs_id: '86',
+        #     value: '5004',
+        # },
+        # {
+        #     product_id:'1277',
+        #     product_atrs_id: '2',
+        #     value: 'шинный',
+        # },
+        # {
+        #     product_id:'1278',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1278',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1278',
+        #     product_atrs_id: '8',
+        #     value: '15 (15,2)',
+        # },
+        # {
+        #     product_id:'1278',
+        #     product_atrs_id: '86',
+        #     value: '7340',
+        # },
+        # {
+        #     product_id:'1278',
+        #     product_atrs_id: '2',
+        #     value: 'перемычечный',
+        # },
+        # {
+        #     product_id:'1279',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1279',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1279',
+        #     product_atrs_id: '8',
+        #     value: '15 (15,2)',
+        # },
+        # {
+        #     product_id:'1279',
+        #     product_atrs_id: '86',
+        #     value: '6770',
+        # },
+        # {
+        #     product_id:'1279',
+        #     product_atrs_id: '2',
+        #     value: 'перемычечный',
+        # },
+        # {
+        #     product_id:'1280',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1280',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1280',
+        #     product_atrs_id: '8',
+        #     value: '15 (15,2)',
+        # },
+        # {
+        #     product_id:'1280',
+        #     product_atrs_id: '86',
+        #     value: '12197',
+        # },
+        # {
+        #     product_id:'1280',
+        #     product_atrs_id: '2',
+        #     value: 'перемычечный',
+        # },
+        # {
+        #     product_id:'1281',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1281',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1281',
+        #     product_atrs_id: '8',
+        #     value: '15 (15,2)',
+        # },
+        # {
+        #     product_id:'1281',
+        #     product_atrs_id: '86',
+        #     value: '11740',
+        # },
+        # {
+        #     product_id:'1281',
+        #     product_atrs_id: '2',
+        #     value: 'перемычечный',
+        # },
+        # {
+        #     product_id:'1282',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1282',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1282',
+        #     product_atrs_id: '8',
+        #     value: '15 (15,2)',
+        # },
+        # {
+        #     product_id:'1282',
+        #     product_atrs_id: '86',
+        #     value: '7307',
+        # },
+        # {
+        #     product_id:'1282',
+        #     product_atrs_id: '2',
+        #     value: 'трансформаторный',
+        # },
+        # {
+        #     product_id:'1283',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1283',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1283',
+        #     product_atrs_id: '8',
+        #     value: '15 (15,2)',
+        # },
+        # {
+        #     product_id:'1283',
+        #     product_atrs_id: '86',
+        #     value: '12266',
+        # },
+        # {
+        #     product_id:'1283',
+        #     product_atrs_id: '2',
+        #     value: 'трансформаторный',
+        # },
+        # {
+        #     product_id:'1284',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1284',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1284',
+        #     product_atrs_id: '8',
+        #     value: '15 (15,2)',
+        # },
+        # {
+        #     product_id:'1284',
+        #     product_atrs_id: '86',
+        #     value: '7291',
+        # },
+        # {
+        #     product_id:'1284',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1285',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1285',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1285',
+        #     product_atrs_id: '8',
+        #     value: '15 (15,2)',
+        # },
+        # {
+        #     product_id:'1285',
+        #     product_atrs_id: '86',
+        #     value: '6721',
+        # },
+        # {
+        #     product_id:'1285',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1286',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1286',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1286',
+        #     product_atrs_id: '8',
+        #     value: '15 (15,2)',
+        # },
+        # {
+        #     product_id:'1286',
+        #     product_atrs_id: '86',
+        #     value: '12213',
+        # },
+        # {
+        #     product_id:'1286',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1287',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1287',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1287',
+        #     product_atrs_id: '8',
+        #     value: '15 (15,2)',
+        # },
+        # {
+        #     product_id:'1287',
+        #     product_atrs_id: '86',
+        #     value: '11643',
+        # },
+        # {
+        #     product_id:'1287',
+        #     product_atrs_id: '2',
+        #     value: 'ячейковый',
+        # },
+        # {
+        #     product_id:'1288',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1288',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1288',
+        #     product_atrs_id: '8',
+        #     value: '11,5 (11,7)',
+        # },
+        # {
+        #     product_id:'1288',
+        #     product_atrs_id: '86',
+        #     value: '6153',
+        # },
+        # {
+        #     product_id:'1288',
+        #     product_atrs_id: '2',
+        #     value: 'шинный',
+        # },
+        # {
+        #     product_id:'1289',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1289',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1289',
+        #     product_atrs_id: '8',
+        #     value: '11,5 (11,7)',
+        # },
+        # {
+        #     product_id:'1289',
+        #     product_atrs_id: '86',
+        #     value: '6390',
+        # },
+        # {
+        #     product_id:'1289',
+        #     product_atrs_id: '2',
+        #     value: 'шинный',
+        # },
+        # {
+        #     product_id:'1290',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1290',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1290',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,6)',
+        # },
+        # {
+        #     product_id:'1290',
+        #     product_atrs_id: '86',
+        #     value: '7463',
+        # },
+        # {
+        #     product_id:'1290',
+        #     product_atrs_id: '2',
+        #     value: 'перемычечный',
+        # },
+        # {
+        #     product_id:'1291',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1291',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1291',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,6)',
+        # },
+        # {
+        #     product_id:'1291',
+        #     product_atrs_id: '86',
+        #     value: '6998',
+        # },
+        # {
+        #     product_id:'1291',
+        #     product_atrs_id: '2',
+        #     value: 'перемычечный',
+        # },
+        # {
+        #     product_id:'1292',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1292',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1292',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,7)',
+        # },
+        # {
+        #     product_id:'1292',
+        #     product_atrs_id: '86',
+        #     value: '14305',
+        # },
+        # {
+        #     product_id:'1292',
+        #     product_atrs_id: '2',
+        #     value: 'линейный',
+        # },
+        # {
+        #     product_id:'1293',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1293',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1293',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,7)',
+        # },
+        # {
+        #     product_id:'1293',
+        #     product_atrs_id: '86',
+        #     value: '13860',
+        # },
+        # {
+        #     product_id:'1293',
+        #     product_atrs_id: '2',
+        #     value: 'линейный',
+        # },
+        # {
+        #     product_id:'1294',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1294',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1294',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,7)',
+        # },
+        # {
+        #     product_id:'1294',
+        #     product_atrs_id: '86',
+        #     value: '14724',
+        # },
+        # {
+        #     product_id:'1294',
+        #     product_atrs_id: '2',
+        #     value: 'линейный',
+        # },
+        # {
+        #     product_id:'1295',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1295',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1295',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,7)',
+        # },
+        # {
+        #     product_id:'1295',
+        #     product_atrs_id: '86',
+        #     value: '14632',
+        # },
+        # {
+        #     product_id:'1295',
+        #     product_atrs_id: '2',
+        #     value: 'линейный',
+        # },
+        # {
+        #     product_id:'1296',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1296',
+        #     product_atrs_id: '18',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1296',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,7)',
+        # },
+        # {
+        #     product_id:'1296',
+        #     product_atrs_id: '86',
+        #     value: '14200',
+        # },
+        # {
+        #     product_id:'1296',
+        #     product_atrs_id: '2',
+        #     value: 'линейный',
+        # },
+        # {
+        #     product_id:'1297',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1297',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1297',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,7)',
+        # },
+        # {
+        #     product_id:'1297',
+        #     product_atrs_id: '86',
+        #     value: '8349',
+        # },
+        # {
+        #     product_id:'1297',
+        #     product_atrs_id: '2',
+        #     value: 'линейный',
+        # },
+        # {
+        #     product_id:'1298',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1298',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1298',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,7)',
+        # },
+        # {
+        #     product_id:'1298',
+        #     product_atrs_id: '86',
+        #     value: '7917',
+        # },
+        # {
+        #     product_id:'1298',
+        #     product_atrs_id: '2',
+        #     value: 'линейный',
+        # },
+        # {
+        #     product_id:'1299',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1299',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1299',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,7)',
+        # },
+        # {
+        #     product_id:'1299',
+        #     product_atrs_id: '86',
+        #     value: '8512',
+        # },
+        # {
+        #     product_id:'1299',
+        #     product_atrs_id: '2',
+        #     value: 'линейный',
+        # },
+        # {
+        #     product_id:'1300',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1300',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1300',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,7)',
+        # },
+        # {
+        #     product_id:'1300',
+        #     product_atrs_id: '86',
+        #     value: '8067',
+        # },
+        # {
+        #     product_id:'1300',
+        #     product_atrs_id: '2',
+        #     value: 'линейный',
+        # },
+        # {
+        #     product_id:'1301',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1301',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1301',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,6)',
+        # },
+        # {
+        #     product_id:'1301',
+        #     product_atrs_id: '86',
+        #     value: '7487',
+        # },
+        # {
+        #     product_id:'1301',
+        #     product_atrs_id: '2',
+        #     value: 'линейный',
+        # },
+        # {
+        #     product_id:'1302',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1302',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1302',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,6)',
+        # },
+        # {
+        #     product_id:'1302',
+        #     product_atrs_id: '86',
+        #     value: '7153',
+        # },
+        # {
+        #     product_id:'1302',
+        #     product_atrs_id: '2',
+        #     value: 'линейный',
+        # },
+        # {
+        #     product_id:'1303',
+        #     product_atrs_id: '1',
+        #     value: '3.407.2-162',
+        # },
+        # {
+        #     product_id:'1303',
+        #     product_atrs_id: '18',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1303',
+        #     product_atrs_id: '8',
+        #     value: '17,5 (17,6)',
+        # },
+        # {
+        #     product_id:'1303',
+        #     product_atrs_id: '86',
+        #     value: '7618',
+        # },
+        # {
+        #     product_id:'1303',
+        #     product_atrs_id: '2',
+        #     value: 'линейный',
+        # },
+        # {
+        #     product_id:'1304',
+        #     product_atrs_id: '11',
+        #     value: '0,8',
+        # },
+        # {
+        #     product_id:'1304',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1304',
+        #     product_atrs_id: '12',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1304',
+        #     product_atrs_id: '13',
+        #     value: '130x32,5',
+        # },
+        # {
+        #     product_id:'1304',
+        #     product_atrs_id: '6',
+        #     value: '1170',
+        # },
+        # {
+        #     product_id:'1305',
+        #     product_atrs_id: '11',
+        #     value: '0,8',
+        # },
+        # {
+        #     product_id:'1305',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1305',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1305',
+        #     product_atrs_id: '13',
+        #     value: '130x32,5',
+        # },
+        # {
+        #     product_id:'1305',
+        #     product_atrs_id: '6',
+        #     value: '1170',
+        # },
+        # {
+        #     product_id:'1306',
+        #     product_atrs_id: '11',
+        #     value: '1',
+        # },
+        # {
+        #     product_id:'1306',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1306',
+        #     product_atrs_id: '12',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1306',
+        #     product_atrs_id: '13',
+        #     value: '130x32,5',
+        # },
+        # {
+        #     product_id:'1306',
+        #     product_atrs_id: '6',
+        #     value: '1170',
+        # },
+        # {
+        #     product_id:'1307',
+        #     product_atrs_id: '11',
+        #     value: '1',
+        # },
+        # {
+        #     product_id:'1307',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1307',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1307',
+        #     product_atrs_id: '13',
+        #     value: '130x32,5',
+        # },
+        # {
+        #     product_id:'1307',
+        #     product_atrs_id: '6',
+        #     value: '1170',
+        # },
+        # {
+        #     product_id:'1308',
+        #     product_atrs_id: '11',
+        #     value: '1,5',
+        # },
+        # {
+        #     product_id:'1308',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1308',
+        #     product_atrs_id: '12',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1308',
+        #     product_atrs_id: '13',
+        #     value: '130x32,5',
+        # },
+        # {
+        #     product_id:'1308',
+        #     product_atrs_id: '6',
+        #     value: '1170',
+        # },
+        # {
+        #     product_id:'1309',
+        #     product_atrs_id: '11',
+        #     value: '1,5',
+        # },
+        # {
+        #     product_id:'1309',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1309',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1309',
+        #     product_atrs_id: '13',
+        #     value: '130x32,5',
+        # },
+        # {
+        #     product_id:'1309',
+        #     product_atrs_id: '6',
+        #     value: '1170',
+        # },
+        # {
+        #     product_id:'1310',
+        #     product_atrs_id: '11',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1310',
+        #     product_atrs_id: '17',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1310',
+        #     product_atrs_id: '12',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1310',
+        #     product_atrs_id: '13',
+        #     value: '130x32,5',
+        # },
+        # {
+        #     product_id:'1310',
+        #     product_atrs_id: '6',
+        #     value: '1170',
+        # },
+        # {
+        #     product_id:'1311',
+        #     product_atrs_id: '11',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1311',
+        #     product_atrs_id: '17',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1311',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1311',
+        #     product_atrs_id: '13',
+        #     value: '130x32,5',
+        # },
+        # {
+        #     product_id:'1311',
+        #     product_atrs_id: '6',
+        #     value: '1170',
+        # },
+        # {
+        #     product_id:'1312',
+        #     product_atrs_id: '11',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1312',
+        #     product_atrs_id: '17',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1312',
+        #     product_atrs_id: '12',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1312',
+        #     product_atrs_id: '13',
+        #     value: '130x32,5',
+        # },
+        # {
+        #     product_id:'1312',
+        #     product_atrs_id: '6',
+        #     value: '1170',
+        # },
+        # {
+        #     product_id:'1313',
+        #     product_atrs_id: '11',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1313',
+        #     product_atrs_id: '17',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1313',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1313',
+        #     product_atrs_id: '13',
+        #     value: '130x32,5',
+        # },
+        # {
+        #     product_id:'1313',
+        #     product_atrs_id: '6',
+        #     value: '1170',
+        # },
+        # {
+        #     product_id:'1314',
+        #     product_atrs_id: '11',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1314',
+        #     product_atrs_id: '17',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1314',
+        #     product_atrs_id: '12',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1314',
+        #     product_atrs_id: '13',
+        #     value: '130x32,5',
+        # },
+        # {
+        #     product_id:'1314',
+        #     product_atrs_id: '6',
+        #     value: '1170',
+        # },
+        # {
+        #     product_id:'1315',
+        #     product_atrs_id: '11',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1315',
+        #     product_atrs_id: '17',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1315',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1315',
+        #     product_atrs_id: '13',
+        #     value: '130x32,5',
+        # },
+        # {
+        #     product_id:'1315',
+        #     product_atrs_id: '6',
+        #     value: '1170',
+        # },
+        # {
+        #     product_id:'1316',
+        #     product_atrs_id: '11',
+        #     value: '1',
+        # },
+        # {
+        #     product_id:'1316',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1316',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1316',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1316',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1317',
+        #     product_atrs_id: '11',
+        #     value: '1',
+        # },
+        # {
+        #     product_id:'1317',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1317',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1317',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1317',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1318',
+        #     product_atrs_id: '11',
+        #     value: '1',
+        # },
+        # {
+        #     product_id:'1318',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1318',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1318',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1318',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1319',
+        #     product_atrs_id: '11',
+        #     value: '1,5',
+        # },
+        # {
+        #     product_id:'1319',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1319',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1319',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1319',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1320',
+        #     product_atrs_id: '11',
+        #     value: '1,5',
+        # },
+        # {
+        #     product_id:'1320',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1320',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1320',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1320',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1321',
+        #     product_atrs_id: '11',
+        #     value: '1,5',
+        # },
+        # {
+        #     product_id:'1321',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1321',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1321',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1321',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1322',
+        #     product_atrs_id: '11',
+        #     value: '1,5',
+        # },
+        # {
+        #     product_id:'1322',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1322',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1322',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1322',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1323',
+        #     product_atrs_id: '11',
+        #     value: '1,5',
+        # },
+        # {
+        #     product_id:'1323',
+        #     product_atrs_id: '17',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1323',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1323',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1323',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1324',
+        #     product_atrs_id: '11',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1324',
+        #     product_atrs_id: '17',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1324',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1324',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1324',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1325',
+        #     product_atrs_id: '11',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1325',
+        #     product_atrs_id: '17',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1325',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1325',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1325',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1326',
+        #     product_atrs_id: '11',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1326',
+        #     product_atrs_id: '17',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1326',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1326',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1326',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1327',
+        #     product_atrs_id: '11',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1327',
+        #     product_atrs_id: '17',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1327',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1327',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1327',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1328',
+        #     product_atrs_id: '11',
+        #     value: '2',
+        # },
+        # {
+        #     product_id:'1328',
+        #     product_atrs_id: '17',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1328',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1328',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1328',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1329',
+        #     product_atrs_id: '11',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1329',
+        #     product_atrs_id: '17',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1329',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1329',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1329',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1330',
+        #     product_atrs_id: '11',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1330',
+        #     product_atrs_id: '17',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1330',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1330',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1330',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1331',
+        #     product_atrs_id: '11',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1331',
+        #     product_atrs_id: '17',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1331',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1331',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1331',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1332',
+        #     product_atrs_id: '11',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1332',
+        #     product_atrs_id: '17',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1332',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1332',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1332',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1333',
+        #     product_atrs_id: '11',
+        #     value: '2,5',
+        # },
+        # {
+        #     product_id:'1333',
+        #     product_atrs_id: '17',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1333',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1333',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1333',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1334',
+        #     product_atrs_id: '11',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1334',
+        #     product_atrs_id: '17',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1334',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1334',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1334',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1335',
+        #     product_atrs_id: '11',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1335',
+        #     product_atrs_id: '17',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1335',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1335',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1335',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1336',
+        #     product_atrs_id: '11',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1336',
+        #     product_atrs_id: '17',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1336',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1336',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1336',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1337',
+        #     product_atrs_id: '11',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1337',
+        #     product_atrs_id: '17',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1337',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1337',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1337',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1338',
+        #     product_atrs_id: '11',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1338',
+        #     product_atrs_id: '17',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1338',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1338',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1338',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1339',
+        #     product_atrs_id: '11',
+        #     value: '3,5',
+        # },
+        # {
+        #     product_id:'1339',
+        #     product_atrs_id: '17',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1339',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1339',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1339',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1340',
+        #     product_atrs_id: '11',
+        #     value: '3,5',
+        # },
+        # {
+        #     product_id:'1340',
+        #     product_atrs_id: '17',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1340',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1340',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1340',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1341',
+        #     product_atrs_id: '11',
+        #     value: '3,5',
+        # },
+        # {
+        #     product_id:'1341',
+        #     product_atrs_id: '17',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1341',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1341',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1341',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1342',
+        #     product_atrs_id: '11',
+        #     value: '3,5',
+        # },
+        # {
+        #     product_id:'1342',
+        #     product_atrs_id: '17',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1342',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1342',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1342',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1343',
+        #     product_atrs_id: '11',
+        #     value: '3,5',
+        # },
+        # {
+        #     product_id:'1343',
+        #     product_atrs_id: '17',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1343',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1343',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1343',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1344',
+        #     product_atrs_id: '11',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1344',
+        #     product_atrs_id: '17',
+        #     value: '8',
+        # },
+        # {
+        #     product_id:'1344',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1344',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1344',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1345',
+        #     product_atrs_id: '11',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1345',
+        #     product_atrs_id: '17',
+        #     value: '8',
+        # },
+        # {
+        #     product_id:'1345',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1345',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1345',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1346',
+        #     product_atrs_id: '11',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1346',
+        #     product_atrs_id: '17',
+        #     value: '8',
+        # },
+        # {
+        #     product_id:'1346',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1346',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1346',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1347',
+        #     product_atrs_id: '11',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1347',
+        #     product_atrs_id: '17',
+        #     value: '8',
+        # },
+        # {
+        #     product_id:'1347',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1347',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1347',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1348',
+        #     product_atrs_id: '11',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1348',
+        #     product_atrs_id: '17',
+        #     value: '8',
+        # },
+        # {
+        #     product_id:'1348',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1348',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1348',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1349',
+        #     product_atrs_id: '11',
+        #     value: '4,5',
+        # },
+        # {
+        #     product_id:'1349',
+        #     product_atrs_id: '17',
+        #     value: '9',
+        # },
+        # {
+        #     product_id:'1349',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1349',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1349',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1350',
+        #     product_atrs_id: '11',
+        #     value: '4,5',
+        # },
+        # {
+        #     product_id:'1350',
+        #     product_atrs_id: '17',
+        #     value: '9',
+        # },
+        # {
+        #     product_id:'1350',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1350',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1350',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1351',
+        #     product_atrs_id: '11',
+        #     value: '4,5',
+        # },
+        # {
+        #     product_id:'1351',
+        #     product_atrs_id: '17',
+        #     value: '9',
+        # },
+        # {
+        #     product_id:'1351',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1351',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1351',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1352',
+        #     product_atrs_id: '11',
+        #     value: '4,5',
+        # },
+        # {
+        #     product_id:'1352',
+        #     product_atrs_id: '17',
+        #     value: '9',
+        # },
+        # {
+        #     product_id:'1352',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1352',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1352',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1353',
+        #     product_atrs_id: '11',
+        #     value: '4,5',
+        # },
+        # {
+        #     product_id:'1353',
+        #     product_atrs_id: '17',
+        #     value: '9',
+        # },
+        # {
+        #     product_id:'1353',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1353',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1353',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1354',
+        #     product_atrs_id: '11',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1354',
+        #     product_atrs_id: '17',
+        #     value: '10',
+        # },
+        # {
+        #     product_id:'1354',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1354',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1354',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1355',
+        #     product_atrs_id: '11',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1355',
+        #     product_atrs_id: '17',
+        #     value: '10',
+        # },
+        # {
+        #     product_id:'1355',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1355',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1355',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1356',
+        #     product_atrs_id: '11',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1356',
+        #     product_atrs_id: '17',
+        #     value: '10',
+        # },
+        # {
+        #     product_id:'1356',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1356',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1356',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1357',
+        #     product_atrs_id: '11',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1357',
+        #     product_atrs_id: '17',
+        #     value: '10',
+        # },
+        # {
+        #     product_id:'1357',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1357',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1357',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1358',
+        #     product_atrs_id: '11',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1358',
+        #     product_atrs_id: '17',
+        #     value: '10',
+        # },
+        # {
+        #     product_id:'1358',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1358',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1358',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1359',
+        #     product_atrs_id: '11',
+        #     value: '5,5',
+        # },
+        # {
+        #     product_id:'1359',
+        #     product_atrs_id: '17',
+        #     value: '11',
+        # },
+        # {
+        #     product_id:'1359',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1359',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1359',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1360',
+        #     product_atrs_id: '11',
+        #     value: '5,5',
+        # },
+        # {
+        #     product_id:'1360',
+        #     product_atrs_id: '17',
+        #     value: '11',
+        # },
+        # {
+        #     product_id:'1360',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1360',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1360',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1361',
+        #     product_atrs_id: '11',
+        #     value: '5,5',
+        # },
+        # {
+        #     product_id:'1361',
+        #     product_atrs_id: '17',
+        #     value: '11',
+        # },
+        # {
+        #     product_id:'1361',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1361',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1361',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1362',
+        #     product_atrs_id: '11',
+        #     value: '5,5',
+        # },
+        # {
+        #     product_id:'1362',
+        #     product_atrs_id: '17',
+        #     value: '11',
+        # },
+        # {
+        #     product_id:'1362',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1362',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1362',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1363',
+        #     product_atrs_id: '11',
+        #     value: '5,5',
+        # },
+        # {
+        #     product_id:'1363',
+        #     product_atrs_id: '17',
+        #     value: '11',
+        # },
+        # {
+        #     product_id:'1363',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1363',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1363',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1364',
+        #     product_atrs_id: '11',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1364',
+        #     product_atrs_id: '17',
+        #     value: '12',
+        # },
+        # {
+        #     product_id:'1364',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1364',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1364',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1365',
+        #     product_atrs_id: '11',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1365',
+        #     product_atrs_id: '17',
+        #     value: '12',
+        # },
+        # {
+        #     product_id:'1365',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1365',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1365',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1366',
+        #     product_atrs_id: '11',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1366',
+        #     product_atrs_id: '17',
+        #     value: '12',
+        # },
+        # {
+        #     product_id:'1366',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1366',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1366',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1367',
+        #     product_atrs_id: '11',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1367',
+        #     product_atrs_id: '17',
+        #     value: '12',
+        # },
+        # {
+        #     product_id:'1367',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1367',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1367',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1368',
+        #     product_atrs_id: '11',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1368',
+        #     product_atrs_id: '17',
+        #     value: '12',
+        # },
+        # {
+        #     product_id:'1368',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1368',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1368',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1369',
+        #     product_atrs_id: '11',
+        #     value: '6,5',
+        # },
+        # {
+        #     product_id:'1369',
+        #     product_atrs_id: '17',
+        #     value: '13',
+        # },
+        # {
+        #     product_id:'1369',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1369',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1369',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1370',
+        #     product_atrs_id: '11',
+        #     value: '6,5',
+        # },
+        # {
+        #     product_id:'1370',
+        #     product_atrs_id: '17',
+        #     value: '13',
+        # },
+        # {
+        #     product_id:'1370',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1370',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1370',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1371',
+        #     product_atrs_id: '11',
+        #     value: '6,5',
+        # },
+        # {
+        #     product_id:'1371',
+        #     product_atrs_id: '17',
+        #     value: '13',
+        # },
+        # {
+        #     product_id:'1371',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1371',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1371',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1372',
+        #     product_atrs_id: '11',
+        #     value: '6,5',
+        # },
+        # {
+        #     product_id:'1372',
+        #     product_atrs_id: '17',
+        #     value: '13',
+        # },
+        # {
+        #     product_id:'1372',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1372',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1372',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1373',
+        #     product_atrs_id: '11',
+        #     value: '6,5',
+        # },
+        # {
+        #     product_id:'1373',
+        #     product_atrs_id: '17',
+        #     value: '13',
+        # },
+        # {
+        #     product_id:'1373',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1373',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1373',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1374',
+        #     product_atrs_id: '11',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1374',
+        #     product_atrs_id: '17',
+        #     value: '14',
+        # },
+        # {
+        #     product_id:'1374',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1374',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1374',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1375',
+        #     product_atrs_id: '11',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1375',
+        #     product_atrs_id: '17',
+        #     value: '14',
+        # },
+        # {
+        #     product_id:'1375',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1375',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1375',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1376',
+        #     product_atrs_id: '11',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1376',
+        #     product_atrs_id: '17',
+        #     value: '14',
+        # },
+        # {
+        #     product_id:'1376',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1376',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1376',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1377',
+        #     product_atrs_id: '11',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1377',
+        #     product_atrs_id: '17',
+        #     value: '14',
+        # },
+        # {
+        #     product_id:'1377',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1377',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1377',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1378',
+        #     product_atrs_id: '11',
+        #     value: '7,5',
+        # },
+        # {
+        #     product_id:'1378',
+        #     product_atrs_id: '17',
+        #     value: '15',
+        # },
+        # {
+        #     product_id:'1378',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1378',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1378',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1379',
+        #     product_atrs_id: '11',
+        #     value: '7,5',
+        # },
+        # {
+        #     product_id:'1379',
+        #     product_atrs_id: '17',
+        #     value: '15',
+        # },
+        # {
+        #     product_id:'1379',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1379',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1379',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1380',
+        #     product_atrs_id: '11',
+        #     value: '7,5',
+        # },
+        # {
+        #     product_id:'1380',
+        #     product_atrs_id: '17',
+        #     value: '15',
+        # },
+        # {
+        #     product_id:'1380',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1380',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1380',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1381',
+        #     product_atrs_id: '11',
+        #     value: '7,5',
+        # },
+        # {
+        #     product_id:'1381',
+        #     product_atrs_id: '17',
+        #     value: '15',
+        # },
+        # {
+        #     product_id:'1381',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1381',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1381',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1382',
+        #     product_atrs_id: '11',
+        #     value: '7,5',
+        # },
+        # {
+        #     product_id:'1382',
+        #     product_atrs_id: '17',
+        #     value: '15',
+        # },
+        # {
+        #     product_id:'1382',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1382',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1382',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1383',
+        #     product_atrs_id: '11',
+        #     value: '8',
+        # },
+        # {
+        #     product_id:'1383',
+        #     product_atrs_id: '17',
+        #     value: '16',
+        # },
+        # {
+        #     product_id:'1383',
+        #     product_atrs_id: '12',
+        #     value: '3',
+        # },
+        # {
+        #     product_id:'1383',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1383',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1384',
+        #     product_atrs_id: '11',
+        #     value: '8',
+        # },
+        # {
+        #     product_id:'1384',
+        #     product_atrs_id: '17',
+        #     value: '16',
+        # },
+        # {
+        #     product_id:'1384',
+        #     product_atrs_id: '12',
+        #     value: '4',
+        # },
+        # {
+        #     product_id:'1384',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1384',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1385',
+        #     product_atrs_id: '11',
+        #     value: '8',
+        # },
+        # {
+        #     product_id:'1385',
+        #     product_atrs_id: '17',
+        #     value: '16',
+        # },
+        # {
+        #     product_id:'1385',
+        #     product_atrs_id: '12',
+        #     value: '5',
+        # },
+        # {
+        #     product_id:'1385',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1385',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1386',
+        #     product_atrs_id: '11',
+        #     value: '8',
+        # },
+        # {
+        #     product_id:'1386',
+        #     product_atrs_id: '17',
+        #     value: '16',
+        # },
+        # {
+        #     product_id:'1386',
+        #     product_atrs_id: '12',
+        #     value: '6',
+        # },
+        # {
+        #     product_id:'1386',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1386',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
+        # {
+        #     product_id:'1387',
+        #     product_atrs_id: '11',
+        #     value: '8',
+        # },
+        # {
+        #     product_id:'1387',
+        #     product_atrs_id: '17',
+        #     value: '16',
+        # },
+        # {
+        #     product_id:'1387',
+        #     product_atrs_id: '12',
+        #     value: '7',
+        # },
+        # {
+        #     product_id:'1387',
+        #     product_atrs_id: '13',
+        #     value: '150x50',
+        # },
+        # {
+        #     product_id:'1387',
+        #     product_atrs_id: '6',
+        #     value: '1050',
+        # },
     ]
 )
 

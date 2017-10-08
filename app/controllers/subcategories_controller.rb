@@ -33,6 +33,7 @@ class SubcategoriesController < ApplicationController
 
     #текущий товар
     @product = Product.find_by_friendly_url(params[:id])
+
     #его родительская категория
     @category = Category.find_by_friendly_url(params[:category_id])
 
@@ -113,6 +114,30 @@ class SubcategoriesController < ApplicationController
 
     ######### если вложенность категория - товар #########
     elsif @category && @product
+
+      #значения доп.характеристик товара
+      @attr = Product_With_Attribute.where(product_id: @product.id)
+
+      #id доп характеристик товара
+      @attr_ids = []
+      @attr.each do |at|
+        @attr_ids.push(at.product_atrs_id)
+      end
+
+      #вынимаем сами доп.характеристики товара по их id
+      @attr_obj = []
+      @attr_ids.each do |id|
+        @atr = Productatr.where(id: id)
+        @attr_obj.push(@atr)
+      end
+
+      #вынимаем названия доп.характеристик товара
+      @attr_names = []
+      @attr_obj.each do |obj|
+        obj.each do |name|
+          @attr_names.push(name.attribute_rus_name)
+        end
+      end
 
       #если название категории и товара совпадают или урл вида подкатегория/товар (а должна быть по идеи категория/товар)
       if @category.friendly_url == @product.friendly_url || @category.parent_id != 0

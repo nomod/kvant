@@ -336,8 +336,26 @@ class ProductsController < ApplicationController
 
     end
 
+  end
 
+  def destroy
+    #текущий продукт
+    @product = Product.find_by_id(params[:id])
 
+    if @product.delete
+
+      @product_atrs = Product_With_Attribute.where(product_id: @product.id)
+
+      #перебираем найденные характеристики товара и удаляем их
+      @product_atrs.each do |atr|
+        atr.destroy
+      end
+
+      flash[:notice] = "Товар '#{@product.product_title}' удален!"
+      redirect_to products_path
+    else
+      redirect_to @product
+    end
   end
 
 
