@@ -10113,6 +10113,139 @@ Product.create(
         #     view_main: false,
         #     image: open('public/img/upload_product/product_no_img.jpg')
         # },
+        # {
+        #     category_id: 183,
+        #     product_title: 'Прожекторная мачта ПМС - 24,0',
+        #     friendly_url: 'projectornaya_machta_pms_24_0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 183,
+        #     product_title: 'Прожекторная мачта ПМС - 29,3',
+        #     friendly_url: 'projectornaya_machta_pms_29_3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 183,
+        #     product_title: 'Прожекторная мачта ПМС - 32,5',
+        #     friendly_url: 'projectornaya_machta_pms_32_5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 184,
+        #     product_title: 'Прожекторная мачта ПМС 24-2P',
+        #     friendly_url: 'projectornaya_machta_pms_24_2r',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 184,
+        #     product_title: 'Прожекторная мачта ПМС 24-1P',
+        #     friendly_url: 'projectornaya_machta_pms_24_1r',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 184,
+        #     product_title: 'Прожекторная мачта ПМС 19-1P',
+        #     friendly_url: 'projectornaya_machta_pms_19_1r',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-15',
+        #     friendly_url: 'molnieotvod_sm_15',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-20',
+        #     friendly_url: 'molnieotvod_sm_20',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-25',
+        #     friendly_url: 'molnieotvod_sm_25',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-30',
+        #     friendly_url: 'molnieotvod_sm_30',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-35',
+        #     friendly_url: 'molnieotvod_sm_35',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-40',
+        #     friendly_url: 'molnieotvod_sm_40',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-45',
+        #     friendly_url: 'molnieotvod_sm_45',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-50',
+        #     friendly_url: 'molnieotvod_sm_50',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-55',
+        #     friendly_url: 'molnieotvod_sm_55',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-60',
+        #     friendly_url: 'molnieotvod_sm_60',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-65',
+        #     friendly_url: 'molnieotvod_sm_65',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-70',
+        #     friendly_url: 'molnieotvod_sm_70',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 190,
+        #     product_title: 'Молниеотвод СМ-75',
+        #     friendly_url: 'molnieotvod_sm_75',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
     ]
 )
 
@@ -54632,6 +54765,411 @@ Product_With_Attribute.create(
         #     product_id:'1387',
         #     product_atrs_id: '6',
         #     value: '1050',
+        # },
+        # {
+        #     product_id:'1388',
+        #     product_atrs_id: '1',
+        #     value: 'серия 3.407.9-172',
+        # },
+        # {
+        #     product_id:'1388',
+        #     product_atrs_id: '3',
+        #     value: 'Мачта прожекторная стальная',
+        # },
+        # {
+        #     product_id:'1388',
+        #     product_atrs_id: '95',
+        #     value: '24000',
+        # },
+        # {
+        #     product_id:'1388',
+        #     product_atrs_id: '7',
+        #     value: '31750',
+        # },
+        # {
+        #     product_id:'1388',
+        #     product_atrs_id: '14',
+        #     value: 'углеродистая: С235, С245, С255 (3сп/пс-5), низколегированная: С345 (09Г2С-12)',
+        # },
+        # {
+        #     product_id:'1388',
+        #     product_atrs_id: '86',
+        #     value: '2623',
+        # },
+        # {
+        #     product_id:'1388',
+        #     product_atrs_id: '20',
+        #     value: 'Грунт, Холодное цинкование (ЦИНОЛ), Горячее цинкование ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1389',
+        #     product_atrs_id: '1',
+        #     value: 'серия 3.407.9-172',
+        # },
+        # {
+        #     product_id:'1389',
+        #     product_atrs_id: '3',
+        #     value: 'Мачта прожекторная стальная',
+        # },
+        # {
+        #     product_id:'1389',
+        #     product_atrs_id: '95',
+        #     value: '32500',
+        # },
+        # {
+        #     product_id:'1389',
+        #     product_atrs_id: '7',
+        #     value: '40250',
+        # },
+        # {
+        #     product_id:'1389',
+        #     product_atrs_id: '14',
+        #     value: 'углеродистая: С235, С245, С255 (3сп/пс-5), низколегированная: С345 (09Г2С-12)',
+        # },
+        # {
+        #     product_id:'1389',
+        #     product_atrs_id: '86',
+        #     value: '3878',
+        # },
+        # {
+        #     product_id:'1389',
+        #     product_atrs_id: '20',
+        #     value: 'Грунт, Холодное цинкование (ЦИНОЛ), Горячее цинкование ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1390',
+        #     product_atrs_id: '1',
+        #     value: 'серия 3.407.9-172',
+        # },
+        # {
+        #     product_id:'1390',
+        #     product_atrs_id: '3',
+        #     value: 'Мачта прожекторная стальная',
+        # },
+        # {
+        #     product_id:'1390',
+        #     product_atrs_id: '95',
+        #     value: '32500',
+        # },
+        # {
+        #     product_id:'1390',
+        #     product_atrs_id: '7',
+        #     value: '40250',
+        # },
+        # {
+        #     product_id:'1390',
+        #     product_atrs_id: '14',
+        #     value: 'углеродистая: С235, С245, С255 (3сп/пс-5), низколегированная: С345 (09Г2С-12)',
+        # },
+        # {
+        #     product_id:'1390',
+        #     product_atrs_id: '86',
+        #     value: '3878',
+        # },
+        # {
+        #     product_id:'1390',
+        #     product_atrs_id: '20',
+        #     value: 'Грунт, Холодное цинкование (ЦИНОЛ), Горячее цинкование ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1391',
+        #     product_atrs_id: '1',
+        #     value: 'РЛ/373-399',
+        # },
+        # {
+        #     product_id:'1391',
+        #     product_atrs_id: '3',
+        #     value: 'Мачта прожекторная стальная',
+        # },
+        # {
+        #     product_id:'1391',
+        #     product_atrs_id: '95',
+        #     value: '24000',
+        # },
+        # {
+        #     product_id:'1391',
+        #     product_atrs_id: '7',
+        #     value: '28100',
+        # },
+        # {
+        #     product_id:'1391',
+        #     product_atrs_id: '14',
+        #     value: 'углеродистая: С245, низколегированная: С345 (09Г2С-12)',
+        # },
+        # {
+        #     product_id:'1391',
+        #     product_atrs_id: '86',
+        #     value: '2949',
+        # },
+        # {
+        #     product_id:'1391',
+        #     product_atrs_id: '20',
+        #     value: 'Грунт, Холодное цинкование (ЦИНОЛ), Горячее цинкование ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1392',
+        #     product_atrs_id: '1',
+        #     value: 'РЛ/373-399',
+        # },
+        # {
+        #     product_id:'1392',
+        #     product_atrs_id: '3',
+        #     value: 'Мачта прожекторная стальная',
+        # },
+        # {
+        #     product_id:'1392',
+        #     product_atrs_id: '95',
+        #     value: '24000',
+        # },
+        # {
+        #     product_id:'1392',
+        #     product_atrs_id: '7',
+        #     value: '28100',
+        # },
+        # {
+        #     product_id:'1392',
+        #     product_atrs_id: '14',
+        #     value: 'углеродистая: С245',
+        # },
+        # {
+        #     product_id:'1392',
+        #     product_atrs_id: '86',
+        #     value: '2925',
+        # },
+        # {
+        #     product_id:'1392',
+        #     product_atrs_id: '20',
+        #     value: 'Грунт, Холодное цинкование (ЦИНОЛ), Горячее цинкование ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1393',
+        #     product_atrs_id: '1',
+        #     value: 'РЛ/373-399',
+        # },
+        # {
+        #     product_id:'1393',
+        #     product_atrs_id: '3',
+        #     value: 'Мачта прожекторная стальная',
+        # },
+        # {
+        #     product_id:'1393',
+        #     product_atrs_id: '95',
+        #     value: '19000',
+        # },
+        # {
+        #     product_id:'1393',
+        #     product_atrs_id: '7',
+        #     value: '23100',
+        # },
+        # {
+        #     product_id:'1393',
+        #     product_atrs_id: '14',
+        #     value: 'углеродистая: С245',
+        # },
+        # {
+        #     product_id:'1393',
+        #     product_atrs_id: '86',
+        #     value: '2510',
+        # },
+        # {
+        #     product_id:'1393',
+        #     product_atrs_id: '20',
+        #     value: 'Грунт, Холодное цинкование (ЦИНОЛ), Горячее цинкование ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1394',
+        #     product_atrs_id: '96',
+        #     value: '15',
+        # },
+        # {
+        #     product_id:'1394',
+        #     product_atrs_id: '86',
+        #     value: '1242',
+        # },
+        # {
+        #     product_id:'1394',
+        #     product_atrs_id: '97',
+        #     value: '84',
+        # },
+        # {
+        #     product_id:'1395',
+        #     product_atrs_id: '96',
+        #     value: '20',
+        # },
+        # {
+        #     product_id:'1395',
+        #     product_atrs_id: '86',
+        #     value: '1743',
+        # },
+        # {
+        #     product_id:'1395',
+        #     product_atrs_id: '97',
+        #     value: '124',
+        # },
+        # {
+        #     product_id:'1396',
+        #     product_atrs_id: '96',
+        #     value: '25',
+        # },
+        # {
+        #     product_id:'1396',
+        #     product_atrs_id: '86',
+        #     value: '2363',
+        # },
+        # {
+        #     product_id:'1396',
+        #     product_atrs_id: '97',
+        #     value: '173',
+        # },
+        # {
+        #     product_id:'1397',
+        #     product_atrs_id: '96',
+        #     value: '30',
+        # },
+        # {
+        #     product_id:'1397',
+        #     product_atrs_id: '86',
+        #     value: '2894',
+        # },
+        # {
+        #     product_id:'1397',
+        #     product_atrs_id: '97',
+        #     value: '182',
+        # },
+        # {
+        #     product_id:'1398',
+        #     product_atrs_id: '96',
+        #     value: '35',
+        # },
+        # {
+        #     product_id:'1398',
+        #     product_atrs_id: '86',
+        #     value: '3636',
+        # },
+        # {
+        #     product_id:'1398',
+        #     product_atrs_id: '97',
+        #     value: '231',
+        # },
+        # {
+        #     product_id:'1399',
+        #     product_atrs_id: '96',
+        #     value: '40',
+        # },
+        # {
+        #     product_id:'1399',
+        #     product_atrs_id: '86',
+        #     value: '4726',
+        # },
+        # {
+        #     product_id:'1399',
+        #     product_atrs_id: '97',
+        #     value: '262',
+        # },
+        # {
+        #     product_id:'1400',
+        #     product_atrs_id: '96',
+        #     value: '45',
+        # },
+        # {
+        #     product_id:'1400',
+        #     product_atrs_id: '86',
+        #     value: '5770',
+        # },
+        # {
+        #     product_id:'1400',
+        #     product_atrs_id: '97',
+        #     value: '313',
+        # },
+        # {
+        #     product_id:'1401',
+        #     product_atrs_id: '96',
+        #     value: '50',
+        # },
+        # {
+        #     product_id:'1401',
+        #     product_atrs_id: '86',
+        #     value: '6535',
+        # },
+        # {
+        #     product_id:'1401',
+        #     product_atrs_id: '97',
+        #     value: '318',
+        # },
+        # {
+        #     product_id:'1402',
+        #     product_atrs_id: '96',
+        #     value: '55',
+        # },
+        # {
+        #     product_id:'1402',
+        #     product_atrs_id: '86',
+        #     value: '7688',
+        # },
+        # {
+        #     product_id:'1402',
+        #     product_atrs_id: '97',
+        #     value: '372',
+        # },
+        # {
+        #     product_id:'1403',
+        #     product_atrs_id: '96',
+        #     value: '60',
+        # },
+        # {
+        #     product_id:'1403',
+        #     product_atrs_id: '86',
+        #     value: '8467',
+        # },
+        # {
+        #     product_id:'1403',
+        #     product_atrs_id: '97',
+        #     value: '377',
+        # },
+        # {
+        #     product_id:'1404',
+        #     product_atrs_id: '96',
+        #     value: '65',
+        # },
+        # {
+        #     product_id:'1404',
+        #     product_atrs_id: '86',
+        #     value: '10487',
+        # },
+        # {
+        #     product_id:'1404',
+        #     product_atrs_id: '97',
+        #     value: '422',
+        # },
+        # {
+        #     product_id:'1405',
+        #     product_atrs_id: '96',
+        #     value: '70',
+        # },
+        # {
+        #     product_id:'1405',
+        #     product_atrs_id: '86',
+        #     value: '11771',
+        # },
+        # {
+        #     product_id:'1405',
+        #     product_atrs_id: '97',
+        #     value: '430',
+        # },
+        # {
+        #     product_id:'1406',
+        #     product_atrs_id: '96',
+        #     value: '75',
+        # },
+        # {
+        #     product_id:'1406',
+        #     product_atrs_id: '86',
+        #     value: '14057',
+        # },
+        # {
+        #     product_id:'1406',
+        #     product_atrs_id: '97',
+        #     value: '481',
         # },
     ]
 )

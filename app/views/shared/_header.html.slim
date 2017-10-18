@@ -141,25 +141,60 @@
 
   //если хлебные крошки пришли(на главной они не придут)
   - if breadcrums
-    .breadcrums
-      //если обрабатываем динамические страницы
-      - if breadcrums.length > 1
+
+    //если размер массива хлебных крошек > 1, а он по умолчанию должен быть > 1
+    - if breadcrums.length > 1
+
+      .breadcrums
+
+        = link_to 'Главная'+' | ', root_path
         //перебираем хэш с индексом
         - breadcrums.each_with_index do |bread, index|
+
           //если хлебная крошка не последняя
           - if index != breadcrums.length - 1
-            //показываем активную сслыку
-            = link_to bread[0].to_s+' | ', bread[1]
+
+            //если пришла категория
+            - if bread.class.to_s == 'Category'
+              //показываем активную сслыку
+              = link_to bread.category_name+' | ', '/'+bread.friendly_url
+
+            //если пришел продукт
+            - if bread.class.to_s == 'Product'
+              //показываем активную сслыку
+              = link_to bread.product_title+' | ', '/'+bread.friendly_url
+
+            //если пришел пост
+            - if bread.class.to_s == 'Post'
+              //показываем активную сслыку
+              = link_to bread.post_title+' | ', '/'+bread.friendly_url
+
           //если последняя, то просто название без ссылки
           - else
-            strong = bread[0]
 
-      //если обрабатываем статические страницы, то выводим хлебные крошки вида "главная << title страницы"
-      - else breadcrums.length == 1
-        - breadcrums.each_with_index do |bread, index|
-          //показываем активную сслыку на главную
-          = link_to bread[0].to_s+' | ', bread[1]
-          //плюс тайтл текущей страницы
-          strong = @title
+            //если пришла категория
+            - if bread.class.to_s == 'Category'
+              strong = bread.category_name
+
+            //если пришел продукт
+            - if bread.class.to_s == 'Product'
+              strong = bread.product_title
+
+            //если пришел пост
+            - if bread.class.to_s == 'Post'
+              strong = bread.post_title
+
+    //если размер массива хлебных крошек = 1, значит это статичная страница (типа "цены")
+    - else
+
+      .breadcrums
+
+        = link_to 'Главная | ', root_path
+        //плюс тайтл текущей страницы
+        strong = @title
+
+  //если пришел пустой массив, значит это главная страница
+  - else
+    //ничего не делаем
 
   //////////////////////  хлебные крошки  //////////////////////
