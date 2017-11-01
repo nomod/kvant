@@ -17,7 +17,12 @@ table.table.table-striped
   tbody
   - @categories.each do |category|
     tr
-      td = category.category_name
+      //если поле категории "имя для меню и хлебных крошек" в базе данных не заполнено, то выводим название категории, если заполнено, то выводим это имя
+      - if category.name_for_menu.blank?
+        - @cat_name = category.category_name
+      - else
+        - @cat_name = category.name_for_menu
+      td = @cat_name
       - if category.view_main?
         td да
       - else

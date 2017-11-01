@@ -13,6 +13,10 @@ p
       .form
         = f.text_field :category_name, required: true, placeholder: 'Название категории*', value: "#{@category_name}"
       .form
+        = f.text_field :name_for_menu, required: true, placeholder: 'Название для меню и хлебных крошек*', value: "#{@name_for_menu}"
+      .form
+        = f.text_field :header, required: true, placeholder: 'Заголовок h1 категории*', value: "#{@header}"
+      .form
         = f.text_area :category_content, placeholder: 'Контент категории*', value: "#{@category_content}"
       .form
         p

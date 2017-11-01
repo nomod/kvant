@@ -159,7 +159,7 @@ class CategoriesController < ApplicationController
   private
 
   def category_params
-    params.require(:category).permit(:category_name, :parent_id, :category_id, :friendly_url, :view_main, :category_content, :selected, :image)
+    params.require(:category).permit(:category_name, :header, :name_for_menu, :parent_id, :category_id, :friendly_url, :view_main, :category_content, :selected, :image)
   end
 
   def signed_in_user

@@ -30,6 +30,60 @@
   margin-bottom: 40px;
 }
 
+.border_about{
+  margin:0 auto;
+  background-color: #add8e6;
+  width: 45%;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 2px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  & p{
+    font-size:0.7em;
+    font-weight:bold;
+    padding:0 15%;
+  }
+  & ul{
+    text-align:left;
+    padding-left:10%;
+    padding-right:10%;
+  }
+}
+
+.table-hover{
+
+  box-shadow: 2px 2px 16px 2px rgba(61,108,140,0.25);
+
+  & thead{
+
+    & tr {
+      background: #3d6c8c;
+      color: white;
+      height: 60px;
+
+      & th{
+        line-height: 60px;
+        text-align: center;
+      }
+
+    }
+
+  }
+
+  & tbody{
+
+    & tr{
+
+      & td:last-child{
+        text-align: center;
+      }
+    }
+  }
+
+
+}
 
 
 

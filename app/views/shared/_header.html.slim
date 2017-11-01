@@ -156,8 +156,15 @@
 
             //если пришла категория
             - if bread.class.to_s == 'Category'
+
+              //если поле категории "имя для меню и хлебных крошек" в базе данных не заполнено, то выводим название категории, если заполнено, то выводим это имя
+              - if bread.name_for_menu.blank?
+                - @bread_name = bread.category_name
+              - else
+                - @bread_name = bread.name_for_menu
+
               //показываем активную сслыку
-              = link_to bread.category_name+' | ', '/'+bread.friendly_url
+              = link_to @bread_name+' | ', '/'+bread.friendly_url
 
             //если пришел продукт
             - if bread.class.to_s == 'Product'
@@ -174,7 +181,14 @@
 
             //если пришла категория
             - if bread.class.to_s == 'Category'
-              strong = bread.category_name
+
+              //если поле категории "имя для меню и хлебных крошек" в базе данных не заполнено, то выводим название категории, если заполнено, то выводим это имя
+              - if bread.name_for_menu.blank?
+                - @bread_name = bread.category_name
+              - else
+                - @bread_name = bread.name_for_menu
+
+              strong = @bread_name
 
             //если пришел продукт
             - if bread.class.to_s == 'Product'

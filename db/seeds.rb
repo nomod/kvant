@@ -10246,6 +10246,426 @@ Product.create(
         #     view_main: false,
         #     image: open('public/img/upload_product/product_no_img.jpg')
         # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 140-16,9',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-140-16-9',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 110-16,9',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-110-16-9',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 90-16,9',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-90-16-9',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 200-22,5',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-200-22-5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 150-22,5',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-150-22,5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 120-22,5',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-120-22,5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 400-30,3',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-400-30,3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин ОРЦС 400-30,3',
+        #     friendly_url: 'rigely-ghestkih-poperechin-orcs-400-30,3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 300-30,3',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-300-30,3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин ОРЦС 300-30,3',
+        #     friendly_url: 'rigely-ghestkih-poperechin-orcs-300-30,3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 190-30,3',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-190-30,3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин ОРЦС 270-30,3',
+        #     friendly_url: 'rigely-ghestkih-poperechin-orcs-270-30,3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 440-34,0',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-440-34,0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин ОРЦС 450-34,0',
+        #     friendly_url: 'rigely-ghestkih-poperechin-orcs-450-34,0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 340-34,0',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-340-34,0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин ОРЦС 350-34,0',
+        #     friendly_url: 'rigely-ghestkih-poperechin-orcs-350-34,0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 250-34,0',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-250-34,0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин ОРЦС 270-34,0',
+        #     friendly_url: 'rigely-ghestkih-poperechin-orcs-270-34,0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 600-39,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-600-39,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин ОРЦС 610-39,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-orcs-610-39,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 440-39,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-440-39,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин ОРЦС 450-39,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-orcs-450-39,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 300-39,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-300-39,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин ОРЦС 300-39,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-orcs-300-39,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 740-44,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-740-44,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин ОРЦС 740-44,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-orcs-740-44,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 570-44,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-570-44,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин ОРЦС 570-44,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-orcs-570-44,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин РЦС 410-44,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rcs-410-44,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 192,
+        #     product_title: 'Ригель жестких поперечин ОРЦС 440-44,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-orcs-440-44,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 140-16,9',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-140-16,9',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 110-16,9',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-110-16,9',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 90-16,9',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-90-16,9',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 200-22,5',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-200-22,5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 150-22,5',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-150-22,5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 120-22,5',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-120-22,5',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 400-30,3',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-400-30,3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин ОРК 400-30,3',
+        #     friendly_url: 'rigely-ghestkih-poperechin-ork-400-30,3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 300-30,3',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-300-30,3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин ОРК 300-30,3',
+        #     friendly_url: 'rigely-ghestkih-poperechin-ork-300-30,3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 190-30,3',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-190-30,3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин ОРК 270-30,3',
+        #     friendly_url: 'rigely-ghestkih-poperechin-ork-270-30,3',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 440-34,0',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-440-34,0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин ОРК 450-34,0',
+        #     friendly_url: 'rigely-ghestkih-poperechin-ork-450-34,0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 340-34,0',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-340-34,0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин ОРК 350-34,0',
+        #     friendly_url: 'rigely-ghestkih-poperechin-ork-350-34,0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 250-34,0',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-250-34,0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин ОРК 270-34,0',
+        #     friendly_url: 'rigely-ghestkih-poperechin-ork-270-34,0',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 600-39,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-600-39,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин ОРК 610-39,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-ork-610-39,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 440-39,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-440-39,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин ОРК 450-39,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-ork-450-39,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 300-39,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-300-39,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин ОРК 300-39,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-ork-300-39,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 740-44,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-740-44,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин ОРК 740-44,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-ork-740-44,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 570-44,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-570-44,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин ОРК 570-44,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-ork-570-44,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин РК 410-44,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-rk-410-44,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
+        # {
+        #     category_id: 193,
+        #     product_title: 'Ригель жестких поперечин ОРК 440-44,2',
+        #     friendly_url: 'rigely-ghestkih-poperechin-ork-440-44,2',
+        #     view_main: false,
+        #     image: open('public/img/upload_product/product_no_img.jpg')
+        # },
     ]
 )
 
@@ -55170,6 +55590,1806 @@ Product_With_Attribute.create(
         #     product_id:'1406',
         #     product_atrs_id: '97',
         #     value: '481',
+        # },
+        # {
+        #     product_id:'1407',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 140-16,9',
+        # },
+        # {
+        #     product_id:'1407',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1407',
+        #     product_atrs_id: '4',
+        #     value: '16,9',
+        # },
+        # {
+        #     product_id:'1407',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1407',
+        #     product_atrs_id: '86',
+        #     value: '606,42',
+        # },
+        # {
+        #     product_id:'1407',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1408',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 110-16,9',
+        # },
+        # {
+        #     product_id:'1408',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1408',
+        #     product_atrs_id: '4',
+        #     value: '16,9',
+        # },
+        # {
+        #     product_id:'1408',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1408',
+        #     product_atrs_id: '86',
+        #     value: '551,78',
+        # },
+        # {
+        #     product_id:'1408',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1409',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 90-16,9',
+        # },
+        # {
+        #     product_id:'1409',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1409',
+        #     product_atrs_id: '4',
+        #     value: '16,9',
+        # },
+        # {
+        #     product_id:'1409',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1409',
+        #     product_atrs_id: '86',
+        #     value: '540,94',
+        # },
+        # {
+        #     product_id:'1409',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1410',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 200-22,5',
+        # },
+        # {
+        #     product_id:'1410',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1410',
+        #     product_atrs_id: '4',
+        #     value: '22,5',
+        # },
+        # {
+        #     product_id:'1410',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1410',
+        #     product_atrs_id: '86',
+        #     value: '848,22',
+        # },
+        # {
+        #     product_id:'1410',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1411',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 150-22,5',
+        # },
+        # {
+        #     product_id:'1411',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1411',
+        #     product_atrs_id: '4',
+        #     value: '22,5',
+        # },
+        # {
+        #     product_id:'1411',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1411',
+        #     product_atrs_id: '86',
+        #     value: '767,80',
+        # },
+        # {
+        #     product_id:'1411',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1412',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 120-22,5',
+        # },
+        # {
+        #     product_id:'1412',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1412',
+        #     product_atrs_id: '4',
+        #     value: '22,5',
+        # },
+        # {
+        #     product_id:'1412',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1412',
+        #     product_atrs_id: '86',
+        #     value: '748,48',
+        # },
+        # {
+        #     product_id:'1412',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1413',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 400-30,3',
+        # },
+        # {
+        #     product_id:'1413',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1413',
+        #     product_atrs_id: '4',
+        #     value: '30,3',
+        # },
+        # {
+        #     product_id:'1413',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1413',
+        #     product_atrs_id: '86',
+        #     value: '1450,30',
+        # },
+        # {
+        #     product_id:'1413',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1414',
+        #     product_atrs_id: '3',
+        #     value: 'ОРЦС400-30,3',
+        # },
+        # {
+        #     product_id:'1414',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1414',
+        #     product_atrs_id: '4',
+        #     value: '30,3',
+        # },
+        # {
+        #     product_id:'1414',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1414',
+        #     product_atrs_id: '86',
+        #     value: '2052,40',
+        # },
+        # {
+        #     product_id:'1414',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1415',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 300-30,3',
+        # },
+        # {
+        #     product_id:'1415',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1415',
+        #     product_atrs_id: '4',
+        #     value: '30,3',
+        # },
+        # {
+        #     product_id:'1415',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1415',
+        #     product_atrs_id: '86',
+        #     value: '1355,57',
+        # },
+        # {
+        #     product_id:'1415',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1416',
+        #     product_atrs_id: '3',
+        #     value: 'ОРЦС300-30,3',
+        # },
+        # {
+        #     product_id:'1416',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1416',
+        #     product_atrs_id: '4',
+        #     value: '30,3',
+        # },
+        # {
+        #     product_id:'1416',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1416',
+        #     product_atrs_id: '86',
+        #     value: '1957,67',
+        # },
+        # {
+        #     product_id:'1416',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1417',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 190-30,3',
+        # },
+        # {
+        #     product_id:'1417',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1417',
+        #     product_atrs_id: '4',
+        #     value: '30,3',
+        # },
+        # {
+        #     product_id:'1417',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1417',
+        #     product_atrs_id: '86',
+        #     value: '1251,43',
+        # },
+        # {
+        #     product_id:'1417',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1418',
+        #     product_atrs_id: '3',
+        #     value: 'ОРЦС270-30,3',
+        # },
+        # {
+        #     product_id:'1418',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1418',
+        #     product_atrs_id: '4',
+        #     value: '30,3',
+        # },
+        # {
+        #     product_id:'1418',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1418',
+        #     product_atrs_id: '86',
+        #     value: '1853,53',
+        # },
+        # {
+        #     product_id:'1418',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1419',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 440-34,0',
+        # },
+        # {
+        #     product_id:'1419',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1419',
+        #     product_atrs_id: '4',
+        #     value: '34,0',
+        # },
+        # {
+        #     product_id:'1419',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1419',
+        #     product_atrs_id: '86',
+        #     value: '1750,84',
+        # },
+        # {
+        #     product_id:'1419',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1420',
+        #     product_atrs_id: '3',
+        #     value: 'ОРЦС450-34,0',
+        # },
+        # {
+        #     product_id:'1420',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1420',
+        #     product_atrs_id: '4',
+        #     value: '34,0',
+        # },
+        # {
+        #     product_id:'1420',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1420',
+        #     product_atrs_id: '86',
+        #     value: '2425,79',
+        # },
+        # {
+        #     product_id:'1420',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1421',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 340-34,0',
+        # },
+        # {
+        #     product_id:'1421',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1421',
+        #     product_atrs_id: '4',
+        #     value: '34,0',
+        # },
+        # {
+        #     product_id:'1421',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1421',
+        #     product_atrs_id: '86',
+        #     value: '1557,59',
+        # },
+        # {
+        #     product_id:'1421',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1422',
+        #     product_atrs_id: '3',
+        #     value: 'ОРЦС350-34,0',
+        # },
+        # {
+        #     product_id:'1422',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1422',
+        #     product_atrs_id: '4',
+        #     value: '34,0',
+        # },
+        # {
+        #     product_id:'1422',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1422',
+        #     product_atrs_id: '86',
+        #     value: '2229,74',
+        # },
+        # {
+        #     product_id:'1422',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1423',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 250-34,0',
+        # },
+        # {
+        #     product_id:'1423',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1423',
+        #     product_atrs_id: '4',
+        #     value: '34,0',
+        # },
+        # {
+        #     product_id:'1423',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1423',
+        #     product_atrs_id: '86',
+        #     value: '1428,52',
+        # },
+        # {
+        #     product_id:'1423',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1424',
+        #     product_atrs_id: '3',
+        #     value: 'ОРЦС270-34,0',
+        # },
+        # {
+        #     product_id:'1424',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1424',
+        #     product_atrs_id: '4',
+        #     value: '34,0',
+        # },
+        # {
+        #     product_id:'1424',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1424',
+        #     product_atrs_id: '86',
+        #     value: '2100,67',
+        # },
+        # {
+        #     product_id:'1424',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1425',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 600-39,2',
+        # },
+        # {
+        #     product_id:'1425',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1425',
+        #     product_atrs_id: '4',
+        #     value: '39,2',
+        # },
+        # {
+        #     product_id:'1425',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1425',
+        #     product_atrs_id: '86',
+        #     value: '2276,64',
+        # },
+        # {
+        #     product_id:'1425',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1426',
+        #     product_atrs_id: '3',
+        #     value: 'ОРЦС610-39,2',
+        # },
+        # {
+        #     product_id:'1426',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1426',
+        #     product_atrs_id: '4',
+        #     value: '39,2',
+        # },
+        # {
+        #     product_id:'1426',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1426',
+        #     product_atrs_id: '86',
+        #     value: '3062,80',
+        # },
+        # {
+        #     product_id:'1426',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1427',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 440-39,2',
+        # },
+        # {
+        #     product_id:'1427',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1427',
+        #     product_atrs_id: '4',
+        #     value: '39,2',
+        # },
+        # {
+        #     product_id:'1427',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1427',
+        #     product_atrs_id: '86',
+        #     value: '2025,93',
+        # },
+        # {
+        #     product_id:'1427',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1428',
+        #     product_atrs_id: '3',
+        #     value: 'ОРЦС450-39,2',
+        # },
+        # {
+        #     product_id:'1428',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1428',
+        #     product_atrs_id: '4',
+        #     value: '39,2',
+        # },
+        # {
+        #     product_id:'1428',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1428',
+        #     product_atrs_id: '86',
+        #     value: '2807,05',
+        # },
+        # {
+        #     product_id:'1428',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1429',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 300-39,2',
+        # },
+        # {
+        #     product_id:'1429',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1429',
+        #     product_atrs_id: '4',
+        #     value: '39,2',
+        # },
+        # {
+        #     product_id:'1429',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1429',
+        #     product_atrs_id: '86',
+        #     value: '1790,64',
+        # },
+        # {
+        #     product_id:'1429',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1430',
+        #     product_atrs_id: '3',
+        #     value: 'ОРЦС300-39,2',
+        # },
+        # {
+        #     product_id:'1430',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1430',
+        #     product_atrs_id: '4',
+        #     value: '39,2',
+        # },
+        # {
+        #     product_id:'1430',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1430',
+        #     product_atrs_id: '86',
+        #     value: '2553,76',
+        # },
+        # {
+        #     product_id:'1430',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1431',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 740-44,2',
+        # },
+        # {
+        #     product_id:'1431',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1431',
+        #     product_atrs_id: '4',
+        #     value: '44,2',
+        # },
+        # {
+        #     product_id:'1431',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1431',
+        #     product_atrs_id: '86',
+        #     value: '2761,58',
+        # },
+        # {
+        #     product_id:'1431',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1432',
+        #     product_atrs_id: '3',
+        #     value: 'ОРЦС740-44,2',
+        # },
+        # {
+        #     product_id:'1432',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1432',
+        #     product_atrs_id: '4',
+        #     value: '44,2',
+        # },
+        # {
+        #     product_id:'1432',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1432',
+        #     product_atrs_id: '86',
+        #     value: '3645,20',
+        # },
+        # {
+        #     product_id:'1432',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1433',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 570-44,2',
+        # },
+        # {
+        #     product_id:'1433',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1433',
+        #     product_atrs_id: '4',
+        #     value: '44,2',
+        # },
+        # {
+        #     product_id:'1433',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1433',
+        #     product_atrs_id: '86',
+        #     value: '2500,30',
+        # },
+        # {
+        #     product_id:'1433',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1434',
+        #     product_atrs_id: '3',
+        #     value: 'ОРЦС570-44,2',
+        # },
+        # {
+        #     product_id:'1434',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1434',
+        #     product_atrs_id: '4',
+        #     value: '44,2',
+        # },
+        # {
+        #     product_id:'1434',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1434',
+        #     product_atrs_id: '86',
+        #     value: '3378,32',
+        # },
+        # {
+        #     product_id:'1434',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1435',
+        #     product_atrs_id: '3',
+        #     value: 'РЦС 410-44,2',
+        # },
+        # {
+        #     product_id:'1435',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1435',
+        #     product_atrs_id: '4',
+        #     value: '44,2',
+        # },
+        # {
+        #     product_id:'1435',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1435',
+        #     product_atrs_id: '86',
+        #     value: '2168,07',
+        # },
+        # {
+        #     product_id:'1435',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1436',
+        #     product_atrs_id: '3',
+        #     value: 'ОРЦС440-44,2',
+        # },
+        # {
+        #     product_id:'1436',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1436',
+        #     product_atrs_id: '4',
+        #     value: '44,2',
+        # },
+        # {
+        #     product_id:'1436',
+        #     product_atrs_id: '14',
+        #     value: 'С345',
+        # },
+        # {
+        #     product_id:'1436',
+        #     product_atrs_id: '86',
+        #     value: '3040,49',
+        # },
+        # {
+        #     product_id:'1436',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1437',
+        #     product_atrs_id: '3',
+        #     value: 'РК 140-16,9',
+        # },
+        # {
+        #     product_id:'1437',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1437',
+        #     product_atrs_id: '4',
+        #     value: '16,9',
+        # },
+        # {
+        #     product_id:'1437',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1437',
+        #     product_atrs_id: '86',
+        #     value: '606,42',
+        # },
+        # {
+        #     product_id:'1437',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1438',
+        #     product_atrs_id: '3',
+        #     value: 'РК 110-16,9',
+        # },
+        # {
+        #     product_id:'1438',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1438',
+        #     product_atrs_id: '4',
+        #     value: '16,9',
+        # },
+        # {
+        #     product_id:'1438',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1438',
+        #     product_atrs_id: '86',
+        #     value: '551,78',
+        # },
+        # {
+        #     product_id:'1438',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1439',
+        #     product_atrs_id: '3',
+        #     value: 'РК 90-16,9',
+        # },
+        # {
+        #     product_id:'1439',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1439',
+        #     product_atrs_id: '4',
+        #     value: '16,9',
+        # },
+        # {
+        #     product_id:'1439',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1439',
+        #     product_atrs_id: '86',
+        #     value: '540,94',
+        # },
+        # {
+        #     product_id:'1439',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1440',
+        #     product_atrs_id: '3',
+        #     value: 'РК 200-22,5',
+        # },
+        # {
+        #     product_id:'1440',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1440',
+        #     product_atrs_id: '4',
+        #     value: '22,5',
+        # },
+        # {
+        #     product_id:'1440',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1440',
+        #     product_atrs_id: '86',
+        #     value: '846,22',
+        # },
+        # {
+        #     product_id:'1440',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1441',
+        #     product_atrs_id: '3',
+        #     value: 'РК 150-22,5',
+        # },
+        # {
+        #     product_id:'1441',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1441',
+        #     product_atrs_id: '4',
+        #     value: '22,5',
+        # },
+        # {
+        #     product_id:'1441',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1441',
+        #     product_atrs_id: '86',
+        #     value: '767,80',
+        # },
+        # {
+        #     product_id:'1441',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1442',
+        #     product_atrs_id: '3',
+        #     value: 'РК 120-22,5',
+        # },
+        # {
+        #     product_id:'1442',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1442',
+        #     product_atrs_id: '4',
+        #     value: '22,5',
+        # },
+        # {
+        #     product_id:'1442',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1442',
+        #     product_atrs_id: '86',
+        #     value: '746,48',
+        # },
+        # {
+        #     product_id:'1442',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1443',
+        #     product_atrs_id: '3',
+        #     value: 'РК 400-30,3',
+        # },
+        # {
+        #     product_id:'1443',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1443',
+        #     product_atrs_id: '4',
+        #     value: '30,3',
+        # },
+        # {
+        #     product_id:'1443',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1443',
+        #     product_atrs_id: '86',
+        #     value: '1450,30',
+        # },
+        # {
+        #     product_id:'1443',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1444',
+        #     product_atrs_id: '3',
+        #     value: 'ОРК400-30,3',
+        # },
+        # {
+        #     product_id:'1444',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1444',
+        #     product_atrs_id: '4',
+        #     value: '30,3',
+        # },
+        # {
+        #     product_id:'1444',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1444',
+        #     product_atrs_id: '86',
+        #     value: '2052,40',
+        # },
+        # {
+        #     product_id:'1444',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1445',
+        #     product_atrs_id: '3',
+        #     value: 'РК 300-30,3',
+        # },
+        # {
+        #     product_id:'1445',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1445',
+        #     product_atrs_id: '4',
+        #     value: '30,3',
+        # },
+        # {
+        #     product_id:'1445',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1445',
+        #     product_atrs_id: '86',
+        #     value: '1355,57',
+        # },
+        # {
+        #     product_id:'1445',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1446',
+        #     product_atrs_id: '3',
+        #     value: 'ОРК300-30,3',
+        # },
+        # {
+        #     product_id:'1446',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1446',
+        #     product_atrs_id: '4',
+        #     value: '30,3',
+        # },
+        # {
+        #     product_id:'1446',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1446',
+        #     product_atrs_id: '86',
+        #     value: '1957,67',
+        # },
+        # {
+        #     product_id:'1446',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1447',
+        #     product_atrs_id: '3',
+        #     value: 'РК 190-30,3',
+        # },
+        # {
+        #     product_id:'1447',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1447',
+        #     product_atrs_id: '4',
+        #     value: '30,3',
+        # },
+        # {
+        #     product_id:'1447',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1447',
+        #     product_atrs_id: '86',
+        #     value: '1251,43',
+        # },
+        # {
+        #     product_id:'1447',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1448',
+        #     product_atrs_id: '3',
+        #     value: 'ОРК270-30,3',
+        # },
+        # {
+        #     product_id:'1448',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1448',
+        #     product_atrs_id: '4',
+        #     value: '30,3',
+        # },
+        # {
+        #     product_id:'1448',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1448',
+        #     product_atrs_id: '86',
+        #     value: '1853,53',
+        # },
+        # {
+        #     product_id:'1448',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1449',
+        #     product_atrs_id: '3',
+        #     value: 'РК 440-34,0',
+        # },
+        # {
+        #     product_id:'1449',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1449',
+        #     product_atrs_id: '4',
+        #     value: '34,0',
+        # },
+        # {
+        #     product_id:'1449',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1449',
+        #     product_atrs_id: '86',
+        #     value: '1750,84',
+        # },
+        # {
+        #     product_id:'1449',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1450',
+        #     product_atrs_id: '3',
+        #     value: 'ОРК450-34,0',
+        # },
+        # {
+        #     product_id:'1450',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1450',
+        #     product_atrs_id: '4',
+        #     value: '34,0',
+        # },
+        # {
+        #     product_id:'1450',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1450',
+        #     product_atrs_id: '86',
+        #     value: '2425,79',
+        # },
+        # {
+        #     product_id:'1450',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1451',
+        #     product_atrs_id: '3',
+        #     value: 'РК 340-34,0',
+        # },
+        # {
+        #     product_id:'1451',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1451',
+        #     product_atrs_id: '4',
+        #     value: '34,0',
+        # },
+        # {
+        #     product_id:'1451',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1451',
+        #     product_atrs_id: '86',
+        #     value: '1557,59',
+        # },
+        # {
+        #     product_id:'1451',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1452',
+        #     product_atrs_id: '3',
+        #     value: 'ОРК350-34,0',
+        # },
+        # {
+        #     product_id:'1452',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1452',
+        #     product_atrs_id: '4',
+        #     value: '34,0',
+        # },
+        # {
+        #     product_id:'1452',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1452',
+        #     product_atrs_id: '86',
+        #     value: '2229,74',
+        # },
+        # {
+        #     product_id:'1452',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1453',
+        #     product_atrs_id: '3',
+        #     value: 'РК 250-34,0',
+        # },
+        # {
+        #     product_id:'1453',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1453',
+        #     product_atrs_id: '4',
+        #     value: '34,0',
+        # },
+        # {
+        #     product_id:'1453',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1453',
+        #     product_atrs_id: '86',
+        #     value: '1428,52',
+        # },
+        # {
+        #     product_id:'1453',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1454',
+        #     product_atrs_id: '3',
+        #     value: 'ОРК270-34,0',
+        # },
+        # {
+        #     product_id:'1454',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1454',
+        #     product_atrs_id: '4',
+        #     value: '34,0',
+        # },
+        # {
+        #     product_id:'1454',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1454',
+        #     product_atrs_id: '86',
+        #     value: '2100,67',
+        # },
+        # {
+        #     product_id:'1454',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1455',
+        #     product_atrs_id: '3',
+        #     value: 'РК 600-39,2',
+        # },
+        # {
+        #     product_id:'1455',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1455',
+        #     product_atrs_id: '4',
+        #     value: '39,2',
+        # },
+        # {
+        #     product_id:'1455',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1455',
+        #     product_atrs_id: '86',
+        #     value: '2276,64',
+        # },
+        # {
+        #     product_id:'1455',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1456',
+        #     product_atrs_id: '3',
+        #     value: 'ОРК610-39,2',
+        # },
+        # {
+        #     product_id:'1456',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1456',
+        #     product_atrs_id: '4',
+        #     value: '39,2',
+        # },
+        # {
+        #     product_id:'1456',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1456',
+        #     product_atrs_id: '86',
+        #     value: '3062,80',
+        # },
+        # {
+        #     product_id:'1456',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1457',
+        #     product_atrs_id: '3',
+        #     value: 'РК 440-39,2',
+        # },
+        # {
+        #     product_id:'1457',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1457',
+        #     product_atrs_id: '4',
+        #     value: '39,2',
+        # },
+        # {
+        #     product_id:'1457',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1457',
+        #     product_atrs_id: '86',
+        #     value: '2025,93',
+        # },
+        # {
+        #     product_id:'1457',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1458',
+        #     product_atrs_id: '3',
+        #     value: 'ОРК450-39,2',
+        # },
+        # {
+        #     product_id:'1458',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1458',
+        #     product_atrs_id: '4',
+        #     value: '39,2',
+        # },
+        # {
+        #     product_id:'1458',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1458',
+        #     product_atrs_id: '86',
+        #     value: '2807,05',
+        # },
+        # {
+        #     product_id:'1458',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1459',
+        #     product_atrs_id: '3',
+        #     value: 'РК 300-39,2',
+        # },
+        # {
+        #     product_id:'1459',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1459',
+        #     product_atrs_id: '4',
+        #     value: '39,2',
+        # },
+        # {
+        #     product_id:'1459',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1459',
+        #     product_atrs_id: '86',
+        #     value: '1790,64',
+        # },
+        # {
+        #     product_id:'1459',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1460',
+        #     product_atrs_id: '3',
+        #     value: 'ОРК300-39,2',
+        # },
+        # {
+        #     product_id:'1460',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1460',
+        #     product_atrs_id: '4',
+        #     value: '39,2',
+        # },
+        # {
+        #     product_id:'1460',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1460',
+        #     product_atrs_id: '86',
+        #     value: '2553,76',
+        # },
+        # {
+        #     product_id:'1460',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1461',
+        #     product_atrs_id: '3',
+        #     value: 'РК 740-44,2',
+        # },
+        # {
+        #     product_id:'1461',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1461',
+        #     product_atrs_id: '4',
+        #     value: '44,2',
+        # },
+        # {
+        #     product_id:'1461',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1461',
+        #     product_atrs_id: '86',
+        #     value: '2761,58',
+        # },
+        # {
+        #     product_id:'1461',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1462',
+        #     product_atrs_id: '3',
+        #     value: 'ОРК740-44,2',
+        # },
+        # {
+        #     product_id:'1462',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1462',
+        #     product_atrs_id: '4',
+        #     value: '44,2',
+        # },
+        # {
+        #     product_id:'1462',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1462',
+        #     product_atrs_id: '86',
+        #     value: '3645,20',
+        # },
+        # {
+        #     product_id:'1462',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1463',
+        #     product_atrs_id: '3',
+        #     value: 'РК 570-44,2',
+        # },
+        # {
+        #     product_id:'1463',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1463',
+        #     product_atrs_id: '4',
+        #     value: '44,2',
+        # },
+        # {
+        #     product_id:'1463',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1463',
+        #     product_atrs_id: '86',
+        #     value: '2500,30',
+        # },
+        # {
+        #     product_id:'1463',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1464',
+        #     product_atrs_id: '3',
+        #     value: 'ОРК570-44,2',
+        # },
+        # {
+        #     product_id:'1464',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1464',
+        #     product_atrs_id: '4',
+        #     value: '44,2',
+        # },
+        # {
+        #     product_id:'1464',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1464',
+        #     product_atrs_id: '86',
+        #     value: '3378,32',
+        # },
+        # {
+        #     product_id:'1464',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1465',
+        #     product_atrs_id: '3',
+        #     value: 'РК 410-44,2',
+        # },
+        # {
+        #     product_id:'1465',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1465',
+        #     product_atrs_id: '4',
+        #     value: '44,2',
+        # },
+        # {
+        #     product_id:'1465',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1465',
+        #     product_atrs_id: '86',
+        #     value: '2168,07',
+        # },
+        # {
+        #     product_id:'1465',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
+        # },
+        # {
+        #     product_id:'1466',
+        #     product_atrs_id: '3',
+        #     value: 'ОРК440-44,2',
+        # },
+        # {
+        #     product_id:'1466',
+        #     product_atrs_id: '64',
+        #     value: '5254-06.0.0.0.0-01',
+        # },
+        # {
+        #     product_id:'1466',
+        #     product_atrs_id: '4',
+        #     value: '44,2',
+        # },
+        # {
+        #     product_id:'1466',
+        #     product_atrs_id: '14',
+        #     value: 'С345K',
+        # },
+        # {
+        #     product_id:'1466',
+        #     product_atrs_id: '86',
+        #     value: '3040,49',
+        # },
+        # {
+        #     product_id:'1466',
+        #     product_atrs_id: '20',
+        #     value: 'Горяций цинк, ГОСТ 9.307-89',
         # },
     ]
 )

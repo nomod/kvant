@@ -11,7 +11,23 @@ p
             li = message
     .form-block
       .form
+        = label_tag(:category_name, 'Тайтл')
+      .form
         = f.text_field :category_name, required: true, placeholder: 'Название категории*', value: "#{@category.category_name}"
+      .form
+        = label_tag(:name_for_menu, 'Название для меню и хлебных крошек')
+      .form
+        = f.text_field :name_for_menu, required: true, placeholder: 'Название для меню и хлебных крошек*', value: "#{@category.name_for_menu}"
+      .form
+        = label_tag(:friendly_url, 'URL')
+      .form
+        = f.text_field :friendly_url, required: true, placeholder: 'URL*', value: "#{@category.friendly_url}"
+      .form
+        = label_tag(:header, 'Заголовок h1')
+      .form
+        = f.text_field :header, required: true, placeholder: 'Заголовок h1 категории*', value: "#{@category.header}"
+      .form
+        = label_tag(:category_content, 'Контент')
       .form
         = f.text_area :category_content, placeholder: 'Контент категории*', value: "#{@category.category_content}"
       .form
@@ -71,7 +87,7 @@ p
           img alt="" src="#{@category.image.category}"
         = f.file_field :image
         = f.hidden_field :image_cache
-      .form
+      //.form
         = f.hidden_field :friendly_url, value: "#{@category.friendly_url}"
       .form-btn
         = f.submit('Обновить категорию', class: 'btn-primary')

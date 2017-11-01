@@ -113,8 +113,6 @@ module HeaderHelper
     #если хлебные крошки наполнились
     if @main_cat
 
-      puts @main_cat
-
       #разворачивает массив в правильном порядке, чтобы он был от начала к концу
       @main_cat.reverse
 

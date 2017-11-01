@@ -9,7 +9,13 @@
   //админская часть
 
   - @title = @subcategory.category_name
-  h1 = @subcategory.category_name
+
+  //если есть в админке заполненное поле для заголовка H1, то выводим его
+  - if !@subcategory.header.blank?
+    h1 = @subcategory.header
+  //если нет, то выводим название категории
+  - else
+    h1 = @subcategory.category_name
 
   ///////////////////////если есть подкатегории у текущей подкатегории, то выводим и
 
@@ -29,7 +35,13 @@
             img alt="" src="#{sub.image.category}"
             .img_background_name
             .img_category_name
-              = sub.category_name
+              //если поле категории "имя для меню и хлебных крошек" в базе данных не заполнено, то выводим название категории, если заполнено, то выводим это имя
+              - if sub.name_for_menu.blank?
+                - @sub_name = sub.category_name
+              - else
+                - @sub_name = sub.name_for_menu
+
+              = @sub_name
 
 
   //если есть подкатегории(серии) для вывода выпадающего списка
@@ -64,10 +76,11 @@
     /        .img_product_name
     /          = product.product_title
 
-    table.table.table-striped
-      tr
-        th Название
-        th Цена
+    table.table.table-striped.table-hover
+      thead
+        tr
+          th Название
+          th Цена
       tbody
         - @products.each do |product|
           tr

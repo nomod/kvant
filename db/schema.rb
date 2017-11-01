@@ -10,12 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170630130046) do
+ActiveRecord::Schema.define(version: 20171029111840) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "card_with_attribute", force: :cascade do |t|
+  create_table "card_with_attributes", id: :integer, default: -> { "nextval('card_with_attribute_id_seq'::regclass)" }, force: :cascade do |t|
     t.integer  "card_id"
     t.integer  "product_atrs_id"
     t.datetime "created_at",      null: false
@@ -39,6 +39,8 @@ ActiveRecord::Schema.define(version: 20170630130046) do
     t.string   "category_content"
     t.boolean  "selected",         default: false
     t.string   "image"
+    t.string   "header"
+    t.string   "name_for_menu"
   end
 
   create_table "filials", force: :cascade do |t|
@@ -93,20 +95,20 @@ ActiveRecord::Schema.define(version: 20170630130046) do
     t.integer  "category_id",  default: 0
   end
 
-  create_table "productatrs", force: :cascade do |t|
-    t.string   "attribute_name"
-    t.string   "attribute_rus_name"
-    t.datetime "created_at",         null: false
-    t.datetime "updated_at",         null: false
-  end
-
-  create_table "product_with_attribute", force: :cascade do |t|
+  create_table "product_with_attributes", id: :integer, default: -> { "nextval('product_with_attribute_id_seq'::regclass)" }, force: :cascade do |t|
     t.integer  "product_id"
     t.integer  "product_atrs_id"
     t.string   "value"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
     t.index ["product_id", "product_atrs_id"], name: "index_product_with_attribute_on_product_id_and_product_atrs_id", unique: true, using: :btree
+  end
+
+  create_table "productatrs", id: :integer, default: -> { "nextval('product_atrs_id_seq'::regclass)" }, force: :cascade do |t|
+    t.string   "attribute_name"
+    t.string   "attribute_rus_name"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
   end
 
   create_table "products", force: :cascade do |t|
@@ -117,6 +119,7 @@ ActiveRecord::Schema.define(version: 20170630130046) do
     t.string   "image"
     t.datetime "created_at",                null: false
     t.datetime "updated_at",                null: false
+    t.integer  "price",         default: 0
   end
 
   create_table "sliders", id: :integer, default: -> { "nextval('mainslider_id_seq'::regclass)" }, force: :cascade do |t|
