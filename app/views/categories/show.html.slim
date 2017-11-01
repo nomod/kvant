@@ -7,11 +7,11 @@
 - @title = @category.category_name
 
 //если есть в админке заполненное поле для заголовка H1, то выводим его
-- if !@subcategory.header.blank?
-  h1 = @subcategory.header
+- if !@category.header.blank?
+  h1 = @category.header
 //если нет, то выводим название категории
 - else
-  h1 = @subcategory.category_name
+  h1 = @category.category_name
 
 ///////////////////////если есть подкатегории у категории, то выводим их
 
@@ -86,14 +86,29 @@
 
   h3 Товары категории
 
-  .all_products
-    - @products.each do |product|
-      .img_product
-        a href="/#{product.friendly_url}"
-          img alt="" src="#{product.image.product}"
-          .img_background_name
-          .img_product_name
-            = product.product_title
+  /.all_products
+  /  - @products.each do |product|
+  /    .img_product
+  /      a href="/#{product.friendly_url}"
+  /        img alt="" src="#{product.image.product}"
+  /        .img_background_name
+  /        .img_product_name
+  /          = product.product_title
+
+  table.table.table-striped.table-hover
+    thead
+      tr
+        th Название
+        th Цена
+    tbody
+      - @products.each do |product|
+        tr
+          td = link_to "#{product.product_title}", "/#{product.friendly_url}"
+
+          - if product.price == 0
+            td = 'Цена по запросу'
+          - else
+            td = "Цена: #{product.price}"
 
 
 //////////////////////если есть контент у категории, то выводим его
