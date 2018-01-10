@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   mount Chat::Engine, at: '/chat'
+  
   root 'main#index'
   get '/contacts',                          to: 'main#contacts'
   get '/about',                             to: 'main#about'
