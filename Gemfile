@@ -34,7 +34,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'slim'
 gem 'slim-rails'
 gem 'bootstrap-sass'
-gem 'pg', '~> 0.21.0'
+gem 'pg'
 gem 'bootstrap-sass-extras'
 gem 'font-awesome-rails'
 gem 'fotoramajs'
@@ -47,3 +47,6 @@ gem 'will_paginate' #для пагинации
 gem 'activerecord-reset-pk-sequence' #для сброса базы в сидах
 gem 'figaro' #для шифрование паролей и логинов
 gem 'rack-rewrite' #для редиректов - убираем слеши в конце урла (настройки в application.rb)
+gem 'nokogiri' #для парсинга
+gem 'unicorn'
+gem 'chat', git: 'https://github.com/nomod/cgem'

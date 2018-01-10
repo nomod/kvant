@@ -1,4 +1,7 @@
 class ApplicationController < ActionController::Base
+  after_action :online_info
+  before_action :current_user_chat, :check_session, :user_activity
+  helper Chat::Engine.helpers
   protect_from_forgery with: :exception
 
   before_action :redirect_category
