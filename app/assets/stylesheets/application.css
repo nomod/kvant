@@ -16,6 +16,5 @@
  *= require fotorama
  *= require owl.carousel
  *= require owl.theme
- *= require chat/application
  *= require_tree .
  */
