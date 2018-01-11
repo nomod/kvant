@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/nomod/cgem
-  revision: c09042a51d156b722985090f1d6160ce8fe46261
+  revision: 98e6fa1bd7af4818bfb2f195ef77e34ac23e81f3
   specs:
     chat (0.1.0)
       bcrypt

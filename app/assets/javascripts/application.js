@@ -16,5 +16,5 @@
 //= require bootstrap
 //= require fotorama
 //= require owl.carousel
-///= require chat/application
+//= require chat/application
 //= require_tree .
